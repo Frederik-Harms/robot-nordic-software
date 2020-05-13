@@ -4,10 +4,10 @@ var i = 0; // Start point
 	var time = 1000;
 
 	// Image List
-	images[0] = 'image1.jpg';
-	images[1] = 'image2.jpg';
-	images[2] = 'image3.jpg';
-	images[3] = 'image4.jpg';
+	images[0] = "palle7.jpg";
+	images[1] = 'palle6.jpg';
+	images[2] = 'palle5.jpg';
+	images[3] = 'palle4.jpg';
 
 	// Change Image
 	function changeImg(){
