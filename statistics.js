@@ -1,21 +1,63 @@
-// JavaScript Document
- var myChart = document.getElementById('myChart').getContext('2d');
-
-    // Tekstens style
-    Chart.defaults.global.defaultFontFamily = 'leto';
+// JavaScript Document		  
+  let myChart = document.getElementById('myChart').getContext('2d');
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Lato';
     Chart.defaults.global.defaultFontSize = 18;
     Chart.defaults.global.defaultFontColor = '#777';
- var palleChart = new Chart(myChart, {
-      type:'bar', // kan også bruge: bar, horizontalBar, pie, line, doughnut, radar, polarArea
+
+    let massPopChart = new Chart(myChart, {
+      type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
-        labels:['PAKKE1', 'PAKKE2', 'PAKKE3', 'PAKKE4', 'PAKKE5', 'PAKKE6'],
+        labels:['Folie', 'Pap', 'Plastik', 'Papir', 'Klistermærker', 'Metal'],
         datasets:[{
-          label:'Palle',
-          data:[ //dette er bare random tal indtil videre 
-			617594,
-            18104,
+          label:'EMBALLAGE FORBRUG',
+          data:[
+            617594,
+            181045,
             153060,
             106519,
-            10516,
+            105162,
             95072
-	
+          ],
+          //backgroundColor:'green',
+          backgroundColor:[
+            'rgba(255, 99, 132, 0.6)',
+            'rgba(54, 162, 235, 0.6)',
+            'rgba(255, 206, 86, 0.6)',
+            'rgba(75, 192, 192, 0.6)',
+            'rgba(153, 102, 255, 0.6)',
+            'rgba(255, 159, 64, 0.6)',
+            'rgba(255, 99, 132, 0.6)'
+          ],
+          borderWidth:1,
+          borderColor:'#777',
+          hoverBorderWidth:3,
+          hoverBorderColor:'#000'
+        }]
+      },
+      options:{
+        title:{
+          display:true,
+          text:'STATISTIKKER',
+          fontSize:25
+        },
+        legend:{
+          display:true,
+          position:'right',
+          labels:{
+            fontColor:'#000'
+          }
+        },
+        layout:{
+          padding:{
+            left:50,
+            right:0,
+            bottom:0,
+            top:0
+          }
+        },
+        tooltips:{
+          enabled:true
+        }
+      }
+    });
