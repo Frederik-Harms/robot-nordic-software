@@ -1,7 +1,7 @@
 // JavaScript Document
 var i = 0; // Start point
 	var images = [];
-	var time = 1000;
+	var time = 3000;
 alert();
 	// Image List
 	images[0] = 'img/palle_show/palle7.jpg';
@@ -27,3 +27,7 @@ alert();
 	}
 
 	window.onload = changeImg;
+
+function myFunction() {
+  alert("TILPAS LAYOUT. ønsker du at foretageændringer?");
+}
