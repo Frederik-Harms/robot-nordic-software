@@ -814,13 +814,9 @@ code {
 .styleGuideGrid-software {
   height: 60px;
 }
+ /************************************** ___________ ***************/
+/******************************** Mobil versions css ***********/
 
-
-
-
-
-/*********************** Mobil versions css - styleguide   ******************/
-/*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
 
 .main-software-mobile-sg {
 
@@ -862,7 +858,9 @@ header img {
 }
 
 /************************** BURGER MENU ***************************/
-/*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
+
+
+/* BURGERMENU */
 .burgercontainer-sg {
   z-index: 1;
   width: 50px;
@@ -881,7 +879,6 @@ header img {
   /* stregerne */
 }
 
-/************* FARVEN BAG LISTEN I CONTAINER (STYLEGUIDEN) **********/
 .navbar-sg { /* Baggrunden på slideren */
   height: 752px;
   width: 375px;;
@@ -936,7 +933,6 @@ header img {
   list-style: none;
 }
 
-/********************** SELVE LISTEN (STYLEGUIDE) *********************/
 .nav-container-sg{
   height: 100%;
   overflow-x: scroll;
@@ -944,25 +940,23 @@ header img {
   background-color: black;
 }
 
-/********************** LIST-ITEM (STYLEGUIDE) *********************/
 .nav-item-sg {
   width: 375px;
   margin-bottom: 10px;
   padding: 10px 0;
 }
-/********************** FØRSTE LIST-ITEM (STYLEGUIDE) *********************/
+
 .forside-sg {
   width: 375px;
   margin-top: 40px;
   padding: 20px 0;
 }
-/********************** LIST-ITEM (STYLEGUIDE) *********************/
+
 .nav-item-sg img{
   width: 30%;
   visibility: visible;
 }
 
-/********************** RESTEN AF LIST-ITEMS (STYLEGUIDE) *********************/
 .nav-link-sg {
   display: block;
   text-decoration: none;
@@ -976,162 +970,4 @@ header img {
   border-bottom: 2px solid white;
   border: 5px;
   border-color: #000000;
-}
-
-
-
-
-/********************* MEDIA QUERIES ************************/
-/*********** 801 eller højere ****************/
-@media only screen and (min-width: 801px) {
-  header {
-      display: none !important;
-  }
-  .burgercontainer {
-    display: none !important;
-  }
-}
-
-
-/************ Dette er burgermenuen på hver side ************/
-/*********** 800 eller lavere ****************/
-@media only screen and (max-width: 800px) {
-  nav {
-    display: none;
-  }
-}
-
-/************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
-
-
-/************* ROBOT NORDIC LOGO I AF NAV **********/
-    header img {
-        margin-left: 45%;
-    }
-
-    /* BURGERMENU */
-    .burgercontainer {
-      z-index: 1;
-      width: 50px;
-      height: 100vh;
-    }
-
-    /* HEADER */
-    header {
-      width: 100%;
-      top: 0px;
-      height: 60px;
-      display: flex;
-      background-color: #000000;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: row;
-    }
-
-    header img{
-      visibility: visible;
-    }
-
-    /* SELVE BURGERMENU-CONTAINEREN */
-    .burgercontainer {
-      z-index: 5;
-      width: 60px;
-      height: 100%;
-    }
-
-/******* FARVEN BAG LISTEN I CONTAINER **********/
-    .navbar {
-      width: 100%;
-      background-color: #000000;
-      position: fixed;
-      top: 59px;
-      display: flex;
-      right: -800px;
-      justify-content: center;
-      align-items: center;
-      transition: right 0.8s cubic-bezier(0.5, 0, 0, 1);
-    }
-
-/******** ANIMATION AF BURGERMENU IKONET ************/
-    .change {
-      right: 0;
-    }
-
-/********* STREGERNE I BURGERMENU-IKONET********/
-    .burger-menu {
-      width: 35px;
-      height: 30px;
-      position: fixed;
-      top: 15px;
-      right: 15px;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-
-/********** BURGER-IKONET, -LAVET AF SMÅ LISTER- ******/
-    .line {
-      width: 100%;
-      height: 3px;
-      background-color: white;
-      transition: all 0.8s;
-      border-radius: 1px;
-    }
-
-/******** ANIMATION AF BURGERMENU IKONET *******/
-    .change .line-1 {
-      transform: rotateZ(-45deg) translate(-8px, 6px);
-    }
-
-    .change .line-2 {
-      opacity: 0;
-    }
-
-    .change .line-3 {
-      transform: rotateZ(45deg) translate(-8px, -6px);
-    }
-
-    .nav-list {
-      list-style: none;
-      padding-top: 30px;
-    }
-
-/********** SELVE LISTEN ***********/
-    .nav-container{
-      height: 100vh;
-      overflow-x: scroll;
-      z-index: 1000 !important;
-    }
-
-/********* LIST-ITEM ********/
-    .nav-item {
-      width: 375px;
-      margin-bottom: 10px;
-      padding: 10px 0;
-    }
-
-/********* FØRSTE LIST-ITEM *********/
-    .forside {
-      width: 375px;
-      margin-top: 10px;
-      padding: 20px 0;
-    }
-
-/********** RESTEN AF LIST-ITEMS *******/
-    .nav-link {
-      display: block;
-      text-decoration: none;
-      list-style: none;
-      width: 375px;
-      margin-left: 25px;
-      font-size: 26px;
-      font-weight: 300;
-      color: #ffffff;
-      font-weight: 300;
-      border-bottom: 2px solid white;
-      border: 5px;
-      border-color: #000000;
-    }
-
 }
