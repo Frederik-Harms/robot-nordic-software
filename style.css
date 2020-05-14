@@ -980,22 +980,29 @@ header img {
 
 
 
+
 /********************* MEDIA QUERIES ************************/
+/*********** 801 eller højere ****************/
+@media only screen and (min-width: 801px) {
+  header {
+      display: none !important;
+  }
+  .burgercontainer {
+    display: none !important;
+  }
+}
+
 
 /************ Dette er burgermenuen på hver side ************/
-
-@media screen and (max-width: 800px) {
-  body {
-    background-color: ;
-    }
+/*********** 800 eller lavere ****************/
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
+}
 
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
-    * {
-      margin: 0px;
-      padding: 0px;
-      box-sizing: inherit;
-      font-family: 'Titillium Web', sans-serif;
-    }
+
 
 /************* ROBOT NORDIC LOGO I AF NAV **********/
     header img {
@@ -1032,7 +1039,7 @@ header img {
       height: 100%;
     }
 
-/************* FARVEN BAG LISTEN I CONTAINER **********/
+/******* FARVEN BAG LISTEN I CONTAINER **********/
     .navbar {
       width: 100%;
       background-color: #000000;
@@ -1045,12 +1052,12 @@ header img {
       transition: right 0.8s cubic-bezier(0.5, 0, 0, 1);
     }
 
-/********************** ANIMATION AF BURGERMENU IKONET *********************/
+/******** ANIMATION AF BURGERMENU IKONET ************/
     .change {
       right: 0;
     }
 
-/********************** STREGERNE I BURGERMENU-IKONET*********************/
+/********* STREGERNE I BURGERMENU-IKONET********/
     .burger-menu {
       width: 35px;
       height: 30px;
@@ -1063,7 +1070,7 @@ header img {
       justify-content: space-around;
     }
 
-/********************** BURGER-IKONET, -LAVET AF SMÅ LISTER- *********************/
+/********** BURGER-IKONET, -LAVET AF SMÅ LISTER- ******/
     .line {
       width: 100%;
       height: 3px;
@@ -1072,7 +1079,7 @@ header img {
       border-radius: 1px;
     }
 
-/********************** ANIMATION AF BURGERMENU IKONET *********************/
+/******** ANIMATION AF BURGERMENU IKONET *******/
     .change .line-1 {
       transform: rotateZ(-45deg) translate(-8px, 6px);
     }
@@ -1090,28 +1097,28 @@ header img {
       padding-top: 30px;
     }
 
-/********************** SELVE LISTEN *********************/
+/********** SELVE LISTEN ***********/
     .nav-container{
       height: 100vh;
       overflow-x: scroll;
       z-index: 1000 !important;
     }
 
-/********************** LIST-ITEM *********************/
+/********* LIST-ITEM ********/
     .nav-item {
       width: 375px;
       margin-bottom: 10px;
       padding: 10px 0;
     }
 
-/********************** FØRSTE LIST-ITEM *********************/
+/********* FØRSTE LIST-ITEM *********/
     .forside {
       width: 375px;
       margin-top: 10px;
       padding: 20px 0;
     }
 
-/********************** RESTEN AF LIST-ITEMS *********************/
+/********** RESTEN AF LIST-ITEMS *******/
     .nav-link {
       display: block;
       text-decoration: none;
