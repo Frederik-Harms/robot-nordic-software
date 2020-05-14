@@ -3,20 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Robot Nodic</title>
-  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
+  <title>Robot Nodic Datepicker</title>
   <link rel="stylesheet" href="main.css">
-  <script src="main.js"></script>
-  <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
-
 </head>
 <body>
+    <h1>INDTAST <span>DATO</span> FOR AT SE STATISTIK<h1>
 
-<label for="from">Fra</label>
-<input type="text" id="from" name="from">
-<label for="to">Til</label>
-<input type="text" id="to" name="to">
+      <div class="date-picker"> <!-- wrapper for alt det nedenstående -->
+          <div class="selected-date"></div>
 
+          <div class="dates"> <!-- date-dropdown. Når vi klikker på "dates" vil den vise "month", de to "arrows": prev/next gør at man kan bevæge sig frem og tilbage -->
+              <div class="month">
+                  <div class="arrows prev-mth">&lt;</div> <!-- &lt=lesser than -->
+                  <div class="mth"></div> <!-- viser månederne: Juni, Juli, August osv -->
+                  <div class="arrows next-mth">&gt;</div> <!-- &lt=greater than -->
+              </div>
 
+              <div class="days"></div> <!-- 31 dage = ikke alle mdr har 31 - sådan er det for nu --> 
+          </div>
+      </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
