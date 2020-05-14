@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>INDTAST <span>DATO</span> FOR AT SE STATISTIK<h1>
+    <h1><span>INDTAST</span> DATO <span>FOR AT SE </span> STATISTIK<h1>
 
       <div class="date-picker"> <!-- wrapper for alt det nedenstående -->
-          <div class="selected-date"></div>
+          <div class="selected-date">30/07/20</div>
 
           <div class="dates"> <!-- date-dropdown. Når vi klikker på "dates" vil den vise "month", de to "arrows": prev/next gør at man kan bevæge sig frem og tilbage -->
               <div class="month">
@@ -19,10 +19,23 @@
                   <div class="arrows next-mth">&gt;</div> <!-- &lt=greater than -->
               </div>
 
-              <div class="days"></div> <!-- 31 dage = ikke alle mdr har 31 - sådan er det for nu --> 
+              <div class="days"></div> <!-- 31 dage = ikke alle mdr har 31 - sådan er det for nu -->
           </div>
       </div>
 
+<!-- TILFØJET EN KALDENDER MERE:
+    <div class="selected-date"></div>
+
+      <div class="dates">
+          <div class="month">
+              <div class="arrows prev-mth">&lt;</div>
+              <div class="mth"></div>
+              <div class="arrows next-mth">&gt;</div>
+          </div>
+
+          <div class="days"></div>
+      </div>
+-->
     <script src="main.js"></script>
 </body>
 </html>
