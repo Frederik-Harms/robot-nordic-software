@@ -43,7 +43,7 @@ h2 {
 
 .date-picker:hover{
   background-color: #f3f3f3;
-  
+
 }
 
 .date-picker .selected-date {
@@ -65,4 +65,11 @@ h2 {
   top: 100%;
   left: 0;
   right: 0;
+
+  background-color: #ffffff;
+}
+
+/* "active" = block kommer ned når der klikkes på dato = under "functions" i js */
+.date-picker .dates.active {
+  display: block;
 }
