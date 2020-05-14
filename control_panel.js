@@ -2,7 +2,7 @@
 var i = 0; // Start point
 	var images = [];
 	var time = 1000;
-
+alert();
 	// Image List
 	images[0] = 'img/palle_show/palle7.jpg';
 	images[1] = 'img/palle_show/palle6.jpg';
