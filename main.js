@@ -5,7 +5,19 @@ const dates_element = document.querySelector('date-picker .dates');
 // EVENT LISTENERS
 date_picker_element.addEventListener('click', toggleDatePicker);
 
-//FUNCTIONS
+//FUNKTIONER
 function toggleDatePicker (e) {
-  dates_element.classList.toggle('active');
+  if (!checkEventPathForClass(e.path, 'dates'))
+  dates_element.classList.toggle('active'); //ved klik på dato, skal en blok komme frem - det gør den ikke??
+}
+
+//HJÆLPE FUNKTIONER
+function checkEventPathForClass (path, selector) { // vi tjekker "event path", så denne kode registrer hvor vi klikker, og udfører et "event" udfra vores klik
+  for (let i = 0; i < path; i++) {
+    if (path[i].classList && path[i].classList.contains(selector)) {
+      return true;
+    }
+  }
+
+  return false;
 }
