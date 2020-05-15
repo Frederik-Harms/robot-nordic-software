@@ -69,7 +69,7 @@ h2 {
   background-color: #ffffff;
 }
 
-/* "active" = block kommer ned når der klikkes på dato = under "functions" i js */
+/* "active" = blok kommer ned når der klikkes på dato = under "functions" i js */
 .date-picker .dates.active {
   display: block;
 }

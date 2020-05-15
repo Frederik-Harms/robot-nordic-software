@@ -677,7 +677,6 @@ code {
   text-align: center;
 }
 
-
 .farveGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -862,7 +861,7 @@ header img {
 }
 
 /************************** BURGER MENU ***************************/
-/*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
+/*********** MÅ IKKE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
 .burgercontainer-sg {
   z-index: 1;
   width: 50px;
@@ -979,7 +978,23 @@ header img {
 }
 
 
+/********************** FORSIDE STYLING TIL KNAPPER *********************/
 
+
+
+
+.styleGuideGrid-forside {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px; 0
+}
+
+.styleGuideGridItem-forside {
+  margin: 10px;
+  max-width: 600px;
+}
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
