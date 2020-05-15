@@ -418,8 +418,8 @@ code {
   line-height: 42px;
   /* padding: 12px 50px; */
   text-align: center;
+  text-decoration: none;
 }
-
 
 .button5 {
   width: 308px;
@@ -978,6 +978,51 @@ header img {
   border-color: #000000;
 }
 
+/************** FORSIDE STYLING *******************/
+
+.forside-content {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+
+.main-forside {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.grid-container-forside {
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: 270px;
+  justify-content: center;
+  width: inherit;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid-item-forside {
+  width: 200px;
+  height: 200px;
+  margin: 35px 35px;
+  background-color: #f15c22;
+  border-radius: 20px;
+}
+
+.grid-item-forside a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 300;
+  color: black;
+}
+
+.imgss {
+    margin: 25px auto;
+    height: 150px;
+    width: 150px;
+}
 
 
 
@@ -999,7 +1044,144 @@ header img {
   nav {
     display: none;
   }
+
+  .forside-content {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .main-forside {
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+  }
+  .grid-container-forside {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    justify-content: center;
+    width: inherit;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .grid-item-forside {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: #f15c22;
+    border-radius: 20px;
+  }
+
+  .grid-item-forside a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    line-height: 60px;
+  }
+
+  .imgss {
+      margin: 0 auto;
+      height: 120px;
+      width: 120px;
+      padding-top: 30px;
+  }
+
+  .button4 {
+    width: 160px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 21px;
+    background-color: #222B3B;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    /* padding: 12px 50px; */
+    text-align: center;
+  }
+
 }
+
+/************ Dette er burgermenuen på hver side ************/
+/*********** 500 eller lavere ****************/
+@media only screen and (max-width: 500px) {
+  nav {
+    display: none;
+
+  }
+
+  .forside-content {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .main-forside {
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+  }
+  .grid-container-forside {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    justify-content: center;
+    width: inherit;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .grid-item-forside {
+    width: 130px;
+    height: 130px;
+    margin: 30px 18px;
+    background-color: #f15c22;
+    border-radius: 20px;
+  }
+
+  .grid-item-forside a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 55px;
+  }
+
+  .imgss {
+      margin: 0 auto;
+      height: 100px;
+      width: 100px;
+      padding-top: 30px;
+  }
+
+  .button4{
+    width: 160px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 21px;
+    background-color: #222B3B;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    /* padding: 12px 50px; */
+    text-align: center;
+  }
+
+}
+
+
+
+
 
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
 
