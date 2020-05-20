@@ -753,8 +753,7 @@ code {
 }
 
 
-/*************************** header show *******************************/
-
+/*************************** HEADER *******************************/
 
 .nav-software {
     height: 60px;
@@ -776,6 +775,8 @@ code {
     color: #ffffff;
 }
 
+/*************************** STYLE GUIDE - GRID ELEMENTER *******************************/
+
 .styleGuideContent-software {
   padding-top: 60px;
 }
@@ -792,7 +793,6 @@ code {
   font-size: 19px;
   font-weight: 300;
 }
-
 
 .main-software {
     margin-left: 160px;
@@ -814,12 +814,10 @@ code {
   height: 60px;
 }
 
-
-
-
-
-/*********************** Mobil versions css - styleguide   ******************/
+/*********************** MOBIL VERSION CSS - STYLEGUIDE   ******************/
 /*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
+/************************** KUN TIL DUMMIE BRUG******************************/
+
 
 .main-software-mobile-sg {
 
@@ -860,8 +858,9 @@ header img {
   margin-top: 8px;
 }
 
-/************************** BURGER MENU ***************************/
+/***************************** BURGER MENU ***************************/
 /*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
+
 .burgercontainer-sg {
   z-index: 1;
   width: 50px;
@@ -881,7 +880,7 @@ header img {
 }
 
 /************* FARVEN BAG LISTEN I CONTAINER (STYLEGUIDEN) **********/
-.navbar-sg { /* Baggrunden på slideren */
+.navbar-sg { /* BAGGRUNDEN PÅ SLIDEREN */
   height: 752px;
   width: 375px;;
   background-color: black;
@@ -898,7 +897,7 @@ header img {
   right: 0;
 }
 
-.burger-menu-sg { /* stregerne */
+.burger-menu-sg { /* STREGERNE I BURGERMENUEN */
   z-index: 99999999999999;
   width: 35px;
   height: 30px;
@@ -936,6 +935,7 @@ header img {
 }
 
 /********************** SELVE LISTEN (STYLEGUIDE) *********************/
+
 .nav-container-sg{
   height: 100%;
   overflow-x: scroll;
@@ -983,7 +983,6 @@ header img {
   padding-top: 80px;
   padding-bottom: 60px;
 }
-
 
 .main-forside {
     margin: 0 auto;
@@ -1110,11 +1109,8 @@ p22 {
   fill: #ffffff;
 }
 
-
-
-
 /********************* MEDIA QUERIES ************************/
-/*********** 801 eller højere ****************/
+/******************* 801 ELLER  HØJERE ***************************/
 @media only screen and (min-width: 801px) {
   header {
       display: none !important;
@@ -1138,7 +1134,7 @@ p22 {
 }
 
 
-/************ Dette er burgermenuen på hver side ************/
+/************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
 /*********** 800 eller lavere ****************/
 @media only screen and (max-width: 800px) {
   nav {
