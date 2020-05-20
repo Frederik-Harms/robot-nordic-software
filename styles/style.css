@@ -11,7 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 html {
     height: 100%;
     padding-top: 0;
@@ -125,7 +124,7 @@ html {
   padding-top: 50px;
 }
 
-/*BOX1*/
+/****************************** TEKST SIDEN *********************************/
 
 .textBox1 {
     width: 800px;
@@ -200,7 +199,6 @@ html {
     font-weight: 600;
 }
 
-
 .textBox1aelement {
     text-decoration: none;
     color: #707070;
@@ -211,7 +209,7 @@ html {
     color: #707070;
 }
 
-/*BOX2*/
+/****************************** SKAL SLETTES *********************************/
 
 .textBox2 {
     height: auto;
@@ -271,6 +269,8 @@ html {
     right: 0;
 }
 
+/********************** DE FORSKELLIGE GRID ELEMENTER ***************************/
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -287,6 +287,8 @@ html {
   background-color: #f15c22;
   border-radius: 10px;
 }
+
+/********************** BILLEDER OG IKONER ***************************/
 
 .imgs {
     margin: 0 auto;
@@ -305,6 +307,8 @@ code {
     font-family: courier, monospace;
     padding: 0 3px;
 }
+
+/********************** STYLEGUIDE GRID ITEMS ***************************/
 
 .styleGuideGrid {
     display: grid;
@@ -340,6 +344,8 @@ code {
     padding-top: 50px;
     margin: 0 auto;
 }
+
+/*************************** KNAPPERNE OG GRID ******************************/
 
 .button1 {
   width: 253px;
@@ -676,6 +682,7 @@ code {
   text-align: center;
 }
 
+/***************************** FARVERNE PÅ GRID ******************************/
 
 .farveGrid {
     display: grid;
@@ -1133,9 +1140,8 @@ p22 {
 
 }
 
-
 /************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
-/*********** 800 eller lavere ****************/
+/*********** 800 ELLER LAVERE ****************/
 @media only screen and (max-width: 800px) {
   nav {
     display: none;
@@ -1204,8 +1210,8 @@ p22 {
 
 }
 
-/************ Dette er burgermenuen på hver side ************/
-/*********** 500 eller lavere ****************/
+/************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
+/*********** 500 ELLER LAVERE ****************/
 @media only screen and (max-width: 500px) {
   nav {
     display: none;
@@ -1275,14 +1281,8 @@ p22 {
 
 }
 
-
-
-
-
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
-
-
-/************* ROBOT NORDIC LOGO I AF NAV **********/
+/**************** ROBOT NORDIC LOGO I AF NAV ****************/
     header img {
         margin-left: 45%;
     }
