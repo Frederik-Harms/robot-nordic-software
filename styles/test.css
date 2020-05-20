@@ -11,6 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 html {
     height: 100%;
     padding-top: 0;
@@ -124,7 +125,7 @@ html {
   padding-top: 50px;
 }
 
-/****************************** TEKST SIDEN *********************************/
+/*BOX1*/
 
 .textBox1 {
     width: 800px;
@@ -199,6 +200,7 @@ html {
     font-weight: 600;
 }
 
+
 .textBox1aelement {
     text-decoration: none;
     color: #707070;
@@ -209,7 +211,7 @@ html {
     color: #707070;
 }
 
-/****************************** SKAL SLETTES *********************************/
+/*BOX2*/
 
 .textBox2 {
     height: auto;
@@ -269,8 +271,6 @@ html {
     right: 0;
 }
 
-/********************** DE FORSKELLIGE GRID ELEMENTER ***************************/
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -287,8 +287,6 @@ html {
   background-color: #f15c22;
   border-radius: 10px;
 }
-
-/********************** BILLEDER OG IKONER ***************************/
 
 .imgs {
     margin: 0 auto;
@@ -307,8 +305,6 @@ code {
     font-family: courier, monospace;
     padding: 0 3px;
 }
-
-/********************** STYLEGUIDE GRID ITEMS ***************************/
 
 .styleGuideGrid {
     display: grid;
@@ -344,8 +340,6 @@ code {
     padding-top: 50px;
     margin: 0 auto;
 }
-
-/*************************** KNAPPERNE OG GRID ******************************/
 
 .button1 {
   width: 253px;
@@ -682,7 +676,6 @@ code {
   text-align: center;
 }
 
-/***************************** FARVERNE PÅ GRID ******************************/
 
 .farveGrid {
     display: grid;
@@ -760,7 +753,8 @@ code {
 }
 
 
-/*************************** HEADER *******************************/
+/*************************** header show *******************************/
+
 
 .nav-software {
     height: 60px;
@@ -782,8 +776,6 @@ code {
     color: #ffffff;
 }
 
-/*************************** STYLE GUIDE - GRID ELEMENTER *******************************/
-
 .styleGuideContent-software {
   padding-top: 60px;
 }
@@ -800,6 +792,7 @@ code {
   font-size: 19px;
   font-weight: 300;
 }
+
 
 .main-software {
     margin-left: 160px;
@@ -821,10 +814,12 @@ code {
   height: 60px;
 }
 
-/*********************** MOBIL VERSION CSS - STYLEGUIDE   ******************/
-/*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
-/************************** KUN TIL DUMMIE BRUG******************************/
 
+
+
+
+/*********************** Mobil versions css - styleguide   ******************/
+/*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
 
 .main-software-mobile-sg {
 
@@ -865,9 +860,8 @@ header img {
   margin-top: 8px;
 }
 
-/***************************** BURGER MENU ***************************/
+/************************** BURGER MENU ***************************/
 /*********** MÅ IKKIE BENYTTES UDOVER FREMVISNING AF STYLEGUIDE**************/
-
 .burgercontainer-sg {
   z-index: 1;
   width: 50px;
@@ -887,7 +881,7 @@ header img {
 }
 
 /************* FARVEN BAG LISTEN I CONTAINER (STYLEGUIDEN) **********/
-.navbar-sg { /* BAGGRUNDEN PÅ SLIDEREN */
+.navbar-sg { /* Baggrunden på slideren */
   height: 752px;
   width: 375px;;
   background-color: black;
@@ -904,7 +898,7 @@ header img {
   right: 0;
 }
 
-.burger-menu-sg { /* STREGERNE I BURGERMENUEN */
+.burger-menu-sg { /* stregerne */
   z-index: 99999999999999;
   width: 35px;
   height: 30px;
@@ -942,7 +936,6 @@ header img {
 }
 
 /********************** SELVE LISTEN (STYLEGUIDE) *********************/
-
 .nav-container-sg{
   height: 100%;
   overflow-x: scroll;
@@ -991,6 +984,7 @@ header img {
   padding-bottom: 60px;
 }
 
+
 .main-forside {
     margin: 0 auto;
     font-size: 20px;
@@ -1029,95 +1023,137 @@ header img {
     width: 150px;
 }
 
-/************** LOG IND STYLING *******************/
 
-.mainn {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Titillium Web', sans-serif;
-  height: 100vh;
-  background: black;
-}
+/*********** OPRET SKABELON STYLING ************/
 
-.logostor {
-  height: 311px;
-  width: 276px;
+.opretskabeloner {
   margin: 0 auto;
-  padding-top: 53px;
-}
-.logostor img {
-  height: 258px;
-  width: 276px;
-}
-
-.loginside {
-  width: 400px;
-  text-align: center;
-  justify-content: center;
-  padding-top: 15px;
-  margin: 0 auto;
-}
-
-input {
-  height: 39px;
-  width: 253px;
-  border: solid 1px;
-  border-radius: 4px;
-}
-
-.brugernavn {
-  margin-bottom: 10px;
-}
-
-p22 {
-    color: #fff;
-    font-size: 19px;
-    font-weight: 200;
-}
-
-.forsideknapper {
-  margin-top: 50px;
   text-align: center;
 }
 
-.brugernavn {
-  padding-left: 10px;
-  font-size: 16px;
-  font-weight: 300;
+h1.opret{
+font-size: 32px;
+padding-bottom: 100px;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
 }
 
-.adgangskode {
-  padding-left: 10px;
-  font-size: 16px;
-  font-weight: 300;
+.breadcrumbs{
+  text-align: center;
+  margin-top: 40px;
 }
 
-.button2login {
-  width: 71px;
-  height: 71px;
-  margin-top: 30px;
-  border-radius: 6px;
+#nextBtn{
+  width: 99px;
+  height: 41px;
+  margin-top: 15px;
+  border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
   border: none;
   color: white;
-  font-size: 19px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 600;
   line-height: 39px;
-  padding: 0 5px;
+  /* padding: 12px 50px; */
   text-align: center;
 }
 
-.button2login img {
-  width: 60px;
-  height: 60px;
-  padding-top: 10px;
-  fill: #ffffff;
+#prevBtn{
+  width: 99px;
+  height: 41px;
+  margin-top: 15px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  height: 39px;
+  width: 70%;
+  margin-bottom: 50px;
+  border: solid 1px;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: Titillium Web;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: lightgray;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+.teksttilstep{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #FFFFFF;
+  border: solid 0.6px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* MARKERE HVILKEN SIDE DU ER INDE PÅ  */
+.step.active {
+  background-color: #F15C22;
+  opacity: 1;
+  border: solid 0.6px;
+}
+
+/* MARKERE HVILKEN SIDER DER ER FÆRDIGE  */
+.step.finish {
+  background-color: #F15C22;
+  opacity: 1;
+  border: solid 0.6px;
+}
+
+.knapbox{
+  overflow: auto;
+}
+.knapbox2{
+  margin-right: 310px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /********************* MEDIA QUERIES ************************/
-/******************* 801 ELLER  HØJERE ***************************/
+/*********** 801 eller højere ****************/
 @media only screen and (min-width: 801px) {
   header {
       display: none !important;
@@ -1140,8 +1176,9 @@ p22 {
 
 }
 
-/************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
-/*********** 800 ELLER LAVERE ****************/
+
+/************ Dette er burgermenuen på hver side ************/
+/*********** 800 eller lavere ****************/
 @media only screen and (max-width: 800px) {
   nav {
     display: none;
@@ -1210,8 +1247,8 @@ p22 {
 
 }
 
-/************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
-/*********** 500 ELLER LAVERE ****************/
+/************ Dette er burgermenuen på hver side ************/
+/*********** 500 eller lavere ****************/
 @media only screen and (max-width: 500px) {
   nav {
     display: none;
@@ -1281,8 +1318,14 @@ p22 {
 
 }
 
+
+
+
+
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
-/**************** ROBOT NORDIC LOGO I AF NAV ****************/
+
+
+/************* ROBOT NORDIC LOGO I AF NAV **********/
     header img {
         margin-left: 45%;
     }
