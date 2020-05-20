@@ -7,14 +7,14 @@ function showTab(n) {
   x[n].style.display = "block";
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
+    document.getElementById("prevBtnskabelon").style.display = "none";
   } else {
-    document.getElementById("prevBtn").style.display = "inline";
+    document.getElementById("prevBtnskabelon").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "START";
+    document.getElementById("nextBtnskabelon").innerHTML = "START";
   } else {
-    document.getElementById("nextBtn").innerHTML = "VIDERE";
+    document.getElementById("nextBtnskabelon").innerHTML = "VIDERE";
   }
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
@@ -32,7 +32,7 @@ function nextPrev(n) {
   // if you have reached the end of the form... :
   if (currentTab >= x.length) {
     //...the form gets submitted:
-    document.getElementById("regForm").submit();
+    document.getElementById("regFormskabelon").submit();
     return false;
   }
   // Otherwise, display the correct tab:
@@ -56,14 +56,14 @@ function validateForm() {
   }
   // If the valid status is true, mark the step as finished and valid:
   if (valid) {
-    document.getElementsByClassName("step")[currentTab].className += " finish";
+    document.getElementsByClassName("stepp")[currentTab].className += " finish";
   }
   return valid; // return the valid status
 }
 
 function fixStepIndicator(n) {
   // This function removes the "active" class of all steps...
-  var i, x = document.getElementsByClassName("step");
+  var i, x = document.getElementsByClassName("stepp");
   for (i = 0; i < x.length; i++) {
     x[i].className = x[i].className.replace(" active", "");
   }

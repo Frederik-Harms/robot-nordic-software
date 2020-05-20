@@ -1024,13 +1024,74 @@ header img {
 }
 
 
-/*********** OPRET SKABELON STYLING ************/
+/*********** SKABELONER STYLING ************/
 
-#nextBtn{
-  width: 99px;
+.skabeloner {
+  height: 100vh
+  margin: 0 auto;
+  text-align: center;
+}
+
+.samletknapper {
+  width: 245px;
+  height: 84px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 180px auto 0 auto;
+  padding-left: 1px;
+}
+
+.samletknapper img {
+  width: 20px;
+  height: 18px;
+  margin: 5px 16px 5px 5px;
+  float: left;
+  line-height: 28px;
+}
+
+.button21 {
+  width: 240px;
+  height: 28px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  float: left;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.button22 {
+  width: 240px;
+  height: 25px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  float: left;
+  text-align: left;
+}
+
+.button21 p5 {
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  float: left;
+  text-align: left;
+}
+
+#nextBtnskabelon{
+  width: 97px;
   height: 41px;
-  margin-top: 15px;
-  border-radius: 40px;
+  margin: 15px 10px 0 10px;
+  border-radius: 21px;
   background-color: #f15c22;
   display: inline-block;
   border: none;
@@ -1042,10 +1103,10 @@ header img {
   text-align: center;
 }
 
-#prevBtn{
-  width: 99px;
+#prevBtnskabelon{
+  width: 97px;
   height: 41px;
-  margin-top: 15px;
+  margin: 15px 10px 0 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1063,11 +1124,12 @@ header img {
 
 
 /* Style the form */
-#regForm {
+#regFormskabelon {
   background-color: #ffffff;
-  margin: 100px auto;
-  padding: 40px;
-  width: 70%;
+  margin: 40px auto 0 auto;
+  padding: 0 40px 0 40px;
+  width: 100%;
+  height: 50vh;
   min-width: 300px;
 }
 
@@ -1093,10 +1155,15 @@ input.invalid {
 }
 
 /* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+.steps {
+  padding-top: 80px;
+  margin-top: -420px;
+}
+
+.stepp {
+  height: 22px;
+  width: 22px;
+  margin: 0 35px;
   background-color: #FFFFFF;
   border: solid 0.6px;
   border-radius: 50%;
@@ -1105,14 +1172,14 @@ input.invalid {
 }
 
 /* MARKERE HVILKEN SIDE DU ER INDE PÅ  */
-.step.active {
+.stepp.active {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
 }
 
 /* MARKERE HVILKEN SIDER DER ER FÆRDIGE  */
-.step.finish {
+.stepp.finish {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
@@ -1120,11 +1187,16 @@ input.invalid {
 
 .knapbox{
   overflow: auto;
+  margin: 0 auto;
 }
 .knapbox2{
   display: flex;
   justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
 }
+
+/*********** OPRET SKABELON STYLING ************/
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
