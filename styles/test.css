@@ -1045,7 +1045,7 @@ h1.intro{
 #nextBtn{
   width: 99px;
   height: 41px;
-  margin-top: 15px;
+  margin: 20px 10px 0 10px;
   border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
@@ -1061,7 +1061,7 @@ h1.intro{
 #prevBtn{
   width: 99px;
   height: 41px;
-  margin-top: 15px;
+  margin: 20px 10px 0 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1090,6 +1090,7 @@ input {
   height: 39px;
   width: 26%;
   padding-left: 10px;
+  margin: 8px 8px;
   border: solid 1px;
   border-radius: 4px;
   font-size: 17px;
@@ -1104,10 +1105,12 @@ input.invalid {
 
 h4.tilfojprodukter{
   font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
 p4.tilfoj{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -1145,6 +1148,8 @@ p4.tilfoj{
 .knapbox{
   overflow: auto;
   margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 8px;
 }
 .knapbox2{
   display: flex;
@@ -1153,17 +1158,68 @@ p4.tilfoj{
   text-align: center;
 }
 
+.button23 {
+  width: 61px;
+  height: 61px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: solid 2px;
+  border-color: #222B3B;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 39px;
+  padding: 0 5px;
+  margin-top: 20px;
+}
+
+.button23 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.button24 {
+  width: 61px;
+  height: 61px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: solid 2px;
+  border-color: #F15C22;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 39px;
+  padding: 0 5px;
+}
+
+.button24 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON **************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .accordion{
     background: #ffffff;
-    width: 245px;
-    height: 28px;
+    width: 26%;
+    height: 39px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 155px;
 }
 
 .accordion-tab {
   padding-bottom: 10px;
-  height: 28px;
+  height: 39px;
 }
 
 .accordion-tab > .accordion-toggle{
@@ -1180,7 +1236,7 @@ label {
 .accordion-tab > label{
     color: #000000;
     background: #ffffff;
-    border: 0.5px solid #000000;
+    border: 1px solid #aaaaaa;
     border-radius: 4px;
     font-size: 16px;
     line-height: 26px;
@@ -1215,19 +1271,6 @@ label {
     overflow: auto;
 }
 
-.accordion-tab > .accordion-content p {
-    padding: 30px 20px;
-    font-family: 'Century Gothic';
-    border: 0.5px solid #000000;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.toggle4 label {
-    background: red;
-    font-family: 'Century Gothic';
-    color: blue;
-}
 
 .beskrivelsen {
   width: 308px;
@@ -1239,9 +1282,21 @@ label {
   width: 308px;
 }
 
-
-
-
+.button22 {
+  width: 312px;
+  height: 29px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  opacity: 80%;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  float: left;
+  text-align: center;
+}
 
 
 

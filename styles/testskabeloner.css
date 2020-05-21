@@ -1027,7 +1027,6 @@ header img {
 /*********** SKABELONER STYLING ************/
 
 .skabeloner {
-  height: 100vh
   margin: 0 auto;
   text-align: center;
 }
@@ -1111,7 +1110,7 @@ header img {
     width: 245px;
     height: 28px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 10px;
 }
 
 .accordion-tab {
@@ -1197,7 +1196,7 @@ label {
 #nextBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 120px 10px 0 10px;
+  margin: 120px 10px 20px 10px;
   border-radius: 21px;
   background-color: #f15c22;
   display: inline-block;
@@ -1213,7 +1212,7 @@ label {
 #prevBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 120px 10px 0 10px;
+  margin: 120px 10px 20px 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1255,16 +1254,27 @@ input.invalid {
 /* Hide all steps by default: */
 .tab {
   display: none;
+  text-align: center;
+}
+
+.tab2 {
+  margin-top: -290px;
 }
 
 .tab H2 {
-  padding-top: 80PX;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.tab H3 {
+  padding-top: 40PX;
 }
 
 /* Make circles that indicate the steps of the form: */
 .steps {
-  padding-top: 80px;
-  margin-top: -600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .stepp {
@@ -1300,6 +1310,98 @@ input.invalid {
   display: flex;
   justify-content: flex-end;
   justify-content: center;
+  text-align: center;
+}
+
+/****************** GENNEMGANG AF MIX-PALLETERING ******************/
+
+.gennemgang {
+  width: 310px;
+  height: 680px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.gennemgang img {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+/*
+.ost {
+display: flex;
+justify-content: space-around;
+} */
+
+.ost h4 {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 0;
+  padding-left: 20px;
+}
+
+.ost img {
+  padding-top: 3px;
+}
+
+.ost h5 {
+  float: right;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0;
+  padding-right: 20px;
+}
+
+.ost1 img {
+  margin-left: 35px;
+  margin-right: 0;
+}
+
+.ost2 img {
+  margin-left: 19px;
+  margin-right: 0;
+}
+
+.ost3 img {
+  margin-left: 17px;
+  margin-right: 0;
+}
+
+.ost4 img {
+  margin-left: 11px;
+  margin-right: 0;
+}
+
+.ost5 img {
+  margin-left: 21px;
+  margin-right: 0;
+}
+
+.ost6 img {
+  margin-left: 33px;
+  margin-right: 0;
+}
+
+.ost7 img {
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+.praktisk h2 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.praktisk h3 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 0;
+  padding-top: 0;
   text-align: center;
 }
 
