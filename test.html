@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Nordic Styleguide</title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26c34f5e54.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/test.css">
     <meta name="Robot Nordic Styleguide" content="Dette er styleguiden vi bruger til vores løsningsforslag til Robot Nordic">
     <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
@@ -14,7 +15,16 @@
 <div class="opretskabeloner">
 <form id="regForm" action="">
 
-<h1 class="intro">OPRET NY SKABELON</h1>
+<h1>OPRET NY SKABELON</h1>
+
+<!-- Circles which indicates the steps of the form: -->
+<div class="steps">
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+</div>
+
 
 <!-- One "tab" for each step in the form: -->
 <div class="tab">
@@ -22,7 +32,22 @@
 </div>
 
 <div class="tab">
+  <div class="accordion">
 
+      <div class="accordion-tab">
+      <input id="toggle1" type="checkbox" class="accordion-toggle" name="toggle" />
+      <label for="toggle1">Skabeloner</label>
+      <div class="accordion-content">
+          <div class="samletknapper2">
+            <button class="button button21"> <img src="assets/icons/skabeloner/palle-ikon.svg" alt="palle ikon"> EURO PALLE - <b> "BUKO"</b></button>
+
+            <button class="button button21"> <img src="assets/icons/skabeloner/palle-ikon.svg" alt="palle ikon"> HALV PALLE - <b> "FRISKO"</b></button>
+
+            <button class="button button22"> <img src="assets/icons/skabeloner/palle-ikon.svg" alt="palle ikon"> KVART PALLE - <b> "WASA"</b></button>
+          </div>
+      </div>
+      </div>
+      </div>
 </div>
 
 <div class="tab">
@@ -48,15 +73,6 @@
     <button type="button" id="nextBtn" onclick="nextPrev(1)">VIDERE</button>
   </div>
 </div>
-
-<!-- Circles which indicates the steps of the form: -->
-<div class="steps">
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-  <span class="step"></span>
-</div>
-
 
 <script src="scripts/test.js"></script>
 
