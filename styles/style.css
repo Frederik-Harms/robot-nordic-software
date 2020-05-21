@@ -1416,7 +1416,7 @@ p22 {
 /**Status over pakning af pallen, vises som alert**/
 #dialogoverlay{
 	display: none;
-	opacity: .8;
+	opacity: 30%;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -1427,15 +1427,17 @@ p22 {
 #dialogbox{
 	display: none;
 	position: fixed;
-	background: #000;
-	border-radius:7px; 
-	width:550px;
+	background: #eeeeee;
+	border-radius:5px; 
+	width:400px;
+	height: auto;
 	z-index: 10;
 }
 #dialogbox > div{ background:#FFF; margin:8px; }
-#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
-#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
-#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; } 
+#dialogbox > div > #dialogboxhead{ background: #222B3B; font-size:19px; padding:20px; color:#ffffff; }
+#dialogbox > div > #dialogboxbody{ background:#ffffff; padding:20px; color:#000000; }
+#dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; } 
+
 
 /** palle slideshow placering på siden**/
 .slidecontrol {
