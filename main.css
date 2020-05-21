@@ -101,7 +101,7 @@ h2 {
 }
 
 .date-picker .dates .days {
-display: flex;
+display: grid;
 grid-template-columns: repeat(7, 1fr); /* da der er 7 dage på en uge og 1fr = one fraction */
 height: 200px;
 }
