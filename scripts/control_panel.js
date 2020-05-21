@@ -28,6 +28,7 @@ alert();
 
 	window.onload = changeImg;
 
+//Statusbar som slideshow
 var i = 0; // Start point
 	var images2 = [];
 	var time = 3000;
