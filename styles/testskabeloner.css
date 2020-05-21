@@ -1037,11 +1037,28 @@ header img {
   height: 84px;
   border: 1px solid black;
   border-radius: 4px;
-  margin: 180px auto 0 auto;
+  margin: 10px auto 0 auto;
+  padding-left: 1px;
+}
+
+.samletknapper2 {
+  width: 245px;
+  height: 84px;
+  border: 1px solid black;
+  border-radius: 0px 0 4px 4px;
+  margin: 0 auto;
   padding-left: 1px;
 }
 
 .samletknapper img {
+  width: 20px;
+  height: 18px;
+  margin: 5px 16px 5px 5px;
+  float: left;
+  line-height: 28px;
+}
+
+.samletknapper2 img {
   width: 20px;
   height: 18px;
   margin: 5px 16px 5px 5px;
@@ -1087,10 +1104,100 @@ header img {
   text-align: left;
 }
 
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.accordion{
+    background: #ffffff;
+    width: 245px;
+    height: 28px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.accordion-tab {
+  padding-bottom: 10px;
+  height: 28px;
+}
+
+.accordion-tab > .accordion-toggle{
+    position: absolute;
+    display: none;
+}
+
+label {
+  padding-left: 5px;
+  text-align: center;
+  height: 28px;
+}
+
+.accordion-tab > label{
+    color: #000000;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+}
+
+.accordion-tab > .accordion-content{
+    max-height: 0;
+    transition: 350ms;
+    overflow: hidden;
+}
+
+.accordion-tab > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab > .accordion-toggle:checked ~ label:after{
+    transform: rotate(270deg);
+}
+
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.accordion-tab > .accordion-content p {
+    padding: 30px 20px;
+    font-family: 'Century Gothic';
+    border: 0.5px solid #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.toggle4 label {
+    background: red;
+    font-family: 'Century Gothic';
+    color: blue;
+}
+
+.beskrivelsen {
+  width: 308px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.detaljen {
+  width: 308px;
+}
+
+
+
 #nextBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 15px 10px 0 10px;
+  margin: 120px 10px 0 10px;
   border-radius: 21px;
   background-color: #f15c22;
   display: inline-block;
@@ -1106,7 +1213,7 @@ header img {
 #prevBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 15px 10px 0 10px;
+  margin: 120px 10px 0 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1118,10 +1225,6 @@ header img {
   /* padding: 12px 50px; */
   text-align: center;
 }
-
-
-
-
 
 /* Style the form */
 #regFormskabelon {
@@ -1154,10 +1257,14 @@ input.invalid {
   display: none;
 }
 
+.tab H2 {
+  padding-top: 80PX;
+}
+
 /* Make circles that indicate the steps of the form: */
 .steps {
   padding-top: 80px;
-  margin-top: -420px;
+  margin-top: -600px;
 }
 
 .stepp {
