@@ -7,14 +7,14 @@ function showTab(n) {
   x[n].style.display = "block";
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
+    document.getElementById("ANULLEREKNAP").style.display = "none";
   } else {
-    document.getElementById("prevBtn").style.display = "inline";
+    document.getElementById("ANULLEREKNAP").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "START";
+    document.getElementById("VIDEREKNAP").innerHTML = "START";
   } else {
-    document.getElementById("nextBtn").innerHTML = "VIDERE";
+    document.getElementById("VIDEREKNAP").innerHTML = "VIDERE";
   }
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
