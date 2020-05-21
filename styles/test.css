@@ -1041,10 +1041,6 @@ h1.intro{
   display: none;
 }
 
-.steps {
-  padding-top: 80px;
-  margin-top: -250px;
-}
 
 #nextBtn{
   width: 99px;
@@ -1116,6 +1112,11 @@ p4.tilfoj{
 }
 
 /* Make circles that indicate the steps of the form: */
+
+.steps {
+  margin-top: -190px;
+}
+
 .step {
   height: 22px;
   width: 22px;
