@@ -1333,7 +1333,7 @@ label {
     height: 39px;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 155px;
+    padding-bottom: 190px;
 }
 
 .accordion-tab-opret1 {
@@ -1389,7 +1389,6 @@ label {
     max-height: 100vh;
     overflow: auto;
 }
-
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
