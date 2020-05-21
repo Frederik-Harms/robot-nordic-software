@@ -12,6 +12,56 @@
     <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
 </head>
 
+<nav>
+  <div class="nav">
+      <div class="navLogo">
+          <img src="assets/img/RNLogo.png" class="logo" alt="Robot Nordics Logo">
+      </div>
+      <div class="menu">
+        <a href="#" class="active">FORSIDE</a>
+        <a href="subs/create_layout.html">CREATE LAYOUT</a>
+        <a href="subs/load_layout.html">LOAD LAYOUT</a>
+        <a href="subs/control_panel.html">CONTROL PANEL</a>
+        <a href="subs/statistics.html">STATISTIKKER</a>
+        <a href="subs/indstillinger.html">INDSTILLINGER</a>
+        <a href="subs/log-ud.html">LOG UD</a>
+      </div>
+  </div>
+</nav>
+
+<header>
+  <img src="assets/icons/burgermenu-logo.svg" alt="Robot Nordic Logo i header">
+      <div class="burgercontainer">
+        <nav class="navbar">
+          <div class="burger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <div class="nav-container">
+            <ul class="nav-list">
+                <li class="forside"><a href="../forside.html" class="nav-link">FORSIDE</a></li>
+
+                <li class="nav-item"><a href="subs/create_layout.html" class="nav-link">CREATE LAYOUT</a></li>
+
+                <li class="nav-item"><a href="subs/load_layout.html" class="nav-link">LOAD LAYOUT</a></li>
+
+                <li class="nav-item"><a href="subs/control_panel.html" class="nav-link">CONTROL PANEL</a></li>
+
+                <li class="nav-item"><a href="subs/statistics.html" class="nav-link">STATISTIKKER</a></li>
+
+                <li class="nav-item"><a href="subs/indstillinger.html" class="nav-link">INDSTILLINGER</a></li>
+
+                <li class="nav-item"><a href="subs/log-ud.html" class="nav-link">LOG UD</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+
+      <script src="scripts/style.js"></script>
+</header>
+
+
 <div class="opretskabeloner">
 <form id="regForm" action="">
 
@@ -30,29 +80,27 @@
 <div class="tab"><br>STEP 1
   <h4 class="tilfojprodukter">NAVNGIV SKABELON</h4>
   <p><input placeholder="Indtast skabelon navn" oninput="this.className = ''"></p>
-</div>
-
-<div class="tab"><br>STEP 2
   <h4 class="tilfojprodukter">VÆLG PALLE TYPE</h4>
   <div class="accordion">
 
       <div class="accordion-tab">
       <input id="toggle1" type="checkbox" class="accordion-toggle" name="toggle" />
-      <label for="toggle1">Muligheder</label>
+      <label for="toggle1">PALLE TYPER</label>
       <div class="accordion-content">
           <div class="samletknapper2">
-            <button class="button button21">EURO PALLE - <b> "BUKO"</b></button>
-
-            <button class="button button21">HALV PALLE - <b> "FRISKO"</b></button>
-
-            <button class="button button22"> KVART PALLE - <b> "WASA"</b></button>
+            <button class="button button22">CHEP PALLE - 1000 mm x 1200 mm </button>
+            <button class="button button22">EURO PALLE - 800 mm x 1200 mm
+            </button>
+            <button class="button button22">HALV PALLE - 600 mm x 800 mm </button>
+            <button class="button button22"> KVART PALLE - 400 mm x 600 mm</button>
           </div>
       </div>
       </div>
       </div>
+
 </div>
 
-<div class="tab"><br>STEP 3
+<div class="tab"><br>STEP 2
   <h4 class="tilfojprodukter">TILFØJ PRODUKTER</h4>
   <p><input placeholder="Indtast produktnavn" oninput="this.className = ''"></p>
   <p4 class="tilfoj">ANTAL PRODUKTER</p4>
@@ -61,13 +109,23 @@
   <p><input placeholder="Længde i centimeter" oninput="this.className = ''"></p>
   <p><input placeholder="Højde i centimeter" oninput="this.className = ''"></p>
   <p><input placeholder="Bredde i centimeter" oninput="this.className = ''"></p>
-  <p><input placeholder="Vægt i gram" oninput="this.className = ''"></p>
+  <p><input placeholder="Vægt i gram" oninput="this.className = ''"></p><br>
+  <p4 class="tilfoj">TILFØJ FLERE PRODUKTER</p4><br>
+  <button class="button button23"><img src="../assets/icons/opretnyskabelon/minustegn.svg" alt="minus tegn "></button>
+  <button class="button button24"><img src="../assets/icons/opretnyskabelon/plustegn.svg" alt="Plus tegn "></button>
+</div>
+
+<div class="tab">
+  <h4 class="tilfojprodukter">FOR AT VÆRE<br>PÅ DEN SIKRE SIDE</h4>
+
+
 </div>
 
 <div class="tab">
   <p><input placeholder="Username..." oninput="this.className = ''"></p>
   <p><input placeholder="Password..." oninput="this.className = ''"></p>
 </div>
+
 
 <div class="knapbox">
   <div class="knapbox2">
