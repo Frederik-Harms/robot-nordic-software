@@ -1394,96 +1394,15 @@ label {
 
 /****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
 
-.gennemgang-opret {
-  height: 700px;
-  width: 26%;
-  border: 1px solid #aaaaaa;
+
+/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
+.borderforatvare2 {
+  width: 310px;
+  height: 425px;
+  border: 1px solid #F15C22;
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: 20px;
 }
-
-.gennemgang-opret img {
-  margin: 0 auto;
-  padding-top: 40px;
-}
-/*
-.ost {
-display: flex;
-justify-content: space-around;
-} */
-
-.ost h4 {
-  float: left;
-  font-size: 18px;
-  font-weight: 600;
-  margin-right: 0;
-  padding-left: 20px;
-}
-
-.ost img {
-  padding-top: 5px;
-}
-
-.ost h5 {
-  float: right;
-  font-size: 18px;
-  font-weight: 300;
-  margin-left: 0;
-  padding-right: 20px;
-}
-
-.ost1 img {
-  margin-left: 39px;
-  margin-right: 0;
-}
-
-.ost2 img {
-  margin-left: 23px;
-  margin-right: 0;
-}
-
-.ost3 img {
-  margin-left: 17px;
-  margin-right: 0;
-}
-
-.ost4 img {
-  margin-left: 11px;
-  margin-right: 0;
-}
-
-.ost5 img {
-  margin-left: 21px;
-  margin-right: 0;
-}
-
-.ost6 img {
-  margin-left: 33px;
-  margin-right: 0;
-}
-
-.ost7 img {
-  margin-left: 23px;
-  margin-right: 0;
-}
-
-.praktisk h2 {
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: 700;
-  padding-bottom: 0;
-  text-align: center;
-}
-
-.praktisk h3 {
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: 300;
-  padding-bottom: 0;
-  padding-top: 0;
-  text-align: center;
-}
-
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
@@ -1508,16 +1427,6 @@ justify-content: space-around;
   }
 
 }
-
-/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
-.borderforatvare2 {
-  width: 310px;
-  height: 425px;
-  border: 1px solid #F15C22;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
 
 /************ Dette er burgermenuen på hver side ************/
 /*********** 800 eller lavere ****************/
@@ -1587,6 +1496,230 @@ justify-content: space-around;
     text-align: center;
   }
 
+h1.overskrift-opret{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* STYLER OVERSKRIFTERNE PÅ ALLE SIDERNE I FORM WIZARDEN */
+h4.tilfojprodukter{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* STYLER INPUT FELTERNE PÅ FORM WIZARDEN */
+input {
+  height: 40px;
+  width: 242px;
+  padding-left: 10px;
+  margin: 8px 8px;
+  border: solid 1px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: Titillium Web;
+  border: 1px solid #aaaaaa;
+}
+
+
+  /* MARKERE CIRKLERNE PÅ SIDEN I FORM WIZARDEN */
+
+  .step {
+    height: 22px;
+    width: 22px;
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    border: solid 0.6px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  .accordion-opret{
+      background: #ffffff;
+      width: 245px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+
+  .accordion-tab-opret {
+    padding-bottom: 10px;
+    height: 28px;
+  }
+
+  .accordion-tab-opret > .accordion-toggle-opret{
+      position: absolute;
+      display: none;
+  }
+
+  label {
+    padding-left: 5px;
+    text-align: center;
+    height: 28px;
+  }
+
+  .accordion-tab-opret > label{
+      color: #000000;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600;
+      position: relative;
+      display: block;
+      height: 28px;
+      cursor: pointer;
+  }
+
+  .accordion-opret1{
+      background: #ffffff;
+      width: 245px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+
+  .accordion-tab-opret1 {
+    padding-bottom: 10px;
+    height: 28px;
+  }
+
+  .accordion-tab-opret1 > .accordion-toggle-opret1{
+      position: absolute;
+      display: none;
+  }
+
+  label {
+    padding-left: 5px;
+    text-align: center;
+    height: 28px;
+  }
+
+  .accordion-tab-opret1 > label{
+      color: #000000;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600;
+      position: relative;
+      display: block;
+      height: 28px;
+      cursor: pointer;
+  }
+
+  /***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
+  .button22 {
+    width: 242px;
+    height: 28px;
+    background-color: #ffffff;
+    display: inline-block;
+    border: 1px solid #aaaaaa;
+    opacity: 80%;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    float: left;
+    text-align: center;
+  }
+
+
+  /****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
+  .gennemgang-opret {
+    width: 310px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .gennemgang-opret img {
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  /*
+  .ost {
+  display: flex;
+  justify-content: space-around;
+  } */
+
+  .ost h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 0;
+    padding-left: 20px;
+  }
+
+  .ost img {
+    padding-top: 5px;
+  }
+
+  .ost h5 {
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 0;
+    padding-right: 20px;
+  }
+
+  .ost1 img {
+    margin-left: 39px;
+    margin-right: 0;
+  }
+
+  .ost2 img {
+    margin-left: 23px;
+    margin-right: 0;
+  }
+
+  .ost3 img {
+    margin-left: 17px;
+    margin-right: 0;
+  }
+
+  .ost4 img {
+    margin-left: 11px;
+    margin-right: 0;
+  }
+
+  .ost5 img {
+    margin-left: 21px;
+    margin-right: 0;
+  }
+
+  .ost6 img {
+    margin-left: 33px;
+    margin-right: 0;
+  }
+
+  .ost7 img {
+    margin-left: 23px;
+    margin-right: 0;
+  }
+
+  .praktisk h2 {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .praktisk h3 {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+  }
 }
 
 /************ Dette er burgermenuen på hver side ************/
