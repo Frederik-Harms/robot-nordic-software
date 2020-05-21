@@ -1325,7 +1325,7 @@ label {
   text-align: center;
 }
 
-/********* DROP DOWN FUNKTIONEN INDEN I ALT DET PRAKTISKE  **************/
+/********* DROP DOWN FUNKTIONEN INDEN I ALT DET PRAKTISKE - STEP 4  **************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -1335,7 +1335,7 @@ label {
     height: 39px;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 200px;
 }
 
 .accordion-tab-opret1 {
@@ -1392,6 +1392,99 @@ label {
     overflow: auto;
 }
 
+/****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
+
+.gennemgang-opret {
+  height: 700px;
+  width: 26%;
+  border: 1px solid #aaaaaa;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.gennemgang-opret img {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+/*
+.ost {
+display: flex;
+justify-content: space-around;
+} */
+
+.ost h4 {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 0;
+  padding-left: 20px;
+}
+
+.ost img {
+  padding-top: 5px;
+}
+
+.ost h5 {
+  float: right;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0;
+  padding-right: 20px;
+}
+
+.ost1 img {
+  margin-left: 39px;
+  margin-right: 0;
+}
+
+.ost2 img {
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+.ost3 img {
+  margin-left: 17px;
+  margin-right: 0;
+}
+
+.ost4 img {
+  margin-left: 11px;
+  margin-right: 0;
+}
+
+.ost5 img {
+  margin-left: 21px;
+  margin-right: 0;
+}
+
+.ost6 img {
+  margin-left: 33px;
+  margin-right: 0;
+}
+
+.ost7 img {
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+.praktisk h2 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.praktisk h3 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
 @media only screen and (min-width: 801px) {
@@ -1414,6 +1507,15 @@ label {
     padding-top: 40px;
   }
 
+}
+
+/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
+.borderforatvare2 {
+  width: 310px;
+  height: 425px;
+  border: 1px solid #F15C22;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 
