@@ -1036,16 +1036,11 @@ h1.intro{
   margin-bottom: 150px;
 }
 
-
 /* Hide all steps by default: */
 .tab {
   display: none;
 }
 
-.steps {
-  padding-top: 80px;
-  margin-top: -420px;
-}
 
 #nextBtn{
   width: 99px;
@@ -1094,6 +1089,7 @@ h1.intro{
 input {
   height: 39px;
   width: 26%;
+  padding-left: 10px;
   border: solid 1px;
   border-radius: 4px;
   font-size: 17px;
@@ -1106,13 +1102,21 @@ input.invalid {
   background-color: lightgray;
 }
 
-/* Hide all steps by default: */
-.tab {
-  display: none;
+h4.tilfojprodukter{
+  font-size: 26px;
 }
 
+p4.tilfoj{
+  font-size: 15px;
+  font-weight: 600;
+}
 
 /* Make circles that indicate the steps of the form: */
+
+.steps {
+  padding-top: 20px;
+}
+
 .step {
   height: 22px;
   width: 22px;
@@ -1148,6 +1152,98 @@ input.invalid {
   justify-content: center;
   text-align: center;
 }
+
+.accordion{
+    background: #ffffff;
+    width: 245px;
+    height: 28px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.accordion-tab {
+  padding-bottom: 10px;
+  height: 28px;
+}
+
+.accordion-tab > .accordion-toggle{
+    position: absolute;
+    display: none;
+}
+
+label {
+  padding-left: 5px;
+  text-align: center;
+  height: 28px;
+}
+
+.accordion-tab > label{
+    color: #000000;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+}
+
+.accordion-tab > .accordion-content{
+    max-height: 0;
+    transition: 350ms;
+    overflow: hidden;
+}
+
+.accordion-tab > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab > .accordion-toggle:checked ~ label:after{
+    transform: rotate(270deg);
+}
+
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.accordion-tab > .accordion-content p {
+    padding: 30px 20px;
+    font-family: 'Century Gothic';
+    border: 0.5px solid #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.toggle4 label {
+    background: red;
+    font-family: 'Century Gothic';
+    color: blue;
+}
+
+.beskrivelsen {
+  width: 308px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.detaljen {
+  width: 308px;
+}
+
+
+
+
+
+
 
 
 /********************* MEDIA QUERIES ************************/

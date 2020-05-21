@@ -101,7 +101,20 @@ h2 {
 }
 
 .date-picker .dates .days {
-display: flex;
+display: grid;
 grid-template-columns: repeat(7, 1fr); /* da der er 7 dage på en uge og 1fr = one fraction */
 height: 200px;
+}
+
+
+.date-picker .dates .days .day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+}
+
+.date-picker .dates .days .day.selected {
+background-color: #00ca85;
+color: #313131;
 }
