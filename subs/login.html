@@ -1,10 +1,59 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+
 <head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Nordic Styleguide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <meta name="Robot Nordic Styleguide" content="Dette er styleguiden vi bruger til vores løsningsforslag til Robot Nordic">
+    <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
 </head>
 
-<body>
-</body>
-</html>
+<div class="mainn">
+
+<div class="logostor">
+  <img src="../assets/icons/login/rnlogologin.svg" alt="robot nordic logo login">
+</div>
+
+  <div class="loginside">
+    <form name="login">
+    <input class="brugernavn" name="id" type="text" placeholder="Brugernavn"> <br>
+    <input class="adgangskode" name="pass" type="password" placeholder="Adgangskode">
+    <input class="button button1" type="button" value="LOG IND" onClick="pasuser(this.form)">
+  </div>
+
+
+
+  <div class="forsideknapper">
+    <p22>GØR OGSÅ BRUG AF</p22> <br>
+    <button class="button button2login">
+      <img src="../assets/icons/login/icon-material-nfc.svg" alt="nfc ikon">
+      <p3>NFC</p3>
+    </button>
+
+    <button class="button button2login">
+      <img src="../assets/icons/login/icon-metro-qrcode.svg" alt="qr ikon">
+      <p3>QR</p3>
+    </button>
+  </div>
+
+  <script language="javascript">
+  <!--//
+  /*This Script allows people to enter by using a form that asks for a
+  UserID and Password*/
+  function pasuser(form) {
+  if (form.id.value=="test") {
+  if (form.pass.value=="test") {
+  location="../forside.html"
+  } else {
+  alert("Forkert Adgangskode")
+  }
+  } else {  alert("Forkert Brugernavn")
+  }
+  }
+  //-->
+  </script>
+
+</div>

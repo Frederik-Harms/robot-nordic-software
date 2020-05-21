@@ -11,8 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-}
 
 html {
     height: 100%;
@@ -346,13 +344,14 @@ code {
 .button1 {
   width: 253px;
   height: 39px;
-  margin-top: 15px;
+  margin-top: 34px;
   border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
   border: none;
   color: white;
   font-size: 19px;
+  font-weight: 600;
   line-height: 39px;
   font-weight:
   /* padding: 12px 50px; */
@@ -418,8 +417,8 @@ code {
   line-height: 42px;
   /* padding: 12px 50px; */
   text-align: center;
+  text-decoration: none;
 }
-
 
 .button5 {
   width: 308px;
@@ -978,8 +977,226 @@ header img {
   border-color: #000000;
 }
 
+/************** FORSIDE STYLING *******************/
+
+.forside-content {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
 
 
+.main-forside {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.grid-container-forside {
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: 270px;
+  justify-content: center;
+  width: inherit;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid-item-forside {
+  width: 200px;
+  height: 200px;
+  margin: 35px 35px;
+  background-color: #f15c22;
+  border-radius: 20px;
+}
+
+.grid-item-forside a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 300;
+  color: black;
+}
+
+.imgss {
+    margin: 25px auto;
+    height: 150px;
+    width: 150px;
+}
+
+
+/*********** SKABELONER STYLING ************/
+
+.skabeloner {
+  height: 100vh
+  margin: 0 auto;
+  text-align: center;
+}
+
+.samletknapper {
+  width: 245px;
+  height: 84px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 180px auto 0 auto;
+  padding-left: 1px;
+}
+
+.samletknapper img {
+  width: 20px;
+  height: 18px;
+  margin: 5px 16px 5px 5px;
+  float: left;
+  line-height: 28px;
+}
+
+.button21 {
+  width: 240px;
+  height: 28px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  float: left;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.button22 {
+  width: 240px;
+  height: 25px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  float: left;
+  text-align: left;
+}
+
+.button21 p5 {
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  float: left;
+  text-align: left;
+}
+
+#nextBtnskabelon{
+  width: 97px;
+  height: 41px;
+  margin: 15px 10px 0 10px;
+  border-radius: 21px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+
+#prevBtnskabelon{
+  width: 97px;
+  height: 41px;
+  margin: 15px 10px 0 10px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+
+
+
+
+
+/* Style the form */
+#regFormskabelon {
+  background-color: #ffffff;
+  margin: 40px auto 0 auto;
+  padding: 0 40px 0 40px;
+  width: 100%;
+  height: 50vh;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  height: 39px;
+  width: 100%;
+  border: solid 1px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: Titillium Web;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: lightgray;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.steps {
+  padding-top: 80px;
+  margin-top: -420px;
+}
+
+.stepp {
+  height: 22px;
+  width: 22px;
+  margin: 0 35px;
+  background-color: #FFFFFF;
+  border: solid 0.6px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* MARKERE HVILKEN SIDE DU ER INDE PÅ  */
+.stepp.active {
+  background-color: #F15C22;
+  opacity: 1;
+  border: solid 0.6px;
+}
+
+/* MARKERE HVILKEN SIDER DER ER FÆRDIGE  */
+.stepp.finish {
+  background-color: #F15C22;
+  opacity: 1;
+  border: solid 0.6px;
+}
+
+.knapbox{
+  overflow: auto;
+  margin: 0 auto;
+}
+.knapbox2{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+/*********** OPRET SKABELON STYLING ************/
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
@@ -990,6 +1207,19 @@ header img {
   .burgercontainer {
     display: none !important;
   }
+
+  .forsideknapper {
+    display: none;
+  }
+
+  .mainn {
+    padding-top: 75px;
+  }
+
+  .loginside {
+    padding-top: 40px;
+  }
+
 }
 
 
@@ -999,7 +1229,144 @@ header img {
   nav {
     display: none;
   }
+
+  .forside-content {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .main-forside {
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+  }
+  .grid-container-forside {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    justify-content: center;
+    width: inherit;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .grid-item-forside {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: #f15c22;
+    border-radius: 20px;
+  }
+
+  .grid-item-forside a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    line-height: 60px;
+  }
+
+  .imgss {
+      margin: 0 auto;
+      height: 120px;
+      width: 120px;
+      padding-top: 30px;
+  }
+
+  .button4 {
+    width: 160px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 21px;
+    background-color: #222B3B;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    /* padding: 12px 50px; */
+    text-align: center;
+  }
+
 }
+
+/************ Dette er burgermenuen på hver side ************/
+/*********** 500 eller lavere ****************/
+@media only screen and (max-width: 500px) {
+  nav {
+    display: none;
+
+  }
+
+  .forside-content {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .main-forside {
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+  }
+  .grid-container-forside {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    justify-content: center;
+    width: inherit;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .grid-item-forside {
+    width: 130px;
+    height: 130px;
+    margin: 30px 18px;
+    background-color: #f15c22;
+    border-radius: 20px;
+  }
+
+  .grid-item-forside a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 55px;
+  }
+
+  .imgss {
+      margin: 0 auto;
+      height: 100px;
+      width: 100px;
+      padding-top: 30px;
+  }
+
+  .button4{
+    width: 160px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 21px;
+    background-color: #222B3B;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    /* padding: 12px 50px; */
+    text-align: center;
+  }
+
+}
+
+
+
+
 
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
 

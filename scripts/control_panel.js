@@ -4,14 +4,14 @@ var i = 0; // Start point
 	var time = 3000;
 alert();
 	// Image List
-	images[0] = 'img/palle_show/palle7.jpg';
-	images[1] = 'img/palle_show/palle6.jpg';
-	images[2] = 'img/palle_show/palle5.jpg';
-	images[3] = 'img/palle_show/palle4.jpg';
-    images[4] = 'img/palle_show/palle3.jpg';
-    images[5] = 'img/palle_show/palle2.jpg';
-    images[6] = 'img/palle_show/palle1.jpg';
-    images[7] = 'img/palle_show/palle0.jpg';
+	images[0] = '../assets/img/palle_show/palle7.jpg';
+	images[1] = '../assets/img/palle_show/palle6.jpg';
+	images[2] = '../assets/img/palle_show/palle5.jpg';
+	images[3] = '../assets/img/palle_show/palle4.jpg';
+    images[4] = '../assets/img/palle_show/palle3.jpg';
+    images[5] = '../assets/img/palle_show/palle2.jpg';
+    images[6] = '../assets/img/palle_show/palle1.jpg';
+    images[7] = '../assets/img/palle_show/palle0.jpg';
 
 	// Change Image
 	function changeImg(){
@@ -30,4 +30,15 @@ alert();
 
 function myFunction() {
   alert("TILPAS LAYOUT. ønsker du at foretageændringer?");
+}
+
+var close = document.getElementsByClassName("closebtn");
+var a;
+
+for (a = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
 }

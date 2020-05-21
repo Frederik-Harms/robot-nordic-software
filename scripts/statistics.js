@@ -1,51 +1,52 @@
 // JavaScript Document		  
   let myChart = document.getElementById('myChart').getContext('2d');
     // Global Options
-    Chart.defaults.global.defaultFontFamily = 'Lato';
+    Chart.defaults.global.defaultFontFamily = 'Titillium Web';
     Chart.defaults.global.defaultFontSize = 18;
-    Chart.defaults.global.defaultFontColor = '#777';
+    Chart.defaults.global.defaultFontColor = '#000000';
 
     let massPopChart = new Chart(myChart, {
-      type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+      type:'bar', // fungere også som: bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
         labels:['Folie', 'Pap', 'Plastik', 'Papir', 'Klistermærker', 'Metal'],
         datasets:[{
           label:'EMBALLAGE FORBRUG',
           data:[
-            617594,
-            181045,
-            153060,
-            106519,
-            105162,
-            95072
+            100,
+            60,
+            85,
+            40,
+            35,
+            75
           ],
-          //backgroundColor:'green',
+          //baggrunden på søjlerne kan også hedde fx backgroundColor:'green',hvis der ønskes én enkelt farve
           backgroundColor:[
-            'rgba(255, 99, 132, 0.6)',
-            'rgba(54, 162, 235, 0.6)',
-            'rgba(255, 206, 86, 0.6)',
-            'rgba(75, 192, 192, 0.6)',
-            'rgba(153, 102, 255, 0.6)',
-            'rgba(255, 159, 64, 0.6)',
-            'rgba(255, 99, 132, 0.6)'
+            '#7F8282',
+            '#C3C7C8',
+            '#222B3B',
+            '#E9E9E9',
+            '#EEEEEE',
+            '#5F7F96',
+            '#859598'
           ],
           borderWidth:1,
-          borderColor:'#777',
+         
           hoverBorderWidth:3,
-          hoverBorderColor:'#000'
+          hoverBorderColor:'#F15C22' //styling af søjlerne/dataen
         }]
       },
       options:{
         title:{
-          display:true,
-          text:'STATISTIKKER',
-          fontSize:25
+          display:true, //sættes til true, så den ses konstant
+          text:'EMBALLAGE FORBRUG OVERSIGT',
+          fontSize:10
         },
         legend:{
-          display:true,
-          position:'right',
+          display:false, //sættes til false, da den ikke skal ses konstant, kun når musen kommer over
+          position:'right bottom',
           labels:{
-            fontColor:'#000'
+            fontColor:'#F15C22'
+			  
           }
         },
         layout:{
