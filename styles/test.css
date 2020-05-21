@@ -1114,6 +1114,20 @@ p4.tilfoj{
   font-weight: 600;
 }
 
+h4.foratvareover{
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+h5.foratvaretekst{
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+
 /* Make circles that indicate the steps of the form: */
 
 .steps {
