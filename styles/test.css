@@ -1153,12 +1153,15 @@ p4.tilfoj{
   text-align: center;
 }
 
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .accordion{
     background: #ffffff;
-    width: 245px;
-    height: 28px;
+    width: 26%;
+    height: 79px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 115px;
 }
 
 .accordion-tab {
