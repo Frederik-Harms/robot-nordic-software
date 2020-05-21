@@ -1024,7 +1024,8 @@ header img {
 }
 
 
-/*********** OPRET SKABELON STYLING ************/
+/******* OPRET SKABELON STYLING  *******/
+/*********** PRAKTISKE ELEMENTER ***********/
 
 .opretskabeloner {
   height: 100vh
@@ -1032,17 +1033,14 @@ header img {
   text-align: center;
 }
 
-h1.intro{
-  margin-bottom: 150px;
-}
-
-/* Hide all steps by default: */
+/* GØR DET MULIGT AT BLIVE PÅ DEN SAMME HTML SIDE, MEN SKJULE RESTERENDE ELEMENTER */
 .tab {
   display: none;
 }
 
+/********** DE FASTE KNAPPER SOM ER EN DEL AF FORM WIZAREDEN ********/
 
-#nextBtn{
+#VIDEREKNAP{
   width: 99px;
   height: 41px;
   margin: 20px 10px 0 10px;
@@ -1058,7 +1056,7 @@ h1.intro{
   text-align: center;
 }
 
-#prevBtn{
+#ANULLEREKNAP{
   width: 99px;
   height: 41px;
   margin: 20px 10px 0 10px;
@@ -1074,8 +1072,21 @@ h1.intro{
   text-align: center;
 }
 
+/* STYLER KNAPPERNES PLACERING */
+.knapbox{
+  overflow: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 8px;
+}
+.knapbox2{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
+}
 
-/* Style the form */
+/***** STYLER HELE FORMEN ******/
 #regForm {
   background-color: #ffffff;
   margin: 40px auto 0 auto;
@@ -1085,7 +1096,7 @@ h1.intro{
   min-width: 300px;
 }
 
-/* Style the input fields */
+/* STYLER INPUT FELTERNE PÅ FORM WIZARDEN */
 input {
   height: 39px;
   width: 26%;
@@ -1098,37 +1109,40 @@ input {
   border: 1px solid #aaaaaa;
 }
 
-/* Mark input boxes that gets an error on validation: */
+/* STYLER INPUT FELTERNE NÅR DER ER ODAGET EN FEJL I FORM WIZARDEN */
 input.invalid {
   background-color: lightgray;
 }
 
+/* STYLER OVERSKRIFTERNE PÅ ALLE SIDERNE I FORM WIZARDEN */
 h4.tilfojprodukter{
   font-size: 26px;
   margin-top: 20px;
   margin-bottom: 8px;
 }
 
+/* STYLER UNDER OVERSKRIFTERNE PÅ SIDERNE I TILFØJ PRODUKTER - STEP 2 */
 p4.tilfoj{
   font-size: 20px;
   font-weight: 600;
 }
 
+/* STYLER TEKSTEN PÅ SIDEN I "ER DU SIKKER DU HAR TILFØJET ALLE" - STEP 3 */
 h4.foratvareover{
   font-size: 26px;
   margin-top: 20px;
   margin-bottom: 8px;
 }
 
+/* STYLER TEKSTEN PÅ SIDEN I "ER DU SIKKER DU HAR TILFØJET ALLE" - STEP 3 */
 h5.foratvaretekst{
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 20px;
   margin-bottom: 8px;
 }
 
-
-/* Make circles that indicate the steps of the form: */
+/* MARKERE CIRKLERNE PÅ SIDEN I FORM WIZARDEN */
 
 .steps {
   padding-top: 20px;
@@ -1145,33 +1159,21 @@ h5.foratvaretekst{
   opacity: 0.5;
 }
 
-/* MARKERE HVILKEN SIDE DU ER INDE PÅ  */
+/* MARKERE HVILKEN SIDE DU ER INDE PÅ I  FORM WIZARDEN */
 .step.active {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
 }
 
-/* MARKERE HVILKEN SIDER DER ER FÆRDIGE  */
+/* MARKERE HVILKEN SIDER DER ER FÆRDIGE I FORM WIZARDEN  */
 .step.finish {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
 }
 
-.knapbox{
-  overflow: auto;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  padding-top: 8px;
-}
-.knapbox2{
-  display: flex;
-  justify-content: flex-end;
-  justify-content: center;
-  text-align: center;
-}
-
+/***** STYLINGEN TIL MINUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
 .button23 {
   width: 61px;
   height: 61px;
@@ -1188,6 +1190,7 @@ h5.foratvaretekst{
   margin-top: 20px;
 }
 
+/***** STYLER MINUS KNAPPEN TIL SVG BILLEDET *****/
 .button23 img {
   width: 30px;
   height: 30px;
@@ -1195,6 +1198,7 @@ h5.foratvaretekst{
   text-align: center;
 }
 
+/***** STYLINGEN TIL PLUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
 .button24 {
   width: 61px;
   height: 61px;
@@ -1211,6 +1215,7 @@ h5.foratvaretekst{
   padding: 0 5px;
 }
 
+/***** STYLER PLUS KNAPPEN TIL SVG BILLEDET *****/
 .button24 img {
   width: 30px;
   height: 30px;
@@ -1218,7 +1223,16 @@ h5.foratvaretekst{
   text-align: center;
 }
 
-/********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON **************/
+/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 3 *****/
+.borderforatvare {
+  width: 310px;
+  height: 225px;
+  border: 1px solid #F15C22;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON  **************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -1285,7 +1299,6 @@ label {
     overflow: auto;
 }
 
-
 .beskrivelsen {
   width: 308px;
   height: 80px;
@@ -1296,6 +1309,7 @@ label {
   width: 308px;
 }
 
+/***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
 .button22 {
   width: 312px;
   height: 29px;
@@ -1311,9 +1325,6 @@ label {
   float: left;
   text-align: center;
 }
-
-
-
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
