@@ -1196,7 +1196,7 @@ label {
 #nextBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 120px 10px 20px 10px;
+  margin: 50px 10px 20px 10px;
   border-radius: 21px;
   background-color: #f15c22;
   display: inline-block;
@@ -1212,7 +1212,7 @@ label {
 #prevBtnskabelon{
   width: 97px;
   height: 41px;
-  margin: 120px 10px 20px 10px;
+  margin: 50px 10px 20px 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1317,7 +1317,7 @@ input.invalid {
 
 .gennemgang {
   width: 310px;
-  height: 680px;
+  height: 700px;
   border: 1px solid black;
   margin: 0 auto;
   margin-top: -10px;
@@ -1342,7 +1342,7 @@ justify-content: space-around;
 }
 
 .ost img {
-  padding-top: 3px;
+  padding-top: 5px;
 }
 
 .ost h5 {
@@ -1354,12 +1354,12 @@ justify-content: space-around;
 }
 
 .ost1 img {
-  margin-left: 35px;
+  margin-left: 39px;
   margin-right: 0;
 }
 
 .ost2 img {
-  margin-left: 19px;
+  margin-left: 23px;
   margin-right: 0;
 }
 
