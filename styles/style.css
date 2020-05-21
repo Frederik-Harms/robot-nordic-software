@@ -18,6 +18,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+/**Fjerner streger under links**/ 
 a {
 	text-decoration: none;
 }
@@ -1450,6 +1451,8 @@ p22 {
 .slidecontrol2 {
 	margin-left: 630px;
 	margin-top: 20px;
+	height: 10px;
+	width: 40px;
 }
 
 /************* DATEPICKER - STYLING ************/
