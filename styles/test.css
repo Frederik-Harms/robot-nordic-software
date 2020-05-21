@@ -1036,7 +1036,6 @@ h1.intro{
   margin-bottom: 150px;
 }
 
-
 /* Hide all steps by default: */
 .tab {
   display: none;
@@ -1044,7 +1043,7 @@ h1.intro{
 
 .steps {
   padding-top: 80px;
-  margin-top: -420px;
+  margin-top: -250px;
 }
 
 #nextBtn{
@@ -1094,6 +1093,7 @@ h1.intro{
 input {
   height: 39px;
   width: 26%;
+  padding-left: 10px;
   border: solid 1px;
   border-radius: 4px;
   font-size: 17px;
@@ -1106,11 +1106,14 @@ input.invalid {
   background-color: lightgray;
 }
 
-/* Hide all steps by default: */
-.tab {
-  display: none;
+h4.tilfojprodukter{
+  font-size: 26px;
 }
 
+p4.tilfoj{
+  font-size: 15px;
+  font-weight: 600;
+}
 
 /* Make circles that indicate the steps of the form: */
 .step {
