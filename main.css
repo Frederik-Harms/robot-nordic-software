@@ -32,7 +32,7 @@ h2 {
   width: 100%;
   max-width: 320px;
   height: 40px;
-  border-radius: 8px; /* runding på kanter, tilpas efter styleguide */
+  /*border-radius: 8px; ----> /* runding på kanter, tilpas efter styleguide */
   background-color: #ffffff;
   margin: 10px auto;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
