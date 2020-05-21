@@ -1439,44 +1439,6 @@ p22 {
 
 /**prøve på alert status ^**/ 
 
-.container_alert {
-	margin-top: 500px;
-}
-
-.alert {
-  padding: 20px;
-  background-color: #222B3B;
-  color: #222B3B;
-  opacity: 90%;
-  transition: opacity 0.6s;
-  margin-bottom: 15px;
-  width: 50%;
-}
-
-.alert.info {background-color: #ffffff;}
-
-.closebtn {
-  margin-left: 15px;
-  color: #222B3B;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: greenyellow;
-}
-ul.a {
-	list-style-type: square;
-	color: greenyellow;
-}
-ul.b {
-	list-style-type: square;
-	color: #222B3B;
-}
 
 .slidecontrol {
 	margin-left: 630px;
