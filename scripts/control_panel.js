@@ -28,10 +28,6 @@ alert();
 
 	window.onload = changeImg;
 
-function myFunction() {
-  alert("TILPAS LAYOUT. ønsker du at foretageændringer?");
-}
-
 var close = document.getElementsByClassName("closebtn");
 var a;
 

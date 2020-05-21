@@ -1413,7 +1413,10 @@ p22 {
     }
 
 }
-
+/**Graf på statistik siden**/ 
+.container_alert {
+	margin-top: 500px;
+}
 
 .alert {
   padding: 20px;
