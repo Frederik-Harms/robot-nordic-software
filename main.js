@@ -8,7 +8,7 @@ date_picker_element.addEventListener('click', toggleDatePicker);
 //FUNKTIONER
 function toggleDatePicker (e) {
   console.log(e.path); //bruges for at inspicere i js koden i browser
-  
+
   if (!checkEventPathForClass(e.path, 'dates')) {
       dates_element.classList.toggle('active'); //ved klik på dato, kommer dropdown-blok frem
   }
