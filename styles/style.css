@@ -1416,3 +1416,29 @@ p22 {
 .container {
 	margin-top: 500px;
 }
+
+.alert {
+  padding: 20px;
+  background-color: #222B3B;
+  color: white;
+  opacity: 90%;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.info {background-color: #2196F3;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
