@@ -73,3 +73,35 @@ h2 {
 .date-picker .dates.active {
   display: block;
 }
+
+.date-picker .month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+
+.date-picker .dates .month .arrows {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  font-size: 20px;
+
+}
+
+.date-picker .dates .month .arrows:hover {
+  background-color: #f3f3f3;
+}
+
+.date-picker .dates .month .arrows:active {
+  background-color: #00ca85; /* farven der kommer frem når man klikker på pilen i boksen */
+}
+
+.date-picker .dates .days {
+display: flex;
+grid-template-columns: repeat(7, 1fr); /* da der er 7 dage på en uge og 1fr = one fraction */
+height: 200px;
+}
