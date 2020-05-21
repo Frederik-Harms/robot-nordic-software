@@ -1480,7 +1480,6 @@ h2 {
   width: 100%;
   max-width: 320px;
   height: 40px;
-  /*border-radius: 8px; ----> /* runding på kanter, tilpas efter styleguide */
   background-color: #ffffff;
   margin: 10px auto;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
@@ -1522,7 +1521,7 @@ h2 {
   display: block;
 }
 
-.date-picker .month {
+.date-picker .dates .month {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1566,10 +1565,12 @@ height: 200px;
 background-color: #00ca85;
 color: #313131;
 }
+
+
 .container {
-	position: relative; 
-	height:30vh; 
-	width:50vw; 
-	margin:100px; 
+	position: relative;
+	height:30vh;
+	width:50vw;
+	margin:100px;
 	margin-left:320px
 }
