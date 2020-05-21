@@ -1232,25 +1232,32 @@ h5.foratvaretekst{
   margin-top: 20px;
 }
 
+/* STYLER UNDER OVERSKRIFTERNE PÅ SIDERNE I ALT DET PRAKTISKE - STEP 4 */
+p4.laginfo{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
 /********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON  **************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-.accordion{
+.accordion-opret{
     background: #ffffff;
     width: 26%;
     height: 39px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 155px;
 }
 
-.accordion-tab {
+.accordion-tab-opret {
   padding-bottom: 10px;
   height: 39px;
 }
 
-.accordion-tab > .accordion-toggle{
+.accordion-tab-opret > .accordion-toggle-opret{
     position: absolute;
     display: none;
 }
@@ -1261,7 +1268,7 @@ label {
   height: 28px;
 }
 
-.accordion-tab > label{
+.accordion-tab-opret > label{
     color: #000000;
     background: #ffffff;
     border: 1px solid #aaaaaa;
@@ -1275,13 +1282,13 @@ label {
     cursor: pointer;
 }
 
-.accordion-tab > .accordion-content{
+.accordion-tab-opret > .accordion-content-opret{
     max-height: 0;
     transition: 350ms;
     overflow: hidden;
 }
 
-.accordion-tab > label:after {
+.accordion-tab-opret > label:after {
     content: '\f054';
     position: absolute;
     right: 20px;
@@ -1290,23 +1297,13 @@ label {
     transition:transform .30s ;
 }
 
-.accordion-tab > .accordion-toggle:checked ~ label:after{
+.accordion-tab-opret > .accordion-toggle-opret:checked ~ label:after{
     transform: rotate(270deg);
 }
 
-.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+.accordion-tab-opret > .accordion-toggle-opret:checked ~ .accordion-content-opret{
     max-height: 100vh;
     overflow: auto;
-}
-
-.beskrivelsen {
-  width: 308px;
-  height: 80px;
-  border: 1px solid black;
-}
-
-.detaljen {
-  width: 308px;
 }
 
 /***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
@@ -1325,6 +1322,74 @@ label {
   float: left;
   text-align: center;
 }
+
+/********* DROP DOWN FUNKTIONEN INDEN I ALT DET PRAKTISKE  **************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.accordion-opret1{
+    background: #ffffff;
+    width: 26%;
+    height: 39px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 155px;
+}
+
+.accordion-tab-opret1 {
+  padding-bottom: 10px;
+  height: 39px;
+}
+
+.accordion-tab-opret1 > .accordion-toggle-opret1{
+    position: absolute;
+    display: none;
+}
+
+label {
+  padding-left: 5px;
+  text-align: center;
+  height: 28px;
+}
+
+.accordion-tab-opret1 > label{
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+}
+
+.accordion-tab-opret1 > .accordion-content-opret1{
+    max-height: 0;
+    transition: 350ms;
+    overflow: hidden;
+}
+
+.accordion-tab-opret1 > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ label:after{
+    transform: rotate(270deg);
+}
+
+.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ .accordion-content-opret1{
+    max-height: 100vh;
+    overflow: auto;
+}
+
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
