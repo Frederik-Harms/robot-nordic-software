@@ -1188,6 +1188,7 @@ h5.foratvaretekst{
   line-height: 39px;
   padding: 0 5px;
   margin-top: 20px;
+  margin-right: 8px;
 }
 
 /***** STYLER MINUS KNAPPEN TIL SVG BILLEDET *****/
@@ -1213,6 +1214,7 @@ h5.foratvaretekst{
   font-weight: 600;
   line-height: 39px;
   padding: 0 5px;
+  margin-left: 8px;
 }
 
 /***** STYLER PLUS KNAPPEN TIL SVG BILLEDET *****/
@@ -1333,7 +1335,7 @@ label {
     height: 39px;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 155px;
+    padding-bottom: 190px;
 }
 
 .accordion-tab-opret1 {
@@ -1389,7 +1391,6 @@ label {
     max-height: 100vh;
     overflow: auto;
 }
-
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
