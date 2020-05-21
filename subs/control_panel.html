@@ -64,7 +64,14 @@
 
 
 <body>
-<div id="dialogoverlay"></div>
+	<!-- slideshow palle billede -->
+	<h1 class="styleGuideContent-software-mobile-sg">KONTROL PANEL</h1>
+	<h2 class="styleGuideContent-software-mobile-sg">LAYOUT</h2>
+	<p class="styleGuideContent-software-mobile-sg">EURO PALLE - "BUKO"</p>
+	<img class= "slidecontrol" name="slide" alt="paller" >
+	
+	<!-- Status over pallens pakning, vises i en alert --> 
+	<div id="dialogoverlay"></div>
 <div id="dialogbox">
   <div>
     <div id="dialogboxhead"></div>
@@ -72,35 +79,10 @@
     <div id="dialogboxfoot"></div>
   </div>
 </div>
-<h1>My web document content ...</h1>
-<h2>My web document content ...</h2>
-<button onclick="alert('You look very pretty today.')">Default Alert</button>
-<button class="button10" onclick="Alert.render('hej <br> bej')" >Custom Alert</button>
+<button class="button10" onclick="Alert.render('SKINKEOST <br> NATURELOST <br> BACONOST <br> GARLIOST <br> PEBEROST')" >STATUS</button>
 	
-	<h1 class="styleGuideContent-software-mobile-sg">KONTROL PANEL</h1>
-	<h2 class="styleGuideContent-software-mobile-sg">LAYOUT</h2>
-	<p class="styleGuideContent-software-mobile-sg">EURO PALLE - "BUKO"</p>
-	<img class= "slidecontrol" name="slide" alt="paller" >
 	<button class="button10">TILPAS</button>
-	<button class="button11">STOP</button>
+	<button class="button11" onclick="alert('SKAL DENNE PALLETERING STOPPES?')">STOP</button>
 	
-<div class="alert"> 
-<div class="alert info">
-  <span class="closebtn">&times;</span>  
-  <strong>STATUS FOR MIX-PALLETERING</strong> 
-<ul class="a">
-  <li>Reje ost</li>
-  <li>Pikant ost</li>
-</ul>
-<ul class="b">	
-  <li>Skinke ost</li>
-  <li>Naturel ost</li>
-  <li>Bacon ost</li>
-  <li>Garlí ost</li>
-  <li>Peber ost</li>
-</ul>
-</div>
-
-
 </body>
 </html>
