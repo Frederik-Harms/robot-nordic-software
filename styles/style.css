@@ -1883,6 +1883,27 @@ width: 350px;
   color: white;
 }
 
+/****************** STYLING TIL ALLE STATISTIKKER ******************/
+
+.allestatistikkermenu{
+margin: 0 auto;
+text-align: center;
+padding-top: 38px;
+width: 500px;
+}
+
+.allestatistikkermenu h1{
+padding-bottom: 15px;
+}
+
+.allestatistikkermenu .button6{
+width: 350px;
+}
+
+.button6:hover {
+  background-color: #F15C22;
+  color: white;
+}
 
 >>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 /********************* MEDIA QUERIES ************************/
@@ -2313,6 +2334,7 @@ width: 350px;
   }
 
   /****************** STYLING TIL ALLE STATISTIKKER ******************/
+<<<<<<< HEAD
 
 .allestatistikkermenu{
   margin: 0 auto;
@@ -2324,6 +2346,23 @@ width: 350px;
 .allestatistikkermenu .button6{
   width: 308px;
   height: 42px;
+=======
+
+.allestatistikkermenu{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 38px;
+  width: 375px;
+}
+
+.allestatistikkermenu .button6{
+  width: 308px;
+  height: 42px;
+}
+
+.allestatistikkermenu h1{
+  padding-bottom: 15px;
+>>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 }
 
 .allestatistikkermenu h1{
