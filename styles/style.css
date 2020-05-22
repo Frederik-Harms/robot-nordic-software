@@ -1528,9 +1528,6 @@ justify-content: space-around;
   text-align: center;
 }
 
-
-
-
 /******* OPRET SKABELON STYLING  *******/
 /*********** PRAKTISKE ELEMENTER ***********/
 
@@ -2001,6 +1998,27 @@ label {
   text-align: center;
 }
 
+/****************** STYLING TIL ALLE STATISTIKKER ******************/
+
+.allestatistikkermenu{
+margin: 0 auto;
+text-align: center;
+padding-top: 38px;
+width: 500px;
+}
+
+.allestatistikkermenu h1{
+padding-bottom: 15px;
+}
+
+.allestatistikkermenu .button6{
+width: 350px;
+}
+
+.button6:hover {
+  background-color: #F15C22;
+  color: white;
+}
 
 
 /********************* MEDIA QUERIES ************************/
@@ -2171,10 +2189,8 @@ label {
       text-align: left;
     }
 
-
-
 /****************************** OPRET SKABELON ****************/
-  h1.overskrift-opret{
+  h1{
     font-size: 30px;
     font-weight: 600;
   }
@@ -2430,8 +2446,23 @@ label {
     margin-bottom: 20px;
   }
 
+  /****************** STYLING TIL ALLE STATISTIKKER ******************/
 
+.allestatistikkermenu{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 38px;
+  width: 375px;
+}
 
+.allestatistikkermenu .button6{
+  width: 308px;
+  height: 42px;
+}
+
+.allestatistikkermenu h1{
+  padding-bottom: 15px;
+}
 
 }
 
