@@ -1355,7 +1355,7 @@ input.invalid {
 }
 
 .tab2 {
-  margin-top: -369px;
+  margin-top: -240px;
 }
 
 .tab H2 {
@@ -1833,15 +1833,13 @@ label {
   text-align: center;
 }
 
-
-
 /********* DROP DOWN FUNKTIONEN INDEN I ALT DET PRAKTISKE - STEP 4  **************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .accordion-opret1{
     background: #ffffff;
-    width: 346px;
+    width: 350px;
     height: 39px;
     margin: 0 auto;
     padding-top: 10px;
