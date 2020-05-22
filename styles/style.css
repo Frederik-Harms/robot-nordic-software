@@ -1418,10 +1418,8 @@ p22 {
 
 }
 
-/**Graf på statistik siden**/
-.container {
-	margin-top: 500px;
-}
+
+/*___________________*/
 
 .alert {
   padding: 20px;
@@ -1598,13 +1596,15 @@ background-color: #f15c22;
 color: #313131;
 }
 
-/************ GRAF ************/
-
-/*Graf*/
-.container {
-	position: relative;
-	height:30vh;
-	width:50vw;
-	margin:100px;
-	margin-left:320px
+/** Graf på statistik siden **/
+.canvas_container {
+align-content: center;
+margin-top: 40%;
 }
+
+.canvas_container_btn {
+align-content: center;
+}
+
+
+/************ GRAF ************/
