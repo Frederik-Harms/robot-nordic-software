@@ -1032,7 +1032,7 @@ header img {
 }
 
 .samletknapper {
-  width: 245px;
+  width: 350px;
   height: 84px;
   border: 1px solid black;
   border-radius: 4px;
@@ -1041,12 +1041,13 @@ header img {
 }
 
 .samletknapper2 {
-  width: 245px;
+  width: 350px;
   height: 84px;
   border: 1px solid black;
   border-radius: 0px 0 4px 4px;
   margin: 0 auto;
   padding-left: 1px;
+  padding-bottom: 20px;
 }
 
 .samletknapper img {
@@ -1066,7 +1067,7 @@ header img {
 }
 
 .button21 {
-  width: 240px;
+  width: 346px;
   height: 28px;
   background-color: #ffffff;
   display: inline-block;
@@ -1081,7 +1082,7 @@ header img {
 }
 
 .button22 {
-  width: 240px;
+  width: 346px;
   height: 25px;
   background-color: #ffffff;
   display: inline-block;
@@ -1107,10 +1108,11 @@ header img {
 
 .accordion{
     background: #ffffff;
-    width: 245px;
+    width: 350px;
     height: 28px;
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 100px;
 }
 
 .accordion-tab {
@@ -1141,6 +1143,7 @@ label {
     display: block;
     height: 28px;
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 .accordion-tab > .accordion-content{
@@ -1179,16 +1182,6 @@ label {
     background: red;
     font-family: 'Century Gothic';
     color: blue;
-}
-
-.beskrivelsen {
-  width: 308px;
-  height: 80px;
-  border: 1px solid black;
-}
-
-.detaljen {
-  width: 308px;
 }
 
 
@@ -1258,7 +1251,7 @@ input.invalid {
 }
 
 .tab2 {
-  margin-top: -290px;
+  margin-top: -369px;
 }
 
 .tab H2 {
@@ -1305,6 +1298,8 @@ input.invalid {
 .knapbox{
   overflow: auto;
   margin: 0 auto;
+  margin-top: auto;
+  padding-bottom: 50px;
 }
 .knapbox2{
   display: flex;
@@ -1316,8 +1311,8 @@ input.invalid {
 /****************** GENNEMGANG AF MIX-PALLETERING ******************/
 
 .gennemgang {
-  width: 310px;
-  height: 700px;
+  width: 500px;
+  height: 740px;
   border: 1px solid black;
   margin: 0 auto;
   margin-top: -10px;
@@ -1332,6 +1327,30 @@ input.invalid {
 display: flex;
 justify-content: space-around;
 } */
+
+.tabs {
+  margin-top: 20px;
+}
+
+.gennemgang2 {
+  width: 500px;
+  height: 485px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.gennemgang2 img {
+  margin: 0 auto;
+}
+/*
+.ost {
+display: flex;
+justify-content: space-around;
+} */
+
+.ost {
+  margin-top: 30px;
+}
 
 .ost h4 {
   float: left;
@@ -1498,6 +1517,82 @@ justify-content: space-around;
     line-height: 35px;
     /* padding: 12px 50px; */
     text-align: center;
+  }
+
+  .tab2 {
+    margin-top: -290px;
+  }
+
+  .gennemgang {
+    width: 310px;
+    height: 740px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .gennemgang2 {
+    width: 310px;
+    height: 485px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  .samletknapper {
+    width: 245px;
+    height: 84px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px auto 0 auto;
+    padding-left: 1px;
+  }
+
+  .samletknapper2 {
+    width: 245px;
+    height: 84px;
+    border: 1px solid black;
+    border-radius: 0px 0 4px 4px;
+    margin: 0 auto;
+    padding-left: 1px;
+    padding-bottom: 20px;
+  }
+
+  .accordion{
+      background: #ffffff;
+      width: 245px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 100px;
+  }
+
+  .button21 {
+    width: 240px;
+    height: 28px;
+    background-color: #ffffff;
+    display: inline-block;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    float: left;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+
+  .button22 {
+    width: 240px;
+    height: 25px;
+    background-color: #ffffff;
+    display: inline-block;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    float: left;
+    text-align: left;
   }
 
 }

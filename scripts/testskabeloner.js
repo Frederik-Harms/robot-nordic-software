@@ -11,7 +11,7 @@ function showTab(n) {
   } else {
     document.getElementById("prevBtnskabelon").style.display = "inline";
   }
-  if (n == (x.length - 1)) {
+  if (n == (x.length - 2)) {
     document.getElementById("nextBtnskabelon").innerHTML = "START";
   } else {
     document.getElementById("nextBtnskabelon").innerHTML = "VIDERE";
@@ -24,7 +24,7 @@ function nextPrev(n) {
   // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
   // Exit the function if any field in the current tab is invalid:
-  if (n == 1 && !validateForm()) return false;
+  if (n == 2 && !validateForm()) return false;
   // Hide the current tab:
   x[currentTab].style.display = "none";
   // Increase or decrease the current tab by 1:
