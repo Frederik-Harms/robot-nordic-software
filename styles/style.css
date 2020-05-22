@@ -18,7 +18,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
-/**Fjerner streger under links**/
+
 a {
 	text-decoration: none;
 }
@@ -27,11 +27,11 @@ a {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
+
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: black;
 }
-
 
 .nav {
     height: 60px;
@@ -1056,9 +1056,7 @@ header img {
 }
 
 .loginside {
-<<<<<<< HEAD
   width: 400px;
-=======
   width: 375px;
   text-align: center;
   justify-content: center;
@@ -1290,8 +1288,6 @@ label {
     font-family: 'Century Gothic';
     color: blue;
 }
-
-
 
 #nextBtnskabelon{
   width: 97px;
@@ -1774,7 +1770,6 @@ p4.laginfo{
 
 label {
   padding-left: 5px;
->>>>>>> 9f6a9c678ad2895d446fcd4cebd7d70bbe7ee71b
   text-align: center;
   justify-content: center;
   padding-top: 15px;
@@ -1786,8 +1781,6 @@ input {
   width: 253px;
   border: solid 1px;
   border-radius: 4px;
-<<<<<<< HEAD
-=======
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -1806,7 +1799,6 @@ input {
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 200px;
->>>>>>> 9f6a9c678ad2895d446fcd4cebd7d70bbe7ee71b
 }
 
 .brugernavn {
@@ -1859,8 +1851,6 @@ p22 {
   fill: #ffffff;
 }
 
-<<<<<<< HEAD
-=======
 /****************** STYLING TIL ALLE STATISTIKKER ******************/
 
 .allestatistikkermenu{
@@ -1905,7 +1895,6 @@ width: 350px;
   color: white;
 }
 
->>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 /********************* MEDIA QUERIES ************************/
 /******************* 801 ELLER  HØJERE ***************************/
 @media only screen and (min-width: 801px) {
@@ -1998,8 +1987,6 @@ width: 350px;
     text-align: center;
   }
 
-<<<<<<< HEAD
-=======
     .tab2 {
       margin-top: -290px;
     }
@@ -2334,7 +2321,6 @@ width: 350px;
   }
 
   /****************** STYLING TIL ALLE STATISTIKKER ******************/
-<<<<<<< HEAD
 
 .allestatistikkermenu{
   margin: 0 auto;
@@ -2346,7 +2332,7 @@ width: 350px;
 .allestatistikkermenu .button6{
   width: 308px;
   height: 42px;
-=======
+}
 
 .allestatistikkermenu{
   margin: 0 auto;
@@ -2362,14 +2348,12 @@ width: 350px;
 
 .allestatistikkermenu h1{
   padding-bottom: 15px;
->>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 }
 
 .allestatistikkermenu h1{
   padding-bottom: 15px;
 }
 
->>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 }
 
 /************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
