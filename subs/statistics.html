@@ -61,7 +61,25 @@
       <script src="../scripts/style.js"></script>
 </header>
 <body>
-	<h1 class="styleGuideContent-software-mobile-sg">STATISTIKKER</h1>
+<h1 class="styleGuideContent-software-mobile-sg">STATISTIKKER</h1>
+
+  <div class="date-picker"> <!-- wrapper for alt det nedenstående -->
+      <div class="selected-date">30/07/20</div>
+
+      <div class="dates"> <!-- date-dropdown. Når vi klikker på "dates" vil den vise "month", de to "arrows": prev/next gør at man kan bevæge sig frem og tilbage -->
+          <div class="month">
+              <div class="arrows prev-mth">&lt;</div> <!-- &lt=lesser than -->
+              <div class="mth">Maj 2020</div> <!-- viser månederne: Juni, Juli, August osv -->
+              <div class="arrows next-mth">&gt;</div> <!-- &gt=greater than -->
+          </div>
+
+          <div class="days"><!-- 31 dage = ikke alle mdr har 31 - sådan er det for nu -->
+      </div>
+  </div>
+
+<script src="../datepicker.js"></script>
+
+
  <div class="container">
     <canvas id="myChart"></canvas>
 	 <button class="button8">UDSKRIV</button>
