@@ -7,9 +7,9 @@ function showTab(n) {
   x[n].style.display = "block";
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
-    document.getElementById("ANULLEREKNAP").style.display = "none";
+    document.getElementById("ANNULLERKNAP").style.display = "none";
   } else {
-    document.getElementById("ANULLEREKNAP").style.display = "inline";
+    document.getElementById("ANNULLERKNAP").style.display = "inline";
   }
   if (n == (x.length - 1)) {
     document.getElementById("VIDEREKNAP").innerHTML = "START";

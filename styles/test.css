@@ -1056,7 +1056,7 @@ header img {
   text-align: center;
 }
 
-#ANULLEREKNAP{
+#ANNULLERKNAP{
   width: 99px;
   height: 41px;
   margin: 20px 10px 0 10px;
@@ -1131,7 +1131,7 @@ p4.tilfoj{
 h4.foratvareover{
   font-size: 26px;
   margin-top: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 /* STYLER TEKSTEN PÅ SIDEN I "ER DU SIKKER DU HAR TILFØJET ALLE" - STEP 3 */
@@ -1175,8 +1175,8 @@ h5.foratvaretekst{
 
 /***** STYLINGEN TIL MINUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
 .button23 {
-  width: 61px;
-  height: 61px;
+  width: 41px;
+  height: 41px;
   margin-top: 15px;
   border-radius: 6px;
   background-color: #ffffff;
@@ -1193,16 +1193,16 @@ h5.foratvaretekst{
 
 /***** STYLER MINUS KNAPPEN TIL SVG BILLEDET *****/
 .button23 img {
-  width: 30px;
-  height: 30px;
-  margin-top: 12px;
+  width: 20px;
+  height: 20px;
+  margin-top: 9px;
   text-align: center;
 }
 
 /***** STYLINGEN TIL PLUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
 .button24 {
-  width: 61px;
-  height: 61px;
+  width: 41px;
+  height: 41px;
   margin-top: 15px;
   border-radius: 6px;
   background-color: #ffffff;
@@ -1215,23 +1215,25 @@ h5.foratvaretekst{
   line-height: 39px;
   padding: 0 5px;
   margin-left: 8px;
+  margin-top: 20px;
 }
 
 /***** STYLER PLUS KNAPPEN TIL SVG BILLEDET *****/
 .button24 img {
-  width: 30px;
-  height: 30px;
-  margin-top: 12px;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
   text-align: center;
 }
 
 /***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 3 *****/
 .borderforatvare {
-  width: 310px;
+  width: 500px;;
   height: 225px;
   border: 1px solid #F15C22;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* STYLER UNDER OVERSKRIFTERNE PÅ SIDERNE I ALT DET PRAKTISKE - STEP 4 */
@@ -1239,7 +1241,6 @@ p4.laginfo{
   font-size: 20px;
   font-weight: 600;
 }
-
 
 /********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON  **************/
 
@@ -1392,17 +1393,107 @@ label {
     overflow: auto;
 }
 
-/****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
-
 
 /***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
 .borderforatvare2 {
-  width: 310px;
-  height: 425px;
-  border: 1px solid #F15C22;
+  width: 500px;
+  height: 405px;
+  border: 1px solid #aaaaaa;
   margin: 0 auto;
   margin-top: 20px;
 }
+
+/****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
+.gennemgang-opret {
+  width: 500px;
+  height: 740px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.gennemgang-opret img {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.ost{
+  margin-top: 30px;
+}
+
+.ost h4 {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 0;
+  padding-left: 20px;
+}
+
+.ost img {
+  padding-top: 5px;
+}
+
+.ost h5 {
+  float: right;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0;
+  padding-right: 20px;
+}
+
+.ost1 img {
+  margin-left: 39px;
+  margin-right: 0;
+}
+
+.ost2 img {
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+.ost3 img {
+  margin-left: 17px;
+  margin-right: 0;
+}
+
+.ost4 img {
+  margin-left: 11px;
+  margin-right: 0;
+}
+
+.ost5 img {
+  margin-left: 21px;
+  margin-right: 0;
+}
+
+.ost6 img {
+  margin-left: 33px;
+  margin-right: 0;
+}
+
+.ost7 img {
+  margin-left: 23px;
+  margin-right: 0;
+}
+
+.praktisk h2 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.praktisk h3 {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
@@ -1522,7 +1613,6 @@ input {
   border: 1px solid #aaaaaa;
 }
 
-
   /* MARKERE CIRKLERNE PÅ SIDEN I FORM WIZARDEN */
 
   .step {
@@ -1563,7 +1653,7 @@ input {
   .accordion-tab-opret > label{
       color: #000000;
       background: #ffffff;
-      border: 0.5px solid #000000;
+      border: 1px solid #aaaaaa;
       border-radius: 4px;
       font-size: 16px;
       line-height: 26px;
@@ -1601,7 +1691,7 @@ input {
   .accordion-tab-opret1 > label{
       color: #000000;
       background: #ffffff;
-      border: 0.5px solid #000000;
+      border: 1px solid #aaaaaa;
       border-radius: 4px;
       font-size: 16px;
       line-height: 26px;
@@ -1629,20 +1719,45 @@ input {
     text-align: center;
   }
 
+  /***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 3 *****/
+  .borderforatvare {
+    width: auto;
+    height: 335px;
+    border: 1px solid #F15C22;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
+  .borderforatvare2 {
+    width: auto;
+    height: 435px;
+    border: 1px solid #aaaaaa;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
 
   /****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
   .gennemgang-opret {
-    width: 310px;
-    height: 700px;
+    width: auto;
+    height: 720px;
     border: 1px solid black;
     margin: 0 auto;
     margin-top: -10px;
+    margin-bottom: 15px;
   }
 
   .gennemgang-opret img {
     margin: 0 auto;
     padding-top: 40px;
   }
+
+  .ost{
+    margin-top: 10px;
+  }
+
   /*
   .ost {
   display: flex;
@@ -1722,6 +1837,13 @@ input {
   }
 }
 
+h4.foratvareover{
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 /************ Dette er burgermenuen på hver side ************/
 /*********** 500 eller lavere ****************/
 @media only screen and (max-width: 500px) {
@@ -1792,9 +1914,6 @@ input {
   }
 
 }
-
-
-
 
 
 /************* SETTINGS FOR MEDIA QUERIES MED BURGERMENU **********/
