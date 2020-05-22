@@ -1518,6 +1518,7 @@ ul.b {
 
 }
 
+/*Den viste/valgte dato */
 .date-picker .selected-date {
   width: 100%;
   height: 100%;
@@ -1593,11 +1594,11 @@ height: 200px;
 
 /* Når en dag bliver valgt */
 .date-picker .dates .days .day.selected {
-background-color: #00ca85;
+background-color: #f15c22;
 color: #313131;
 }
 
-
+/************ GRAF ************/
 
 /*Graf*/
 .container {
