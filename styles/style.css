@@ -1056,6 +1056,9 @@ header img {
 }
 
 .loginside {
+<<<<<<< HEAD
+  width: 400px;
+=======
   width: 375px;
   text-align: center;
   justify-content: center;
@@ -1771,58 +1774,20 @@ p4.laginfo{
 
 label {
   padding-left: 5px;
+>>>>>>> 9f6a9c678ad2895d446fcd4cebd7d70bbe7ee71b
   text-align: center;
-  height: 28px;
+  justify-content: center;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 
-.accordion-tab-opret > label{
-    color: #000000;
-    background: #ffffff;
-    border: 1px solid #aaaaaa;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600;
-    position: relative;
-    display: block;
-    height: 28px;
-    cursor: pointer;
-}
-
-.accordion-tab-opret > .accordion-content-opret{
-    max-height: 0;
-    transition: 350ms;
-    overflow: hidden;
-}
-
-.accordion-tab-opret > label:after {
-    content: '\f054';
-    position: absolute;
-    right: 20px;
-    font-family: fontawesome;
-    transform: rotate(90deg);
-    transition:transform .30s ;
-}
-
-.accordion-tab-opret > .accordion-toggle-opret:checked ~ label:after{
-    transform: rotate(270deg);
-}
-
-.accordion-tab-opret > .accordion-toggle-opret:checked ~ .accordion-content-opret{
-    max-height: 100vh;
-    overflow: auto;
-}
-
-/***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
-.button22 {
-  width: 350px;
-  height: 29px;
-  background-color: #ffffff;
-  display: inline-block;
-  border: 1px solid #aaaaaa;
-  opacity: 80%;
-  color: black;
+input {
+  height: 39px;
+  width: 253px;
+  border: solid 1px;
   border-radius: 4px;
+<<<<<<< HEAD
+=======
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -1841,161 +1806,81 @@ label {
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 200px;
+>>>>>>> 9f6a9c678ad2895d446fcd4cebd7d70bbe7ee71b
 }
 
-.accordion-tab-opret1 {
-  padding-bottom: 10px;
-  height: 39px;
+.brugernavn {
+  margin-bottom: 10px;
 }
 
-.accordion-tab-opret1 > .accordion-toggle-opret1{
-    position: absolute;
-    display: none;
+p22 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 200;
 }
 
-label {
-  padding-left: 5px;
+.forsideknapper {
+  margin-top: 50px;
   text-align: center;
-  height: 28px;
 }
 
-.accordion-tab-opret1 > label{
-    color: #000000;
-    background: #ffffff;
-    border: 1px solid #aaaaaa;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600;
-    position: relative;
-    display: block;
-    height: 28px;
-    cursor: pointer;
+.brugernavn {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.accordion-tab-opret1 > .accordion-content-opret1{
-    max-height: 0;
-    transition: 350ms;
-    overflow: hidden;
+.adgangskode {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.accordion-tab-opret1 > label:after {
-    content: '\f054';
-    position: absolute;
-    right: 20px;
-    font-family: fontawesome;
-    transform: rotate(90deg);
-    transition:transform .30s ;
-}
-
-.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ label:after{
-    transform: rotate(270deg);
-}
-
-.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ .accordion-content-opret1{
-    max-height: 100vh;
-    overflow: auto;
-}
-
-
-/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
-.borderforatvare2 {
-  width: 500px;
-  height: 405px;
-  border: 1px solid #aaaaaa;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-/****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
-.gennemgang-opret {
-  width: 500px;
-  height: 740px;
-  border: 1px solid black;
-  margin: 0 auto;
-  margin-top: -10px;
-  margin-bottom: 15px;
-}
-
-.gennemgang-opret img {
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.ost{
+.button2login {
+  width: 71px;
+  height: 71px;
   margin-top: 30px;
-}
-
-.ost h4 {
-  float: left;
-  font-size: 18px;
-  font-weight: 600;
-  margin-right: 0;
-  padding-left: 20px;
-}
-
-.ost img {
-  padding-top: 5px;
-}
-
-.ost h5 {
-  float: right;
-  font-size: 18px;
-  font-weight: 300;
-  margin-left: 0;
-  padding-right: 20px;
-}
-
-.ost1 img {
-  margin-left: 39px;
-  margin-right: 0;
-}
-
-.ost2 img {
-  margin-left: 23px;
-  margin-right: 0;
-}
-
-.ost3 img {
-  margin-left: 17px;
-  margin-right: 0;
-}
-
-.ost4 img {
-  margin-left: 11px;
-  margin-right: 0;
-}
-
-.ost5 img {
-  margin-left: 21px;
-  margin-right: 0;
-}
-
-.ost6 img {
-  margin-left: 33px;
-  margin-right: 0;
-}
-
-.ost7 img {
-  margin-left: 23px;
-  margin-right: 0;
-}
-
-.praktisk h2 {
-  margin: 0 auto;
-  font-size: 18px;
+  border-radius: 6px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 19px;
   font-weight: 700;
-  padding-bottom: 0;
+  line-height: 39px;
+  padding: 0 5px;
   text-align: center;
 }
 
-.praktisk h3 {
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: 300;
-  padding-bottom: 0;
-  padding-top: 0;
-  text-align: center;
+.button2login img {
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+  fill: #ffffff;
+}
+
+<<<<<<< HEAD
+=======
+/****************** STYLING TIL ALLE STATISTIKKER ******************/
+
+.allestatistikkermenu{
+margin: 0 auto;
+text-align: center;
+padding-top: 38px;
+width: 500px;
+}
+
+.allestatistikkermenu h1{
+padding-bottom: 15px;
+}
+
+.allestatistikkermenu .button6{
+width: 350px;
+}
+
+.button6:hover {
+  background-color: #F15C22;
+  color: white;
 }
 
 /****************** STYLING TIL ALLE STATISTIKKER ******************/
@@ -2020,7 +1905,7 @@ width: 350px;
   color: white;
 }
 
-
+>>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 /********************* MEDIA QUERIES ************************/
 /******************* 801 ELLER  HØJERE ***************************/
 @media only screen and (min-width: 801px) {
@@ -2113,6 +1998,8 @@ width: 350px;
     text-align: center;
   }
 
+<<<<<<< HEAD
+=======
     .tab2 {
       margin-top: -290px;
     }
@@ -2447,6 +2334,19 @@ width: 350px;
   }
 
   /****************** STYLING TIL ALLE STATISTIKKER ******************/
+<<<<<<< HEAD
+
+.allestatistikkermenu{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 38px;
+  width: 375px;
+}
+
+.allestatistikkermenu .button6{
+  width: 308px;
+  height: 42px;
+=======
 
 .allestatistikkermenu{
   margin: 0 auto;
@@ -2462,8 +2362,14 @@ width: 350px;
 
 .allestatistikkermenu h1{
   padding-bottom: 15px;
+>>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 }
 
+.allestatistikkermenu h1{
+  padding-bottom: 15px;
+}
+
+>>>>>>> 047dc5b2b0508f1c6f725c57109b521d229bbee1
 }
 
 /************ DETTE ER BURGERMENUEN PÅ HVER SIDE ************/
@@ -2848,15 +2754,23 @@ background-color: #f15c22;
 color: #313131;
 }
 
-/** Graf på statistik siden **/
+/*************** GRAF PÅ STATISTIK-SIDEN ****************/
 .canvas_container {
 align-content: center;
 margin-top: 40%;
 }
 
-.canvas_container_btn {
-align-content: center;
+.container_btn-group {
+  align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .canvas_container {
+  align-content: center;
+  margin-top: 40%;
+  }
 
-/************ GRAF ************/
+  .container_btn-group {
+    float: left; /* Float the buttons side by side */
+  }
+}
