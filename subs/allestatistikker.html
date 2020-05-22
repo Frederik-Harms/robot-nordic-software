@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Robot Nordic - Statistikker</title>
+    <title>Robot Nordic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
-	<script src="../scripts/statistics.js" defer></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <meta name="Robot Nordic Software" content="Dette er vores prototype til Robot Nordic">
 </head>
 
@@ -53,40 +51,24 @@
                 <li class="nav-item"><a href="indstillinger.html" class="nav-link">INDSTILLINGER</a></li>
 
                 <li class="nav-item"><a href="login.html" class="nav-link">LOG UD</a></li>
-          	</ul>
+          </ul>
           </div>
         </nav>
       </div>
-
       <script src="../scripts/style.js"></script>
 </header>
+
 <body>
-<h1 class="styleGuideContent-software-mobile-sg">STATISTIKKER</h1>
 
-  <div class="date-picker"> <!-- wrapper for alt det nedenstående -->
-      <div class="selected-date">30/07/20</div>
+  <div class="allestatistikkermenu">
+    <h1>ALLE STATISTIKKER</h1>
 
-      <div class="dates"> <!-- date-dropdown. Når vi klikker på "dates" vil den vise "month", de to "arrows": prev/next gør at man kan bevæge sig frem og tilbage -->
-          <div class="month">
-              <div class="arrows prev-mth">&lt;</div> <!-- &lt=lesser than -->
-              <div class="mth">Maj 2020</div> <!-- viser månederne: Juni, Juli, August osv -->
-              <div class="arrows next-mth">&gt;</div> <!-- &gt=greater than -->
-          </div>
-
-          <div class="days"><!-- 31 dage = ikke alle mdr har 31 - sådan er det for nu -->
-      </div>
-  </div>
-
-<script src="../datepicker.js"></script>
-
-
- <div class="canvas_container">
-    <canvas id="myChart"></canvas>
-    </div>
-
-<div class="container_btn-group">
-	 <button class="button8">UDSKRIV</button>
-	<button class="button8">DOWNLOAD</button>
- </div>
+<a href="statistics.html" class="button button6">PALLLEFORBRUG</a>
+<a href="statistics.html" class="button button6">FOLIEFORBRUG</a>
+<a href="statistics.html" class="button button6">ANTAL FEJLSTOP</a>
+<a href="statistics.html" class="button button6">PRODUKTIONS TID</a>
+<a href="statistics.html" class="button button6">SERVICE</a>
+<a href="statistics.html" class="button button6">ANTAL ORDRE I KØ</a>
+<a href="statistics.html" class="button button6">DAGS RAPPORT</a>
+</div>
 </body>
-</html>
