@@ -31,7 +31,7 @@ date_picker_element.addEventListener('click', toggleDatePicker);
 next_mth_element.addEventListener('click', goToNextMonth);
 prev_mth_element.addEventListener('click', goToPrevMonth);
 
-// FUNCTIONS
+// FUNKTIONER
 function toggleDatePicker (e) {
 	if (!checkEventPathForClass(e.path, 'dates')) {
 		dates_element.classList.toggle('active');
@@ -91,9 +91,9 @@ function populateDates (e) {
 	}
 }
 
-// HELPER FUNCTIONS
+// HJÆLPE FUNKTIONER
 function checkEventPathForClass (path, selector) {
-	for (let i = 0; i < path.length; i++) {
+	for (let i = 0; i < path.length; i++) { //path.lengt = et loop: Når der klikkes på steder i kalenderen (fx pilene), forsvinder siden ikke.
 		if (path[i].classList && path[i].classList.contains(selector)) {
 			return true;
 		}
