@@ -18,6 +18,10 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+/**Fjerner streger under links**/ 
+a {
+	text-decoration: none;
+}
 
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
@@ -1413,6 +1417,7 @@ p22 {
     }
 
 }
+<<<<<<< HEAD
 /**Graf på statistik siden**/
 .container_alert {
 	margin-top: 500px;
@@ -1453,9 +1458,44 @@ ul.b {
 	color: #222B3B;
 }
 
+=======
+/**Status over pakning af pallen, vises som alert**/
+#dialogoverlay{
+	display: none;
+	opacity: 30%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #eeeeee;
+	border-radius:5px; 
+	width:400px;
+	height: auto;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #222B3B; font-size:19px; padding:20px; color:#ffffff; }
+#dialogbox > div > #dialogboxbody{ background:#ffffff; padding:20px; color:#000000; }
+#dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; } 
+
+
+/** palle slideshow placering på siden**/
+>>>>>>> ed381fe5a5fdcdab3ea9c407f91efabc3b1e6ba1
 .slidecontrol {
 	margin-left: 630px;
 	margin-top: 20px;
+}
+.slidecontrol2 {
+	margin-left: 630px;
+	margin-top: 20px;
+	height: 10px;
+	width: 40px;
 }
 
 /************* DATEPICKER - STYLING ************/

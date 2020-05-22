@@ -28,13 +28,27 @@ alert();
 
 	window.onload = changeImg;
 
-var close = document.getElementsByClassName("closebtn");
-var a;
 
-for (a = 0; i < close.length; i++) {
-  close[i].onclick = function(){
-    var div = this.parentElement;
-    div.style.opacity = "0";
-    setTimeout(function(){ div.style.display = "none"; }, 600);
-  }
+//Status over pakkede paller, vises i en alert 
+function CustomAlert(){
+    this.render = function(dialog){
+        var winW = window.innerWidth;
+        var winH = window.innerHeight;
+        var dialogoverlay = document.getElementById('dialogoverlay');
+        var dialogbox = document.getElementById('dialogbox');
+        dialogoverlay.style.display = "block";
+        dialogoverlay.style.height = winH+"px";
+        dialogbox.style.left = (winW/2) - (550 * .5)+"px";
+        dialogbox.style.top = "100px";
+        dialogbox.style.display = "block";
+        document.getElementById('dialogboxhead').innerHTML = "PAKKE STATUS";
+        document.getElementById('dialogboxbody').innerHTML = dialog;
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">OK</button>';
+    }
+	/**lukker boxen igen med ok knappen**/
+	this.ok = function(){
+		document.getElementById('dialogbox').style.display = "none"; 
+		document.getElementById('dialogoverlay').style.display = "none"; 
+	}
 }
+var Alert = new CustomAlert();

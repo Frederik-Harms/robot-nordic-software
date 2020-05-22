@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="da" dir="ltr">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<meta charset="UTF-8">
     <title>Robot Nordic - Control Panel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?    family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
-		
-		<script type="text/javascript" src="../scripts/control_panel.js"></script>
-	    <script type="text/javascript" src="../scripts/statusbar.js"></script>
-		<meta name="Robot Nordic Software" content="Dette er vores prototype til Robot Nordic">
+	<script type="text/javascript" src="../scripts/control_panel.js"></script>
+	<meta name="Robot Nordic Software" content="Dette er vores prototype til Robot Nordic">
 </head>
-
-
 <nav>
   <div class="nav">
       <div class="navLogo">
@@ -63,29 +60,16 @@
       <script src="../scripts/style.js"></script>
 </header>
 
-
 <body>
-	<!-- slideshow palle billede -->
 	<h1 class="styleGuideContent-software-mobile-sg">KONTROL PANEL</h1>
-	<h2 class="styleGuideContent-software-mobile-sg">LAYOUT</h2>
-	<p class="styleGuideContent-software-mobile-sg">EURO PALLE - "BUKO"</p>
-	<img class= "slidecontrol" name="slide" alt="paller" >
+	<h2 class="styleGuideContent-software-mobile-sg">TILPAS SKABELONEN</h2>
+	<p class="styleGuideContent-software-mobile-sg">ØNSKER DU AT FORETAGE ÆNDRINGER?</p>
+	<img src="../assets/img/palle_show/palle3.jpg" class="slidecontrol" alt="Oversigt over pallen, hvor den er nået til i pakningen"> <!--den samme claas bruges som på control_panel--> 
+	<p class="styleGuideContent-software-mobile-sg">STEMMER ALT OVERENS?</p>
 	
-	<!-- slideshow status billede -->
-	<img class= "slidecontrol2" name="slide2" alt="status" >
-	
-	<!-- Status over pallens pakning, vises i en alert --> 
-	<div id="dialogoverlay"></div>
-<div id="dialogbox">
-  <div>
-    <div id="dialogboxhead"></div>
-    <div id="dialogboxbody"></div>
-    <div id="dialogboxfoot"></div>
-  </div>
-</div>
-<button class="button10" onclick="Alert.render('<strong>GENNEMFØRTE PAKKER</strong><br>REJE OST √ <br>PIKANT OST √ <br>SKINKE OST<br>NATUREL OST<br>BACON OST<br>GARLí OST<br>PEBER OST')" >STATUS</button>
-	<button class="button10">TILPAS</button>
-	<button class="button11" onclick="alert('SKAL DENNE PALLETERING STOPPES?')">STOP</button>
+	<!--dette er knapperne, lavet som link, så den går tilbage til kontrol siden igen-->
+	<a class="button10" href="control_panel.html">ANNULER</a>
+	<a class="button11" href="control_panel.html">GODKEND</a>
 	
 </body>
 </html>

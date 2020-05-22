@@ -1024,7 +1024,8 @@ header img {
 }
 
 
-/*********** OPRET SKABELON STYLING ************/
+/******* OPRET SKABELON STYLING  *******/
+/*********** PRAKTISKE ELEMENTER ***********/
 
 .opretskabeloner {
   height: 100vh
@@ -1032,20 +1033,17 @@ header img {
   text-align: center;
 }
 
-h1.intro{
-  margin-bottom: 150px;
-}
-
-/* Hide all steps by default: */
+/* GØR DET MULIGT AT BLIVE PÅ DEN SAMME HTML SIDE, MEN SKJULE RESTERENDE ELEMENTER */
 .tab {
   display: none;
 }
 
+/********** DE FASTE KNAPPER SOM ER EN DEL AF FORM WIZAREDEN ********/
 
-#nextBtn{
+#VIDEREKNAP{
   width: 99px;
   height: 41px;
-  margin-top: 15px;
+  margin: 20px 10px 0 10px;
   border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
@@ -1058,10 +1056,10 @@ h1.intro{
   text-align: center;
 }
 
-#prevBtn{
+#ANULLEREKNAP{
   width: 99px;
   height: 41px;
-  margin-top: 15px;
+  margin: 20px 10px 0 10px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -1074,8 +1072,21 @@ h1.intro{
   text-align: center;
 }
 
+/* STYLER KNAPPERNES PLACERING */
+.knapbox{
+  overflow: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 8px;
+}
+.knapbox2{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
+}
 
-/* Style the form */
+/***** STYLER HELE FORMEN ******/
 #regForm {
   background-color: #ffffff;
   margin: 40px auto 0 auto;
@@ -1085,11 +1096,12 @@ h1.intro{
   min-width: 300px;
 }
 
-/* Style the input fields */
+/* STYLER INPUT FELTERNE PÅ FORM WIZARDEN */
 input {
   height: 39px;
   width: 26%;
   padding-left: 10px;
+  margin: 8px 8px;
   border: solid 1px;
   border-radius: 4px;
   font-size: 17px;
@@ -1097,21 +1109,40 @@ input {
   border: 1px solid #aaaaaa;
 }
 
-/* Mark input boxes that gets an error on validation: */
+/* STYLER INPUT FELTERNE NÅR DER ER ODAGET EN FEJL I FORM WIZARDEN */
 input.invalid {
   background-color: lightgray;
 }
 
+/* STYLER OVERSKRIFTERNE PÅ ALLE SIDERNE I FORM WIZARDEN */
 h4.tilfojprodukter{
   font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
+/* STYLER UNDER OVERSKRIFTERNE PÅ SIDERNE I TILFØJ PRODUKTER - STEP 2 */
 p4.tilfoj{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
 }
 
-/* Make circles that indicate the steps of the form: */
+/* STYLER TEKSTEN PÅ SIDEN I "ER DU SIKKER DU HAR TILFØJET ALLE" - STEP 3 */
+h4.foratvareover{
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* STYLER TEKSTEN PÅ SIDEN I "ER DU SIKKER DU HAR TILFØJET ALLE" - STEP 3 */
+h5.foratvaretekst{
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* MARKERE CIRKLERNE PÅ SIDEN I FORM WIZARDEN */
 
 .steps {
   padding-top: 20px;
@@ -1128,45 +1159,107 @@ p4.tilfoj{
   opacity: 0.5;
 }
 
-/* MARKERE HVILKEN SIDE DU ER INDE PÅ  */
+/* MARKERE HVILKEN SIDE DU ER INDE PÅ I  FORM WIZARDEN */
 .step.active {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
 }
 
-/* MARKERE HVILKEN SIDER DER ER FÆRDIGE  */
+/* MARKERE HVILKEN SIDER DER ER FÆRDIGE I FORM WIZARDEN  */
 .step.finish {
   background-color: #F15C22;
   opacity: 1;
   border: solid 0.6px;
 }
 
-.knapbox{
-  overflow: auto;
-  margin: 0 auto;
+/***** STYLINGEN TIL MINUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
+.button23 {
+  width: 61px;
+  height: 61px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: solid 2px;
+  border-color: #222B3B;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 39px;
+  padding: 0 5px;
+  margin-top: 20px;
+  margin-right: 8px;
 }
-.knapbox2{
-  display: flex;
-  justify-content: flex-end;
-  justify-content: center;
+
+/***** STYLER MINUS KNAPPEN TIL SVG BILLEDET *****/
+.button23 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
   text-align: center;
 }
 
-.accordion{
+/***** STYLINGEN TIL PLUS KNAPPEN PÅ "TILFØJ PRODUKTER SIDEN *****/
+.button24 {
+  width: 61px;
+  height: 61px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: solid 2px;
+  border-color: #F15C22;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 39px;
+  padding: 0 5px;
+  margin-left: 8px;
+}
+
+/***** STYLER PLUS KNAPPEN TIL SVG BILLEDET *****/
+.button24 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 3 *****/
+.borderforatvare {
+  width: 310px;
+  height: 225px;
+  border: 1px solid #F15C22;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* STYLER UNDER OVERSKRIFTERNE PÅ SIDERNE I ALT DET PRAKTISKE - STEP 4 */
+p4.laginfo{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/********* DROP DOWN FUNKTIONEN INDEN I OPRET NY SKABELON  **************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.accordion-opret{
     background: #ffffff;
-    width: 245px;
-    height: 28px;
+    width: 26%;
+    height: 39px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 10px;
+    padding-bottom: 155px;
 }
 
-.accordion-tab {
+.accordion-tab-opret {
   padding-bottom: 10px;
-  height: 28px;
+  height: 39px;
 }
 
-.accordion-tab > .accordion-toggle{
+.accordion-tab-opret > .accordion-toggle-opret{
     position: absolute;
     display: none;
 }
@@ -1177,10 +1270,10 @@ label {
   height: 28px;
 }
 
-.accordion-tab > label{
+.accordion-tab-opret > label{
     color: #000000;
     background: #ffffff;
-    border: 0.5px solid #000000;
+    border: 1px solid #aaaaaa;
     border-radius: 4px;
     font-size: 16px;
     line-height: 26px;
@@ -1191,13 +1284,13 @@ label {
     cursor: pointer;
 }
 
-.accordion-tab > .accordion-content{
+.accordion-tab-opret > .accordion-content-opret{
     max-height: 0;
     transition: 350ms;
     overflow: hidden;
 }
 
-.accordion-tab > label:after {
+.accordion-tab-opret > label:after {
     content: '\f054';
     position: absolute;
     right: 20px;
@@ -1206,45 +1299,110 @@ label {
     transition:transform .30s ;
 }
 
-.accordion-tab > .accordion-toggle:checked ~ label:after{
+.accordion-tab-opret > .accordion-toggle-opret:checked ~ label:after{
     transform: rotate(270deg);
 }
 
-.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+.accordion-tab-opret > .accordion-toggle-opret:checked ~ .accordion-content-opret{
     max-height: 100vh;
     overflow: auto;
 }
 
-.accordion-tab > .accordion-content p {
-    padding: 30px 20px;
-    font-family: 'Century Gothic';
-    border: 0.5px solid #000000;
+/***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
+.button22 {
+  width: 312px;
+  height: 29px;
+  background-color: #ffffff;
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  opacity: 80%;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  float: left;
+  text-align: center;
+}
+
+/********* DROP DOWN FUNKTIONEN INDEN I ALT DET PRAKTISKE - STEP 4  **************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.accordion-opret1{
+    background: #ffffff;
+    width: 26%;
+    height: 39px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.accordion-tab-opret1 {
+  padding-bottom: 10px;
+  height: 39px;
+}
+
+.accordion-tab-opret1 > .accordion-toggle-opret1{
+    position: absolute;
+    display: none;
+}
+
+label {
+  padding-left: 5px;
+  text-align: center;
+  height: 28px;
+}
+
+.accordion-tab-opret1 > label{
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
 }
 
-.toggle4 label {
-    background: red;
-    font-family: 'Century Gothic';
-    color: blue;
+.accordion-tab-opret1 > .accordion-content-opret1{
+    max-height: 0;
+    transition: 350ms;
+    overflow: hidden;
 }
 
-.beskrivelsen {
-  width: 308px;
-  height: 80px;
-  border: 1px solid black;
+.accordion-tab-opret1 > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
 }
 
-.detaljen {
-  width: 308px;
+.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ label:after{
+    transform: rotate(270deg);
 }
 
+.accordion-tab-opret1 > .accordion-toggle-opret1:checked ~ .accordion-content-opret1{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+/****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
 
 
-
-
-
-
+/***** STYLER BOADEREN DER PÅ TEKST FELTET I STEP 5 *****/
+.borderforatvare2 {
+  width: 310px;
+  height: 425px;
+  border: 1px solid #F15C22;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
 /********************* MEDIA QUERIES ************************/
 /*********** 801 eller højere ****************/
@@ -1269,7 +1427,6 @@ label {
   }
 
 }
-
 
 /************ Dette er burgermenuen på hver side ************/
 /*********** 800 eller lavere ****************/
@@ -1339,6 +1496,230 @@ label {
     text-align: center;
   }
 
+h1.overskrift-opret{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* STYLER OVERSKRIFTERNE PÅ ALLE SIDERNE I FORM WIZARDEN */
+h4.tilfojprodukter{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+/* STYLER INPUT FELTERNE PÅ FORM WIZARDEN */
+input {
+  height: 40px;
+  width: 242px;
+  padding-left: 10px;
+  margin: 8px 8px;
+  border: solid 1px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: Titillium Web;
+  border: 1px solid #aaaaaa;
+}
+
+
+  /* MARKERE CIRKLERNE PÅ SIDEN I FORM WIZARDEN */
+
+  .step {
+    height: 22px;
+    width: 22px;
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    border: solid 0.6px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  .accordion-opret{
+      background: #ffffff;
+      width: 245px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+
+  .accordion-tab-opret {
+    padding-bottom: 10px;
+    height: 28px;
+  }
+
+  .accordion-tab-opret > .accordion-toggle-opret{
+      position: absolute;
+      display: none;
+  }
+
+  label {
+    padding-left: 5px;
+    text-align: center;
+    height: 28px;
+  }
+
+  .accordion-tab-opret > label{
+      color: #000000;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600;
+      position: relative;
+      display: block;
+      height: 28px;
+      cursor: pointer;
+  }
+
+  .accordion-opret1{
+      background: #ffffff;
+      width: 245px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+
+  .accordion-tab-opret1 {
+    padding-bottom: 10px;
+    height: 28px;
+  }
+
+  .accordion-tab-opret1 > .accordion-toggle-opret1{
+      position: absolute;
+      display: none;
+  }
+
+  label {
+    padding-left: 5px;
+    text-align: center;
+    height: 28px;
+  }
+
+  .accordion-tab-opret1 > label{
+      color: #000000;
+      background: #ffffff;
+      border: 0.5px solid #000000;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600;
+      position: relative;
+      display: block;
+      height: 28px;
+      cursor: pointer;
+  }
+
+  /***** STYLER KNAPPEN I DROP DOWN FUNKTIONEN *****/
+  .button22 {
+    width: 242px;
+    height: 28px;
+    background-color: #ffffff;
+    display: inline-block;
+    border: 1px solid #aaaaaa;
+    opacity: 80%;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    float: left;
+    text-align: center;
+  }
+
+
+  /****************** GENNEMGANG AF MIX-PALLETERING - STEP 5 ******************/
+  .gennemgang-opret {
+    width: 310px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .gennemgang-opret img {
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  /*
+  .ost {
+  display: flex;
+  justify-content: space-around;
+  } */
+
+  .ost h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 0;
+    padding-left: 20px;
+  }
+
+  .ost img {
+    padding-top: 5px;
+  }
+
+  .ost h5 {
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 0;
+    padding-right: 20px;
+  }
+
+  .ost1 img {
+    margin-left: 39px;
+    margin-right: 0;
+  }
+
+  .ost2 img {
+    margin-left: 23px;
+    margin-right: 0;
+  }
+
+  .ost3 img {
+    margin-left: 17px;
+    margin-right: 0;
+  }
+
+  .ost4 img {
+    margin-left: 11px;
+    margin-right: 0;
+  }
+
+  .ost5 img {
+    margin-left: 21px;
+    margin-right: 0;
+  }
+
+  .ost6 img {
+    margin-left: 33px;
+    margin-right: 0;
+  }
+
+  .ost7 img {
+    margin-left: 23px;
+    margin-right: 0;
+  }
+
+  .praktisk h2 {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .praktisk h3 {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+  }
 }
 
 /************ Dette er burgermenuen på hver side ************/
