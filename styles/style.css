@@ -2863,6 +2863,10 @@ label {
   /* padding: 12px 50px; */
   text-align: center;
 }
+.liste {
+	font-size: 20px;
+	list-style: square;
+}
 
 
 /** KONTROLPANEL SIDEN HERUNDER V **/

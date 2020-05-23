@@ -41,9 +41,11 @@ function CustomAlert(){
         dialogbox.style.left = (winW/2) - (550 * .5)+"px";
         dialogbox.style.top = "100px";
         dialogbox.style.display = "block";
+		
+		//Øverste, midterste og nederste del i pop op status
         document.getElementById('dialogboxhead').innerHTML = "PAKKE STATUS";
-        document.getElementById('dialogboxbody').innerHTML = '<li class="liste" >hej</li>';dialog;
-        document.getElementById('dialogboxfoot').innerHTML = '<button class="ok" onclick="Alert.ok()">OK</button>';
+        document.getElementById('dialogboxbody').innerHTML = '<li class="liste" >hej hej</li>';dialog;
+        document.getElementById('dialogboxfoot').innerHTML = '<button class="ok" onclick="Alert.ok()">OK</button>'; //OK knappen i den nederste del af pop op
     }
 	/**lukker boxen igen med ok knappen**/
 	this.ok = function(){
