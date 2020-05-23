@@ -44,7 +44,7 @@ function CustomAlert(){
 		
 		//Øverste, midterste og nederste del i pop op status
         document.getElementById('dialogboxhead').innerHTML = "PAKKE STATUS";
-        document.getElementById('dialogboxbody').innerHTML = '<li class="liste" >hej hej</li>';dialog;
+        document.getElementById('dialogboxbody').innerHTML = dialog;
         document.getElementById('dialogboxfoot').innerHTML = '<button class="ok" onclick="Alert.ok()">OK</button>'; //OK knappen i den nederste del af pop op
     }
 	/**lukker boxen igen med ok knappen**/
