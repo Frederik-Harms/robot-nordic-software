@@ -2718,7 +2718,20 @@ width: 350px;
 	text-align:center;
 	
 }
-
+.ok {
+  width: 99px;
+  height: 41px;
+  border-radius: 40px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
 
 
 
