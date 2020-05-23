@@ -2,12 +2,15 @@
 <html lang="da" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Robot Nordic - Alle Statistikker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
-    <meta name="Robot Nordic Software" content="Dette er vores prototype til Robot Nordic">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Nordic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/26c34f5e54.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../styles/style.css">
+  <meta name="Robot Nordic Styleguide" content="Dette er styleguiden vi bruger til vores løsningsforslag til Robot Nordic">
+  <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
 </head>
 
 <nav>
@@ -20,7 +23,7 @@
         <a href="create_layout.html">OPRET NY SKABELON</a>
         <a href="load_layout.html">SKABELONER</a>
         <a href="control_panel.html">KONTROLPANEL</a>
-        <a href="#" class="active">STATISTIKKER</a>
+        <a href="allestatistikker.html" class="active">STATISTIKKER</a>
         <a href="indstillinger.html">INDSTILLINGER</a>
         <a href="login.html">LOG UD</a>
       </div>
@@ -61,14 +64,29 @@
 <body>
 
   <div class="allestatistikkermenu">
-    <h1>ALLE STATISTIKKER</h1>
+    <h1>UDSKRIV</h1>
 
-<a href="statistics.html" class="button button6">PALLLEFORBRUG</a>
-<a href="statistics.html" class="button button6">FOLIEFORBRUG</a>
-<a href="statistics.html" class="button button6">ANTAL FEJLSTOP</a>
-<a href="statistics.html" class="button button6">PRODUKTIONS TID</a>
-<a href="statistics.html" class="button button6">SERVICE</a>
-<a href="statistics.html" class="button button6">ANTAL ORDRE I KØ</a>
-<a href="statistics.html" class="button button6">DAGS RAPPORT</a>
+<div class="tekst1">
+  <p>Destination</p>
+  <div class="accordion-udskriv">
+    <div class="accordion-tab-udskriv">
+      <input id="toggle-udskriv" type="checkbox" class="accordion-toggle-udskriv" name="toggle" />
+      <label for="toggle-udskriv">Skabeloner</label>
+      <div class="accordion-content-udskriv">
+        <div class="samletknapper-udskriv">
+          <button class="button button29">Espson EcoTank</button>
+
+          <button class="button button29">HP Office Jet PRO</button>
+
+          <button class="button button30">Canon Pixma AIO</b></button>
+        </div>
+      </div>
+    </div>
 </div>
+</div>
+</div>
+
+
+
+
 </body>
