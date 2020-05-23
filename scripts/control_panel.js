@@ -42,7 +42,7 @@ function CustomAlert(){
         dialogbox.style.top = "100px";
         dialogbox.style.display = "block";
         document.getElementById('dialogboxhead').innerHTML = "PAKKE STATUS";
-        document.getElementById('dialogboxbody').innerHTML = dialog;
+        document.getElementById('dialogboxbody').innerHTML = '<li class="liste" >hej</li>';dialog;
         document.getElementById('dialogboxfoot').innerHTML = '<button class="ok" onclick="Alert.ok()">OK</button>';
     }
 	/**lukker boxen igen med ok knappen**/

@@ -2733,7 +2733,9 @@ width: 350px;
   text-align: center;
 }
 
-
+.liste {
+	font-size: 20px;
+}
 
 /** KONTROLPANEL SIDEN HERUNDER V **/
 
