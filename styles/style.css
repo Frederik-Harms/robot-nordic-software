@@ -2807,7 +2807,7 @@ label {
 
 
 
-/**Status over pakning af pallen, vises som alert**/
+/**STATUS POP UP, PALLEN PAKNING HERUNDER V **/
 #dialogoverlay{
 	display: none;
 	opacity: 30%;
@@ -2827,13 +2827,14 @@ label {
 	height: auto;
 	z-index: 10;
 }
+/**Øverste del af pop up**/
 #dialogboxhead{ 
 	background: #222B3B; 
 	font-size:19px; 
 	padding:20px; 
 	color:#ffffff; 
 }
-
+/**Midterste del af pop up**/
 #dialogboxbody{ 
 	background:#ffffff;
 	padding:20px; 
@@ -2841,13 +2842,13 @@ label {
 	line-height: 50px;
 
 }
-
+/**Den nederste del af pop op status**/
 #dialogboxfoot{ 
 	background: #222B3B; 
 	padding:10px; 
 	text-align:center; 
 }
-
+/**OK knappen i pop op status**/
 .ok {
   width: 99px;
   height: 41px;
