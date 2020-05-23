@@ -2863,23 +2863,9 @@ label {
   /* padding: 12px 50px; */
   text-align: center;
 }
-/** STATUS POP UP, tilpasset Ipad**/
-@media only screen and (min-width: 768px) {
-	#dialogbox{
-	width:380px;
-	height: 600px;
 
-}
-	#dialogboxhead{ 
-	padding:30px; 
+
 	
-}
-	#dialogboxfoot{  
-	padding:30px;  
-}
-	
-
-
 /** KONTROLPANEL SIDEN HERUNDER V **/
 
 /**palle slideshow, tilpasset mobile first**/
@@ -2965,8 +2951,19 @@ label {
   margin-left: 270px;
   margin-top: 100px;
 }
+/** STATUS POP UP tilpasset Ipad**/	
+#dialogbox{
+	width:380px;
+	height: 600px;
 }
-/**tilpasset Web**/
+#dialogboxhead{ 
+	padding:30px; 	
+}
+#dialogboxfoot{  
+	padding:30px;  
+}
+}
+/** SLIDESHOW tilpasset web/1000px**/
 @media only screen and (min-width: 1000px) {
 .slidecontrol {
 	width: 20%;
@@ -2982,7 +2979,8 @@ label {
 .button10_control {
   margin-left: 370px;
 }
-}
+	/** STATUS POP UP tilpasset web/1000px**/	
+
 
 
 
