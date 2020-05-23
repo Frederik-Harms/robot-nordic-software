@@ -2702,18 +2702,13 @@ width: 350px;
 #dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; }
 
 
-/** palle slideshow placering på siden**/
-
+/**palle slideshow**/
 .slidecontrol {
 	margin-left: 630px;
 	margin-top: 20px;
+	align-content: center;
 }
-.slidecontrol2 {
-	margin-left: 630px;
-	margin-top: 20px;
-	height: 10px;
-	width: 40px;
-}
+
 
 /************* DATEPICKER - STYLING ************/
 
