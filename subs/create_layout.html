@@ -61,13 +61,18 @@
 
 </header>
 
+<!--MIN DIV KLASSE SOM JEG STYLER I STYLE.CSS. -->
 <div class="opretskabeloner">
+<!--DETTE ER MIT ID TAG, FOR DEN FORM WIZARD, SOM GÅR UNDER
+OVERSTÅENDE DIV CLASS. ACTION BETYDER AT ALLE CLICKS
+FØRER TIL CONTROL_PANEL.HTML.  -->
 <form id="regForm" action="control_panel.html"></form>
 
 
 <h1>OPRET NY SKABELON</h1>
 
-<!-- Circles which indicates the steps of the form: -->
+<!-- DE CIRKLERE SOM SES PÅ SIDEN, OG INDIKERE HVOR LANGT
+DU ER I PROCESSEN. NÅR DU HAR UDFYLDT ET STEP, VIL STEPPET STADIG LYSE. -->
 <div class="steps">
   <span class="step"></span>
   <span class="step"></span>
@@ -78,11 +83,15 @@
 </div>
 
 
-<!-- One "tab" for each step in the form: -->
+<!-- DETTE ER STEP 1, OG DERFOR VIL VÆRE ALT I DENNE DIV
+BLIVE VIST PÅ STEP 1 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+SKJULT GRUNDET INDSTILLINGERNE I CSS -->
 <div class="tab">STEP 1
   <h4 class="tilfojprodukter">NAVNGIV SKABELON</h4>
+  <!-- DETTE ER EN INPUT, SOM ØNSKER AT MODTAGE "SKABELON NAVNET"-->
   <p><input placeholder="Indtast skabelon navn" oninput="this.className = ''"></p>
   <h4 class="tilfojprodukter">VÆLG PALLE TYPE</h4>
+  <!-- DETTE ER EN DROP DOWN FUNKTION, HVOR DER ER TILFØJET FORSKELLIGE PALLER"-->
   <div class="accordion-opret">
       <div class="accordion-tab-opret">
       <input id="toggle1-opret" type="checkbox" class="accordion-toggle-opret" name="toggle-opret" />
@@ -100,6 +109,9 @@
       </div>
 </div>
 
+<!-- DETTE ER STEP 2, OG DERFOR VIL VÆRE ALT I DENNE DIV
+BLIVE VIST PÅ STEP 2 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+SKJULT GRUNDET INDSTILLINGERNE I CSS -->
 <div class="tab">STEP 2
   <h4 class="tilfojprodukter">TILFØJ PRODUKTER</h4>
   <p><input placeholder="Indtast produktnavn" oninput="this.className = ''"></p>
@@ -115,6 +127,9 @@
   <button class="button button24"><img src="../assets/icons/opretnyskabelon/plustegn.svg" alt="Plus tegn "></button>
 </div>
 
+<!-- DETTE ER STEP 3, OG DERFOR VIL VÆRE ALT I DENNE DIV
+BLIVE VIST PÅ STEP 3 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+SKJULT GRUNDET INDSTILLINGERNE I CSS -->
 <div class="tab">STEP 3
   <div class="borderforatvare">
   <h4 class="foratvareover">FOR AT VÆRE PÅ DEN SIKRE SIDE</h4>
@@ -122,7 +137,9 @@
   </div>
 </div>
 
-
+<!-- DETTE ER STEP 4, OG DERFOR VIL VÆRE ALT I DENNE DIV
+BLIVE VIST PÅ STEP 4 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+SKJULT GRUNDET INDSTILLINGERNE I CSS -->
 <div class="tab">STEP 4
   <h4 class="tilfojprodukter">ALT DET PRAKTISKE</h4>
   <p><input placeholder="Indtast fyldningshøjde" oninput="this.className = ''"></p>
@@ -148,6 +165,9 @@
       </div>
 </div>
 
+<!-- DETTE ER STEP 5, OG DERFOR VIL VÆRE ALT I DENNE DIV
+BLIVE VIST PÅ STEP 5 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+SKJULT GRUNDET INDSTILLINGERNE I CSS -->
 <div class="tab">STEP 5
   <h4 class="tilfojprodukter">GENNEMGÅ DIN<br>MIX-PALLETERING</h4><br>
       <div class="gennemgang-opret">
@@ -192,6 +212,9 @@
     </div>
   </div>
 
+  <!-- DETTE ER STEP 6, OG DERFOR VIL VÆRE ALT I DENNE DIV
+  BLIVE VIST PÅ STEP 6 PÅ FORM WIZARDEN. ALT ANDET INDHOLD VIL BLIVE
+  SKJULT GRUNDET INDSTILLINGERNE I CSS -->
   <div class="tab">STEP 6
     <div class="borderforatvare2">
     <h4 class="foratvareover">ER DENNE PALLETERING<br> KLAR TIL AT BLIVE STARTET?</h4>
@@ -199,14 +222,15 @@
     </div>
   </div>
 
-
+  <!-- DEFINERE DIV KLASSEN FOR DE TO KNAPPER SOM ER I FORM WIZARDEN-->
 <div class="knapbox">
   <div class="knapbox2">
+    <!-- OPRETTELSER AF BUTTON ID, SOM  BLIVER BRUGT I CSS OG JS.  -->
     <button type="button" id="ANNULLERKNAP" onclick="nextPrev(-1)">ANNULLER</button>
     <button type="button" id="VIDEREKNAP" onclick="nextPrev(1)">VIDERE</button>
   </div>
 </div>
-
+<!-- DEN JS FIL SOM create_layout.html BENYTTER.  -->
 <script src="../scripts/opretskabeloner.js"></script>
 
 </div>
