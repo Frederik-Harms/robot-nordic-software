@@ -2810,21 +2810,21 @@ label {
 /**STATUS POP UP, PALLEN PAKNING HERUNDER V **/
 #dialogoverlay{
 	display: none;
-	opacity: 30%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	background: #FFF;
+	opacity: 50%;
+	position: absolute;
+	background: #FFFFFF;
 	width: 100%;
-	z-index: 10;
+	
 }
 #dialogbox{
 	display: none;
-	position: fixed;
+	position: absolute;
 	background: #eeeeee;
+	opacity: 90%;
 	border-radius:5px;
-	width:400px;
+	width:350px;
 	height: auto;
+	margin-left: 100px;
 	z-index: 10;
 }
 /**Øverste del af pop up**/
@@ -2863,6 +2863,22 @@ label {
   /* padding: 12px 50px; */
   text-align: center;
 }
+/** STATUS POP UP, tilpasset Ipad**/
+@media only screen and (min-width: 768px) {
+	#dialogbox{
+	width:380px;
+	height: 600px;
+
+}
+	#dialogboxhead{ 
+	padding:30px; 
+	
+}
+	#dialogboxfoot{  
+	padding:30px;  
+}
+	
+
 
 /** KONTROLPANEL SIDEN HERUNDER V **/
 

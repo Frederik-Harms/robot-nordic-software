@@ -29,7 +29,7 @@ alert();
 	window.onload = changeImg;
 
 
-//Status over pakkede paller, vises i en alert 
+//Status over pakkede paller, vises som en CustomAlert, med mere tekst. 
 function CustomAlert(){
     this.render = function(dialog){
         var winW = window.innerWidth;
