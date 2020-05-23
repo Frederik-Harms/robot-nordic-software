@@ -3002,7 +3002,7 @@ label {
 
 .date-picker {
   position: relative;
-  width: 100%;
+  width: 50%;
   max-width: 320px;
   height: 40px;
   background-color: #ffffff;
