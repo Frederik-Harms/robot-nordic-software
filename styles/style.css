@@ -1081,10 +1081,17 @@ input.adgangskode {
   margin-bottom: 10px;
 }
 
-p22 {
+.forsideknapper h4 {
     color: #fff;
     font-size: 19px;
     font-weight: 200;
+}
+
+.tekstlogin h5 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 200;
+    text-align: center;
 }
 
 .forsideknapper {
