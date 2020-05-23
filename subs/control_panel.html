@@ -65,15 +65,19 @@
 
 
 <body>
-	<!-- slideshow palle billede -->
-	<h1 class="styleGuideContent-software-mobile-sg">KONTROL PANEL</h1>
-	<h2 class="styleGuideContent-software-mobile-sg">LAYOUT</h2>
-	<p class="styleGuideContent-software-mobile-sg">EURO PALLE - "BUKO"</p>
-	<img class= "slidecontrol" name="slide" alt="paller" >
+<h1 class="styleGuideContent-software-mobile-sg">KONTROL PANEL</h1>
+<h2 class="styleGuideContent-software-mobile-sg">LAYOUT</h2>
+<p class="styleGuideContent-software-mobile-sg">EURO PALLE - "BUKO"</p>
+
+<!-- STATUS KNAP -->
+<button class="button10_status" onclick="Alert.render('<strong>GENNEMFØRTE PAKKER</strong><br>REJE OST √ <br>PIKANT OST √ <br>SKINKE OST<br>NATUREL OST<br>BACON OST<br>GARLí OST<br>PEBER OST')" >STATUS</button>
+	
+<!-- slideshow palle billede -->
+<img class= "slidecontrol" name="slide" alt="paller" >
 
 
-	<!-- Status over pallens pakning, vises i en alert -->
-	<div id="dialogoverlay"></div>
+<!-- Status over pallens pakning, vises i en alert -->
+<div id="dialogoverlay"></div>
 <div id="dialogbox">
   <div>
     <div id="dialogboxhead"></div>
@@ -81,9 +85,12 @@
     <div id="dialogboxfoot"></div>
   </div>
 </div>
-<button class="button10" onclick="Alert.render('<strong>GENNEMFØRTE PAKKER</strong><br>REJE OST √ <br>PIKANT OST √ <br>SKINKE OST<br>NATUREL OST<br>BACON OST<br>GARLí OST<br>PEBER OST')" >STATUS</button>
-	<a class="button10" href="control_tilpas.html">TILPAS</a>
-	<button class="button11" onclick="alert('SKAL DENNE PALLETERING STOPPES?')">STOP</button>
+
+<!-- TILPAS KNAP, føre videre til anden html -->
+<a class="button10" href="control_tilpas.html">TILPAS</a>
+	
+<!-- STOP KNAP, resultere i alert -->
+<button class="button11_control" onclick="alert('SKAL DENNE PALLETERING STOPPES?')">STOP</button>
 
 </body>
 </html>

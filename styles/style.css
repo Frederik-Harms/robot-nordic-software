@@ -2742,21 +2742,21 @@ width: 350px;
   text-align: center;
 }
 
-/**Status knappen**/
+/**Status knappen tilpasset Iphone**/
 .button10_status {
-  width: 99px;
-  height: 41px;
+  width: 100px;
+  height: 20px;
   margin-top: 15px;
+  margin-left: 200px;
   border-radius: 40px;
-  background-color: #222B3B;
-  display: inline-block;
-  border: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 39px;
-  /* padding: 12px 50px; */
+  background-color: #ffffff;
+  border-color: #222B3B;
+  color: #222B3B;
+  font-size: 10px;
   text-align: center;
+}
+  
+ 
 
 
 /************* DATEPICKER - STYLING ************/
