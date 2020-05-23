@@ -2712,6 +2712,8 @@ width: 350px;
 	float: center;
 	margin-left: 100px;
 	padding-top: 25px;
+	display: block;
+	margin: 0 auto;
 }
 /**Status knappen tilpasset Iphone**/
 .button10_status {
@@ -2719,6 +2721,8 @@ width: 350px;
   height: 20px;
   margin-top: 15px;
   margin-left: 130px;
+  display: block;
+  margin: 0 auto;
   border-radius: 40px;
   background-color: #ffffff;
   border-color: #222B3B;
@@ -2732,7 +2736,7 @@ width: 350px;
   width: 99px;
   height: 41px;
   position: fixed;
-  margin-top: 15px;
+  margin-top: 60px;
   margin-left: 190px;
   border-radius: 40px;
   background-color: #f15c22;
@@ -2750,7 +2754,7 @@ width: 350px;
   width: 99px;
   height: 41px;
   position: fixed;
-  margin-top: 15px;
+  margin-top: 60px;
   margin-left: 80px;
   border-radius: 40px;
   background-color: #222B3B;
@@ -2777,10 +2781,13 @@ width: 350px;
 
 .button11_control {
   margin-left: 380px;
+  margin-top: 100px;
+  
 }
 
 .button10_control {
-  margin-left: 270px; 
+  margin-left: 270px;
+  margin-top: 100px;
 }
 }
 /**tilpasset Web**/
