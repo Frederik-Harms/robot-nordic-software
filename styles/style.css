@@ -2701,35 +2701,35 @@ width: 350px;
 #dialogbox > div > #dialogboxbody{ background:#ffffff; padding:20px; color:#000000; }
 #dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; }
 
+/** KONTROLPANEL SIDEN HERUNDER V **/
 
 /**palle slideshow, tilpasset mobile first**/
 .slidecontrol {
 	width: 50%;
 	float: center;
-	margin-left: 120px;
+	margin-left: 100px;
 	padding-top: 25px;
 }
-/**tilpasset Ipad**/
-@media only screen and (min-width: 768px) {
-.slidecontrol {
-	width: 40%;
-	padding-top: 50px;
-	margin-left: 200px;
-}	
+/**Status knappen tilpasset Iphone**/
+.button10_status {
+  width: 100px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 130px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  border-color: #222B3B;
+  color: #222B3B;
+  font-size: 10px;
+  text-align: center;
 }
-/**tilpasset Web**/
-@media only screen and (min-width: 1000px) {
-.slidecontrol {
-	width: 20%;
-	padding-top: 40px;
-	margin-left: 570px;
-}	
-}
+
 /**Knapperne på kontrolpanel**/
 .button11_control {
   width: 99px;
   height: 41px;
   margin-top: 15px;
+  margin-left: 100px;
   border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
@@ -2742,19 +2742,40 @@ width: 350px;
   text-align: center;
 }
 
-/**Status knappen tilpasset Iphone**/
+/** palle slideshow, tilpasset Ipad**/
+@media only screen and (min-width: 768px) {
+.slidecontrol {
+	width: 40%;
+	padding-top: 50px;
+	margin-left: 200px;
+}	
 .button10_status {
-  width: 100px;
-  height: 20px;
-  margin-top: 15px;
-  margin-left: 200px;
-  border-radius: 40px;
-  background-color: #ffffff;
-  border-color: #222B3B;
-  color: #222B3B;
-  font-size: 10px;
-  text-align: center;
+  margin-left: 325px;	
 }
+
+.button11_control {
+  margin-left: 300px;
+}
+}
+/**tilpasset Web**/
+@media only screen and (min-width: 1000px) {
+.slidecontrol {
+	width: 20%;
+	padding-top: 40px;
+	margin-left: 420px;
+}	
+.button10_status {
+  margin-left: 450px;	
+}
+.button11_control {
+  margin-left: 450px;
+}
+}
+
+
+
+
+
   
  
 
