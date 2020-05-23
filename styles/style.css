@@ -2702,17 +2702,27 @@ width: 350px;
 #dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; }
 
 
-/**palle slideshow**/
+/**palle slideshow, tilpasset mobile first**/
 .slidecontrol {
 	width: 50%;
 	float: center;
-	margin-left: 100px;
+	margin-left: 120px;
 	padding-top: 25px;
 }
+/**tilpasset Ipad**/
 @media only screen and (min-width: 768px) {
 .slidecontrol {
+	width: 40%;
 	padding-top: 50px;
 	margin-left: 200px;
+}	
+}
+/**tilpasset Web**/
+@media only screen and (min-width: 1000px) {
+.slidecontrol {
+	width: 20%;
+	padding-top: 40px;
+	margin-left: 570px;
 }	
 }
 
