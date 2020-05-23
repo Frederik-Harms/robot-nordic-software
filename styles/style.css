@@ -2769,14 +2769,18 @@ width: 350px;
 .slidecontrol {
 	width: 40%;
 	padding-top: 50px;
-	margin-left: 200px;
+	margin-left: 220px;
 }	
 .button10_status {
   margin-left: 325px;	
 }
 
 .button11_control {
-  margin-left: 300px;
+  margin-left: 380px;
+}
+
+.button10_control {
+  margin-left: 270px; 
 }
 }
 /**tilpasset Web**/
@@ -2790,7 +2794,10 @@ width: 350px;
   margin-left: 450px;	
 }
 .button11_control {
-  margin-left: 450px;
+  margin-left: 550px;
+}
+.button10_control {
+  margin-left: 370px; 
 }
 }
 
