@@ -2704,9 +2704,16 @@ width: 350px;
 
 /**palle slideshow**/
 .slidecontrol {
-	margin-left: 630px;
-	margin-top: 20px;
-	align-content: center;
+	width: 50%;
+	float: center;
+	margin-left: 100px;
+	padding-top: 25px;
+}
+@media only screen and (min-width: 768px) {
+.slidecontrol {
+	padding-top: 50px;
+	margin-left: 200px;
+}	
 }
 
 
