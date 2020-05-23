@@ -2827,12 +2827,41 @@ label {
 	height: auto;
 	z-index: 10;
 }
-#dialogbox > div{ background:#FFF; margin:8px; }
-#dialogbox > div > #dialogboxhead{ background: #222B3B; font-size:19px; padding:20px; color:#ffffff; }
-#dialogbox > div > #dialogboxbody{ background:#ffffff; padding:20px; color:#000000; }
-#dialogbox > div > #dialogboxfoot{ background: #222B3B; padding:10px; text-align:center; }
+#dialogboxhead{ 
+	background: #222B3B; 
+	font-size:19px; 
+	padding:20px; 
+	color:#ffffff; 
+}
 
+#dialogboxbody{ 
+	background:#ffffff;
+	padding:20px; 
+	color:#000000;
+	line-height: 50px;
 
+}
+
+#dialogboxfoot{ 
+	background: #222B3B; 
+	padding:10px; 
+	text-align:center; 
+}
+
+.ok {
+  width: 99px;
+  height: 41px;
+  border-radius: 40px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
 
 
 /** KONTROLPANEL SIDEN HERUNDER V **/
