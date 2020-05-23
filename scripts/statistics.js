@@ -2,8 +2,9 @@
   let myChart = document.getElementById('myChart').getContext('2d');
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Titillium Web';
-    Chart.defaults.global.defaultFontSize = 18;
+    Chart.defaults.global.defaultFontSize = 15;
     Chart.defaults.global.defaultFontColor = '#000000';
+   
 
     let massPopChart = new Chart(myChart, {
       type:'bar', // fungere også som: bar, horizontalBar, pie, line, doughnut, radar, polarArea
@@ -51,10 +52,11 @@
         },
         layout:{
           padding:{
-            left:50,
+            left:0,
             right:0,
             bottom:0,
-            top:0
+            top:50
+			
           }
         },
         tooltips:{

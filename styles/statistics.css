@@ -6,9 +6,8 @@
   max-width: 320px;
   height: 40px;
   background-color: #ffffff;
-  margin: 10px auto;
+  margin: 50px auto;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-
   cursor: pointer;
   user-select: none;
 }
@@ -29,6 +28,7 @@
 
   color: #313131;
   font-size: 28px;
+	
 
 }
 
@@ -103,12 +103,84 @@ color: #313131;
 .canvas_container {
 align-content: center;
 margin-top: 40%;
-width: 1000px;
-height: auto;
+margin-left: -55px;
+width: 300px;
+position: absolute;
+z-index: -10;
+
+}
+#myChart {
+	background: #EEEEEE;
+	width: 100%;
 }
 
-.canvas_container_btn {
-align-content: center;
+.button_statistik {
+  width: 200px;
+  height: 48px;
+  margin-top: 300px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+.button2_statistik {
+  width: 200px;
+  height: 48px;
+  margin-top: 10px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
 }
 
+/**TILPASSET IPAD**/
+@media only screen and (min-width: 768px) {
+	
+/** Graf på statistik siden **/
+.canvas_container {
+margin-top: 10%;
+margin-left: -185px;
+width: 700px;
 
+
+}
+#myChart {
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.button_statistik {
+  width: 300px;
+  height: 58px;
+  margin-top: 130%;
+  
+}
+.button2_statistik {
+  width: 300px;
+  height: 58px;
+  margin-top: 10px;
+}	
+}
+/**TILPASSET WEB/1000px**/
+@media only screen and (min-width: 1000px) {
+	
+/** Graf på statistik siden **/
+.canvas_container {
+margin-left: -185px;
+width: 50%;
+	}
+}
+	
+	
