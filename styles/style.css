@@ -2725,6 +2725,38 @@ width: 350px;
 	margin-left: 570px;
 }	
 }
+/**Knapperne på kontrolpanel**/
+.button11_control {
+  width: 99px;
+  height: 41px;
+  margin-top: 15px;
+  border-radius: 40px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+
+/**Status knappen**/
+.button10_status {
+  width: 99px;
+  height: 41px;
+  margin-top: 15px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
 
 
 /************* DATEPICKER - STYLING ************/
