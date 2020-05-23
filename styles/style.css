@@ -3097,16 +3097,20 @@ height: 200px;
 background-color: #f15c22;
 color: #313131;
 }
+	
 
 /** Graf på statistik siden **/
 .canvas_container {
 align-content: center;
 margin-top: 40%;
+width: 1000px;
+height: auto;
 }
 
 .canvas_container_btn {
 align-content: center;
 }
+
 
 
 /************ GRAF ************/
