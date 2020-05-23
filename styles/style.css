@@ -1614,6 +1614,10 @@ input {
   border: 1px solid #aaaaaa;
 }
 
+.tab h5 {
+  font-size: 20px;
+}
+
 /* STYLER INPUT FELTERNE NÅR DER ER ODAGET EN FEJL I FORM WIZARDEN */
 input.invalid {
   background-color: lightgray;
