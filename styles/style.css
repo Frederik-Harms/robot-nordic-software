@@ -217,65 +217,7 @@ a {
     color: #707070;
 }
 
-/****************************** SKAL SLETTES *********************************/
 
-.textBox2 {
-    height: auto;
-    width: 100%;
-    margin-top: 1em;
-    padding: 1em;
-    background: url(/assets/images/produktbild.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f5f5f5;
-}
-
-.textBox2aelement {
-    text-decoration: none;
-    color: #f5f5f5;
-}
-
-.textBox2alink {
-    text-decoration: underline dotted;
-    color: #f5f5f5;
-}
-
-/*HOVER*/
-
-.hvr-underline-from-center {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-}
-
-.hvr-underline-from-center:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: #f5f5f5;
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-
-.hvr-underline-from-center:hover:before,
-.hvr-underline-from-center:focus:before,
-.hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0;
-}
 
 /********************** DE FORSKELLIGE GRID ELEMENTER ***************************/
 
@@ -992,7 +934,7 @@ header img {
   border-color: #000000;
 }
 
-/************** FORSIDE STYLING *******************/
+/************** FORSIDE STYLING - ROBOT NORDIC SOFTWARE *******************/
 
 .forside-content {
   padding-top: 80px;
@@ -1037,7 +979,7 @@ header img {
     width: 150px;
 }
 
-/************** LOG IND STYLING *******************/
+/************** LOG IND STYLING - ROBOT NORDIC SOFTWARE *******************/
 
 .mainn {
   box-sizing: border-box;
@@ -1132,7 +1074,7 @@ p22 {
 }
 
 
-/*********** SKABELONER STYLING ************/
+/*********** SKABELONER STYLING - ROBOT NORDIC SOFTWARE ************/
 
 .skabeloner {
   margin: 0 auto;
@@ -1293,7 +1235,6 @@ label {
 }
 
 
-
 #nextBtnskabelon{
   width: 97px;
   height: 41px;
@@ -1416,7 +1357,7 @@ input.invalid {
   text-align: center;
 }
 
-/****************** GENNEMGANG AF MIX-PALLETERING ******************/
+/****************** GENNEMGANG AF MIX-PALLETERING - ROBOT NORDIC SOFTWARE ******************/
 
 .gennemgang {
   width: 500px;
@@ -1532,7 +1473,7 @@ justify-content: space-around;
   text-align: center;
 }
 
-/******* OPRET SKABELON STYLING  *******/
+/******* OPRET SKABELON STYLING ROBOT NORDIC SOFTWARE *******/
 /*********** PRAKTISKE ELEMENTER ***********/
 
 .opretskabeloner {
@@ -1547,8 +1488,6 @@ justify-content: space-around;
 }
 
 /********** DE FASTE KNAPPER SOM ER EN DEL AF FORM WIZAREDEN ********/
-
-
 
 #VIDEREKNAP{
   width: 99px;
@@ -2030,7 +1969,7 @@ width: 350px;
 }
 
 
-/******************* UDSKRIV-SIDEN **********************/
+/******************* UDSKRIV-SIDEN - ROBOT NORDIC SOFTWARE **********************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -2472,6 +2411,214 @@ line-height: 1.5;
   height: 41px;
   width: 99px;
   margin: 50px auto;
+}
+
+/********************* INDSTILLINGER - ROBOT NORDIC SOFTWARE ************************/
+
+/********************* MÅLSTOKFORHOLD - DROPDOWN ************************/
+
+.accordion-indstillinger{
+  width: 350px;
+  height: 28px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 8px;
+}
+
+.accordion-tab-indstillinger {
+  padding-bottom: 10px;
+  height: 28px;
+  width: 350px;
+}
+
+.samletknapper-indstillinger {
+  width: 350px;
+  height: 224px;
+  border: 1px solid black;
+  border-radius: 0px 0 4px 4px;
+  padding-left: 1px;
+  padding-bottom: 20px;
+}
+
+.accordion-content-indstillinger {
+  width: 350px;
+  float: left;
+  position: relative;
+  z-index: 96;
+}
+
+.accordion-tab-indstillinger > .accordion-toggle-indstillinger{
+position: absolute;
+display: none;
+}
+
+label {
+padding-left: 5px;
+text-align: center;
+height: 28px;
+}
+
+/*** Styler knap-sektionen som udvides på dropdownen ***/
+.accordion-tab-indstillinger > label{
+color: #000000;
+background: #ffffff;
+border: 0.5px solid #000000;
+border-radius: 4px;
+font-size: 16px;
+line-height: 26px;
+font-weight: 600;
+position: relative;
+display: block;
+height: 28px;
+cursor: pointer;
+padding-bottom: 20px;
+}
+
+.accordion-tab-indstillinger > .accordion-content-indstillinger{
+max-height: 0;
+transition: 350ms;
+overflow: hidden;
+}
+
+/******* styller pilen som drejer sig *****/
+.accordion-tab-indstillinger > label:after {
+content: '\f054';
+position: absolute;
+right: 20px;
+font-family: fontawesome;
+transform: rotate(90deg);
+transition:transform .30s ;
+}
+
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
+.accordion-tab-indstillinger > .accordion-toggle-indstillinger:checked ~ label:after{
+transform: rotate(270deg);
+}
+
+.accordion-tab-indstillinger > .accordion-toggle-indstillinger:checked ~ .accordion-content-indstillinger{
+max-height: 100vh;
+overflow: auto;
+}
+
+.accordion-tab-indstillinger > .accordion-content-indstillinger p {
+padding: 30px 20px;
+border: 0.5px solid #000000;
+font-size: 16px;
+line-height: 1.5;
+}
+
+/********************* SPROG - DROPDOWN ************************/
+
+.accordion-indstillinger1{
+  width: 350px;
+  height: 28px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 8px;
+}
+
+.accordion-tab-indstillinger1 {
+  padding-bottom: 10px;
+  height: 28px;
+  width: 350px;
+}
+
+.samletknapper-indstillinger1 {
+  width: 350px;
+  height: 140px;
+  border: 1px solid black;
+  border-radius: 0px 0 4px 4px;
+  padding-left: 1px;
+  padding-bottom: 20px;
+}
+
+.accordion-content-indstillinger1 {
+  width: 350px;
+  float: left;
+  position: relative;
+  z-index: 96;
+}
+
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1{
+position: absolute;
+display: none;
+}
+
+label {
+padding-left: 5px;
+text-align: center;
+height: 28px;
+}
+
+/*** Styler knap-sektionen som udvides på dropdownen ***/
+.accordion-tab-indstillinger1 > label{
+color: #000000;
+background: #ffffff;
+border: 0.5px solid #000000;
+border-radius: 4px;
+font-size: 16px;
+line-height: 26px;
+font-weight: 600;
+position: relative;
+display: block;
+height: 28px;
+cursor: pointer;
+padding-bottom: 20px;
+}
+
+.accordion-tab-indstillinger1 > .accordion-content-indstillinger1{
+max-height: 0;
+transition: 350ms;
+overflow: hidden;
+}
+
+/******* styller pilen som drejer sig *****/
+.accordion-tab-indstillinger1 > label:after {
+content: '\f054';
+position: absolute;
+right: 20px;
+font-family: fontawesome;
+transform: rotate(90deg);
+transition:transform .30s ;
+}
+
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1:checked ~ label:after{
+transform: rotate(270deg);
+}
+
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1:checked ~ .accordion-content-indstillinger1{
+max-height: 100vh;
+overflow: auto;
+}
+
+.accordion-tab-indstillinger1 > .accordion-content-indstillinger1 p {
+padding: 30px 20px;
+border: 0.5px solid #000000;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.okknap {
+  width: 266px;
+  height: 48px;
+  margin: 50px auto;
+}
+
+.button40{
+  width: 266px;
+  height: 48px;
+  margin-top: 15px;
+  border-radius: 40px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 48px;
+  /* padding: 12px 50px; */
+  text-align: center;
 }
 
 /********************* MEDIA QUERIES ************************/
@@ -3340,6 +3487,270 @@ font-size: 16px;
 line-height: 1.5;
 }
 
+/******************************** INDSTILLINGER - RESPONSIV ********************************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/**** selve containeren for dropdown-knappen ****/
+    .accordion-indstillinger{
+      width: 190px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-bottom: 100px;
+    }
+
+    .accordion-tab-indstillinger {
+      padding-bottom: 10px;
+      height: 28px;
+      width: 190px;
+    }
+
+    .samletknapper-indstillinger {
+      width: 190px;
+      height: 224px;
+      border: 1px solid black;
+      border-radius: 0px 0 4px 4px;
+      padding-left: 1px;
+      padding-bottom: 20px;
+    }
+
+    .accordion-content-indstillinger {
+      width: 190px;
+      float: left;
+      position: relative;
+      z-index: 100;
+    }
+
+/***  Selve knapperne inde i dropdown-menuen ***/
+    .button29 {
+      width: 187px;
+      height: 28px;
+      background-color: #ffffff;
+      display: inline-block;
+      border: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 27px;
+      float: left;
+      text-align: left;
+      border-bottom: 1px solid black;
+    }
+
+/***  Selve knapperne inde i dropdown-menuen ***/
+    .button30 {
+      width: 187px;
+      height: 25px;
+      background-color: #ffffff;
+      display: inline-block;
+      border: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      float: left;
+      text-align: left;
+    }
+
+    .accordion-tab-indstillinger > .accordion-toggle-indstillinger{
+    position: absolute;
+    display: none;
+}
+
+    label {
+      padding-left: 5px;
+      text-align: center;
+      height: 28px;
+}
+
+/*** styler pilen som vender sig, når der trykkess ***/
+.accordion-tab-indstillinger > label{
+    color: #000000;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.accordion-tab-indstillinger > .accordion-content-indstillinger{
+    max-height: 0;
+    transition: 350ms;
+    overflow:auto;
+}
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
+.accordion-tab-indstillinger > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab-indstillinger > .accordion-toggle-indstillinger:checked ~ label:after{
+    transform: rotate(270deg);
+}
+
+.accordion-tab-indstillinger > .accordion-toggle-indstillinger:checked ~ .accordion-content-indstillinger{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.accordion-tab-indstillinger > .accordion-content-indstillinger p {
+    padding: 30px 20px;
+    border: 0.5px solid #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button40{
+  width: 99px;
+  height: 41px;
+  margin-top: 15px;
+  border-radius: 40px;
+  background-color: #f15c22;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  /* padding: 12px 50px; */
+  text-align: center;
+}
+
+/******************************** INDSTILLINGER 1 ********************************/
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/**** selve containeren for dropdown-knappen ****/
+    .accordion-indstillinger1{
+      width: 190px;
+      height: 28px;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-bottom: 70px;
+    }
+
+    .accordion-tab-indstillinger1 {
+      padding-bottom: 10px;
+      height: 28px;
+      width: 190px;
+    }
+
+    .samletknapper-indstillinger1 {
+      width: 190px;
+      height: 140px;
+      border: 1px solid black;
+      border-radius: 0px 0 4px 4px;
+      padding-left: 1px;
+      padding-bottom: 20px;
+    }
+
+    .accordion-content-indstillinger1 {
+      width: 190px;
+      float: left;
+      position: relative;
+      z-index: 100;
+    }
+
+/***  Selve knapperne inde i dropdown-menuen ***/
+    .button29 {
+      width: 187px;
+      height: 28px;
+      background-color: #ffffff;
+      display: inline-block;
+      border: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 27px;
+      float: left;
+      text-align: left;
+      border-bottom: 1px solid black;
+    }
+
+/***  Selve knapperne inde i dropdown-menuen ***/
+    .button30 {
+      width: 187px;
+      height: 25px;
+      background-color: #ffffff;
+      display: inline-block;
+      border: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      float: left;
+      text-align: left;
+    }
+
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1{
+    position: absolute;
+    display: none;
+}
+
+label {
+  padding-left: 5px;
+  text-align: center;
+  height: 28px;
+}
+
+/*** styler pilen som vender sig, når der trykkess ***/
+.accordion-tab-indstillinger1 > label{
+    color: #000000;
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.accordion-tab-indstillinger1 > .accordion-content-indstillinger1{
+    max-height: 0;
+    transition: 350ms;
+    overflow:auto;
+}
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
+.accordion-tab-indstillinger1 > label:after {
+    content: '\f054';
+    position: absolute;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1:checked ~ label:after{
+    transform: rotate(270deg);
+}
+
+.accordion-tab-indstillinger1 > .accordion-toggle-indstillinger1:checked ~ .accordion-content-indstillinger1{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.accordion-tab-indstillinger1 > .accordion-content-indstillinger1 p {
+    padding: 30px 20px;
+    border: 0.5px solid #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 }
 
@@ -3546,10 +3957,6 @@ line-height: 1.5;
     }
 
 }
-
-
-/*___________________*/
-
 
 .control_liste {
 	list-style-position: inside;
@@ -3786,8 +4193,3 @@ width: 150px;
 margin-left: 1000px;
 }
 }
-
-
-
-
-/************* DATEPICKER - STYLING ************/
