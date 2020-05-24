@@ -1415,11 +1415,11 @@ input.invalid {
 /****************** GENNEMGANG AF MIX-PALLETERING ******************/
 
 .gennemgang {
-  width: 500px;
+  width: 5000px;
   height: 740px;
   border: 1px solid black;
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: 3000px;
 }
 
 .gennemgang img {
@@ -2036,7 +2036,7 @@ width: 350px;
       height: 28px;
       margin: 0 auto;
       padding-top: 30px;
-      padding-bottom: 100px;
+      padding-bottom: 0px;
 
     }
 
@@ -2437,7 +2437,9 @@ font-size: 16px;
 line-height: 1.5;
 }
 
-
+.udskrivnederst {
+  margin: 0 auto;
+}
 
 /********************* MEDIA QUERIES ************************/
 /******************* 801 ELLER  HØJERE ***************************/
@@ -2540,7 +2542,7 @@ line-height: 1.5;
       height: 740px;
       border: 1px solid black;
       margin: 0 auto;
-      margin-top: -10px;
+      margin-top: -100px;
     }
 
     .gennemgang2 {
