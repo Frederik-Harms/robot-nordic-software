@@ -7,6 +7,10 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+body {
+  height: 100%
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -1355,7 +1359,7 @@ input.invalid {
 }
 
 .tab2 {
-  margin-top: -240px;
+  margin-top: 0;
 }
 
 .tab H2 {
@@ -1419,7 +1423,7 @@ input.invalid {
   height: 740px;
   border: 1px solid black;
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: 0;
 }
 
 .gennemgang img {
@@ -2037,7 +2041,7 @@ width: 350px;
       height: 28px;
       margin: 0 auto;
       padding-top: 30px;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
 
     }
 
@@ -2159,7 +2163,7 @@ transition:transform .30s ;
   width: 350px;
   height: 28px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 33px;
   padding-top: 11px;
 }
 
@@ -2261,7 +2265,6 @@ form p {
   display: block;
   margin: 0 auto;
   align-content: center;
-  margin-bottom: 50px;
   line-height: 28px;
   border: 1px solid black;
   position: relative;
@@ -2273,8 +2276,8 @@ form p {
   width: 350px;
   height: 28px;
   margin: 0 auto;
-  padding-bottom: 105px;
-  padding-top: 11px;
+  padding-bottom: 50px;
+  padding-top: 8px;
 }
 
 .accordion-tab-udskriv2 {
@@ -2451,6 +2454,26 @@ font-size: 16px;
 line-height: 1.5;
 }
 
+.button35 {
+  width: 99px;
+  height: 41px;
+  border-radius: 40px;
+  background-color: #222B3B;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+}
+
+.udskrivnederst {
+  height: 41px;
+  width: 99px;
+  margin: 50px auto;
+}
+
 /********************* MEDIA QUERIES ************************/
 /******************* 801 ELLER  HØJERE ***************************/
 @media only screen and (min-width: 801px) {
@@ -2544,7 +2567,7 @@ line-height: 1.5;
   }
 
     .tab2 {
-      margin-top: -290px;
+      margin-top: 0;
     }
 
     .gennemgang {
@@ -2552,7 +2575,7 @@ line-height: 1.5;
       height: 740px;
       border: 1px solid black;
       margin: 0 auto;
-      margin-top: -10px;
+      margin-top: 0;
     }
 
     .gennemgang2 {
