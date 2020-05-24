@@ -1,8 +1,8 @@
 // JavaScript Document
-var i = 0; // Dette er slideshowet start punkt, altså den starter fra 0
+var i = 0;   // Dette er slideshowet start punkt, altså den starter fra 0
 	var images = [];
 	var time = 3000; //dette er tiden mellem billedernes skift, sat i millisekunder (dette er 3 sek)
-alert();
+
 	// Image List sat op i array
 	images[0] = '../assets/img/palle_show/palle7.jpg';
 	images[1] = '../assets/img/palle_show/palle6.jpg';
