@@ -2871,10 +2871,7 @@ label {
 
 	
 /** KONTROLPANEL SIDEN HERUNDER V **/
-.controlpanel_h2 {
-	margin-left: 168px;
-	
-}
+
 
 
 
@@ -2939,6 +2936,12 @@ label {
   /* padding: 12px 50px; */
   text-align: center;
 }
+.statusbillede {
+	width: 100px;
+	height: auto;
+	margin-left: 135px;
+	margin-top: 30px;
+}
 
 /** palle slideshow, tilpasset Ipad**/
 @media only screen and (min-width: 768px) {
@@ -2961,9 +2964,11 @@ label {
   margin-left: 270px;
   margin-top: 100px;
 }
-.controlpanel_h2 {
-	margin-left: 350px;
+.statusbillede {
+margin-left: 328px;
 }
+
+
 /** STATUS POP UP tilpasset Ipad**/	
 #dialogbox{
 	width:380px;
@@ -2992,9 +2997,11 @@ label {
 .button10_control {
   margin-left: 370px;
 }
-.controlpanel_h2 {
-	margin-left: 450px;
+	.statusbillede {
+margin-left: 448px;
 }
+}
+
 
 
 
