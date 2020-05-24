@@ -69,28 +69,31 @@ function nextPrev(n) {
 // DETTE ER ET FOR LOOP, HVOR "I" BLIVER TILDELT 0. HVIS "I" ER MINDRE END CURRENT TAB LENGTH (ALTSÅ INGENTING), SÅ SKAL DEN FORTAGE SIG:
   for (i = 0; i < y.length; i++) {
 
- // SÅ BENYTTER DEN SIG AF DETTE IF STATEMENT, HVOR SAMMENLIGNINGS OPRETOREN BESKRIVER AT "CURRENT TAB" ER DET SAMMEN SOM INGENTING (EMPTY).
+ // AF DETTE IF STATEMENT, HVOR SAMMENLIGNINGS OPRETOREN BESKRIVER AT "CURRENT TAB" ER DET SAMMEN SOM INGENTING (EMPTY).
     if (y[i].value == "") {
 
-      // add an "invalid" class to the field:
+      // HVIS IF STATEMENT OPDAGER AT INPUT FELTET ER DET SAMME SOM INGENTING (EMPTY), SÅ VIL DEN BLIVE INVALID (IKKE GODKENDT).
       y[i].className += " invalid";
-      // and set the current valid status to false:
+
+      // DERFOR GØR DEN DEFINERET VALID SOM FALSE.
       valid = false;
     }
   }
-  // If the valid status is true, mark the step as finished and valid:
+
   if (valid) {
+    // HVIS IF STATEMENTET ER TRUE, SÅ VIL DEN VALIDERE, OG DERFOR VIL MAN MED SUCEESS KUN TRYKKE PÅ VIDERE.
     document.getElementsByClassName("step")[currentTab].className += " finish";
   }
-  return valid; // return the valid status
+  // DENNE RETURNERE RESULTATET.
+    return valid;
 }
 
 function fixStepIndicator(n) {
-  // This function removes the "active" class of all steps...
+  // DENNE FUNKTION FJERNER ALLE AKTIVE STEPS, DET VIL ALTSÅ SIGE AT DEN IKKE MARKERE DET NUVÆRENDE STEP MAN ER INDE PÅ.
   let i, x = document.getElementsByClassName("step");
   for (i = 0; i < x.length; i++) {
     x[i].className = x[i].className.replace(" active", "");
   }
-  //... and adds the "active" class to the current step:
+  //HER AKTIVIEREN DEN CURRENT STEP SOM AKTIV.
   x[n].className += " active";
 }
