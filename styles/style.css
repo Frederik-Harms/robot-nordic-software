@@ -2434,6 +2434,51 @@ line-height: 1.5;
 
 /********************* MÅLSTOKFORHOLD - DROPDOWN ************************/
 
+#kopier1 {
+  width: 350px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier2 {
+  width: 350px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier3 {
+  width: 350px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier4 {
+  width: 350px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+
 .accordion-indstillinger{
   width: 350px;
   height: 28px;
@@ -3520,6 +3565,54 @@ line-height: 1.5;
 /******************************** INDSTILLINGER - RESPONSIV ********************************/
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+#kopier1 {
+  width: 190px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  margin-bottom: 17px;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier2 {
+  width: 190px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  margin-bottom: 17px;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier3 {
+  width: 190px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  margin-bottom: 17px;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
+
+#kopier4 {
+  width: 190px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  margin-bottom: 17px;
+  line-height: 28px;
+  border: 1px solid black;
+  position: relative;
+}
 
 /**** selve containeren for dropdown-knappen ****/
     .accordion-indstillinger{
