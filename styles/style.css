@@ -3572,6 +3572,18 @@ line-height: 1.5;
 
 
 /**palle slideshow, tilpasset mobile first**/
+
+.overskriftkontrol{
+text-align: center;
+margin-top: 41px;
+}
+
+.tekstkontrol p{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
 .slidecontrol {
 	width: 50%;
 	float: center;
@@ -3594,6 +3606,7 @@ line-height: 1.5;
   color: #222B3B;
   font-size: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /**Knapperne på kontrolpanel**/
@@ -3636,11 +3649,16 @@ line-height: 1.5;
 	width: 100px;
 	height: auto;
 	margin-left: 135px;
-	margin-top: 30px;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 
 /** palle slideshow, tilpasset Ipad**/
 @media only screen and (min-width: 768px) {
+
+
+
+
 .slidecontrol {
 	width: 40%;
 	padding-top: 50px;
@@ -3679,10 +3697,23 @@ margin-left: 328px;
 }
 /** SLIDESHOW tilpasset web/1000px**/
 @media only screen and (min-width: 1000px) {
+
+.overskriftkontrol{
+text-align: center;
+margin-top: 41px;
+}
+
+.tekstkontrol p{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
 .slidecontrol {
 	width: 20%;
 	margin-left: 540px;
 	margin-top: -50px;
+  margin-bottom: 20px;
 
 }
 .button10_status {
@@ -3690,6 +3721,7 @@ margin-left: 328px;
   height: 40px;
   margin-left:1000px;
   font-size: 20px;
+
 }
 .button11_control {
   margin-left: 550px;
