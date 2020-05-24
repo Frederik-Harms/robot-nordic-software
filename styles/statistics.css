@@ -28,7 +28,7 @@
 
   color: #313131;
   font-size: 28px;
-	
+
 
 }
 
@@ -97,7 +97,7 @@ height: 200px;
 background-color: #f15c22;
 color: #313131;
 }
-	
+
 
 /** Graf på statistik siden **/
 .canvas_container {
@@ -147,7 +147,7 @@ z-index: -10;
 
 /**TILPASSET IPAD**/
 @media only screen and (min-width: 768px) {
-	
+
 /** Graf på statistik siden **/
 .canvas_container {
 margin-top: 10%;
@@ -165,17 +165,17 @@ width: 700px;
   width: 300px;
   height: 58px;
   margin-top: 130%;
-  
+
 }
 .button2_statistik {
   width: 300px;
   height: 58px;
   margin-top: 10px;
-}	
+}
 }
 /**TILPASSET WEB/1000px**/
 @media only screen and (min-width: 1000px) {
-	
+
 /** Graf på statistik siden **/
 .canvas_container {
 margin-top: 0;
@@ -190,15 +190,13 @@ height: 100%
   width: 300px;
   height: 58px;
   margin-top: 130%;
-  
-  
+  padding-top: 8px;
+
 }
 .button2_statistik {
   width: 300px;
   height: 58px;
-  
- 
-}	
+  margin-bottom: 50px;
+
 }
-	
-	
+}
