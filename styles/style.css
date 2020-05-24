@@ -2031,7 +2031,7 @@ width: 350px;
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 
-
+/**** selve containeren for dropdown-knappen ****/
     .accordion-udskriv{
       width: 350px;
       height: 28px;
@@ -2063,6 +2063,7 @@ width: 350px;
       z-index: 100;
     }
 
+/**** Selve knapperne inde i dropwdown-menuen ***/
     .button29 {
       width: 347px;
       height: 28px;
@@ -2078,6 +2079,7 @@ width: 350px;
       border-bottom: 1px solid black;
     }
 
+/**** Selve knapperne inde i dropwdown-menuen ***/
     .button30 {
       width: 347px;
       height: 25px;
@@ -2123,16 +2125,17 @@ label {
     transition: 350ms;
     overflow:auto;
 }
-
+/******* Styling af pilen i højre side *****/
 .accordion-tab-udskriv > label:after {
-    content: '\f054';
-    position: absolute;
-    right: 20px;
-    font-family: fontawesome;
-    transform: rotate(90deg);
-    transition:transform .30s ;
+content: '\f054';
+position: absolute;
+right: 20px;
+font-family: fontawesome;
+transform: rotate(90deg);
+transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv > .accordion-toggle-udskriv:checked ~ label:after{
     transform: rotate(270deg);
 }
@@ -2151,6 +2154,7 @@ label {
 
 /***************************************************/
 
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv1{
   width: 350px;
   height: 28px;
@@ -2214,6 +2218,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* Styling af pilen i højre side *****/
 .accordion-tab-udskriv1 > label:after {
 content: '\f054';
 position: absolute;
@@ -2223,6 +2228,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv1 > .accordion-toggle-udskriv1:checked ~ label:after{
 transform: rotate(270deg);
 }
@@ -2240,7 +2246,7 @@ line-height: 1.5;
 }
 
 /********************** input field *********************/
-
+/*** Tekst over input-field ***/
 form p {
   width: 350px;
   height: 28px;
@@ -2248,6 +2254,7 @@ form p {
   margin: 0 auto;
 }
 
+/*** Styling af input-field ***/
 #kopier {
   width: 350px;
   height: 28px;
@@ -2261,6 +2268,7 @@ form p {
 }
 
 /***************************************************/
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv2{
   width: 350px;
   height: 28px;
@@ -2302,6 +2310,7 @@ text-align: center;
 height: 28px;
 }
 
+/*** Styler knap-sektionen som udvides på dropdownen ***/
 .accordion-tab-udskriv2 > label{
 color: #000000;
 background: #ffffff;
@@ -2323,6 +2332,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* styller pilen som drejer sig *****/
 .accordion-tab-udskriv2 > label:after {
 content: '\f054';
 position: absolute;
@@ -2332,6 +2342,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv2 > .accordion-toggle-udskriv2:checked ~ label:after{
 transform: rotate(270deg);
 }
@@ -2350,7 +2361,7 @@ line-height: 1.5;
 
 
 /***************************************************/
-
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv3{
   width: 350px;
   height: 28px;
@@ -2413,6 +2424,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* styler pilen som vender sig *****/
 .accordion-tab-udskriv3 > label:after {
 content: '\f054';
 position: absolute;
@@ -2422,6 +2434,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv3 > .accordion-toggle-udskriv3:checked ~ label:after{
 transform: rotate(270deg);
 }
@@ -2885,6 +2898,7 @@ line-height: 1.5;
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+/**** selve containeren for dropdown-knappen ****/
     .accordion-udskriv{
       width: 190px;
       height: 28px;
@@ -2916,6 +2930,7 @@ line-height: 1.5;
       z-index: 100;
     }
 
+/***  Selve knapperne inde i dropdown-menuen ***/
     .button29 {
       width: 187px;
       height: 28px;
@@ -2931,6 +2946,7 @@ line-height: 1.5;
       border-bottom: 1px solid black;
     }
 
+/***  Selve knapperne inde i dropdown-menuen ***/
     .button30 {
       width: 187px;
       height: 25px;
@@ -2956,6 +2972,7 @@ label {
   height: 28px;
 }
 
+/*** styler pilen som vender sig, når der trykkess ***/
 .accordion-tab-udskriv > label{
     color: #000000;
     background: #ffffff;
@@ -2976,7 +2993,7 @@ label {
     transition: 350ms;
     overflow:auto;
 }
-
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv > label:after {
     content: '\f054';
     position: absolute;
@@ -3003,7 +3020,7 @@ label {
 }
 
 /***************************************************/
-
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv1{
   width: 190px;
   height: 28px;
@@ -3045,6 +3062,7 @@ text-align: center;
 height: 28px;
 }
 
+/*** styler dropdown-containeren  ***/
 .accordion-tab-udskriv1 > label{
 color: #000000;
 background: #ffffff;
@@ -3066,6 +3084,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* styler pilen i dropdown-containeren *****/
 .accordion-tab-udskriv1 > label:after {
 content: '\f054';
 position: absolute;
@@ -3075,6 +3094,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv1 > .accordion-toggle-udskriv1:checked ~ label:after{
 transform: rotate(270deg);
 }
@@ -3113,6 +3133,7 @@ form p {
 }
 
 /***************************************************/
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv2{
   width: 190px;
   height: 28px;
@@ -3154,6 +3175,7 @@ text-align: center;
 height: 28px;
 }
 
+/*** styler dropdown-containeren  ***/
 .accordion-tab-udskriv2 > label{
 color: #000000;
 background: #ffffff;
@@ -3175,6 +3197,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* styler pilen i dropdown-containeren *****/
 .accordion-tab-udskriv2 > label:after {
 content: '\f054';
 position: absolute;
@@ -3184,6 +3207,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv2 > .accordion-toggle-udskriv2:checked ~ label:after{
 transform: rotate(270deg);
 }
@@ -3202,7 +3226,7 @@ line-height: 1.5;
 
 
 /***************************************************/
-
+/**** selve containeren for dropdown-knappen ****/
 .accordion-udskriv3{
   width: 190px;
   height: 28px;
@@ -3244,6 +3268,7 @@ text-align: center;
 height: 28px;
 }
 
+/*** styler dropdown-containeren  ***/
 .accordion-tab-udskriv3 > label{
 color: #000000;
 background: #ffffff;
@@ -3265,6 +3290,7 @@ transition: 350ms;
 overflow: hidden;
 }
 
+/******* styler pilen i dropdown-containeren *****/
 .accordion-tab-udskriv3 > label:after {
 content: '\f054';
 position: absolute;
@@ -3274,6 +3300,7 @@ transform: rotate(90deg);
 transition:transform .30s ;
 }
 
+/******* Gør, at pilen vender sig, når der trykkes på dropdown-knappen *****/
 .accordion-tab-udskriv3 > .accordion-toggle-udskriv3:checked ~ label:after{
 transform: rotate(270deg);
 }
