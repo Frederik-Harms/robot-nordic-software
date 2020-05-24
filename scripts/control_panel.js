@@ -1,9 +1,9 @@
 // JavaScript Document
-var i = 0; // Start point
+var i = 0; // Dette er slideshowet start punkt, altså den starter fra 0
 	var images = [];
-	var time = 3000;
+	var time = 3000; //dette er tiden mellem billedernes skift, sat i millisekunder (dette er 3 sek)
 alert();
-	// Image List
+	// Image List sat op i array
 	images[0] = '../assets/img/palle_show/palle7.jpg';
 	images[1] = '../assets/img/palle_show/palle6.jpg';
 	images[2] = '../assets/img/palle_show/palle5.jpg';
@@ -13,20 +13,20 @@ alert();
     images[6] = '../assets/img/palle_show/palle1.jpg';
     images[7] = '../assets/img/palle_show/palle0.jpg';
 
-	// Change Image
-	function changeImg(){
-		document.slide.src = images[i];
+	
+	function changeImg(){                 // Change Image -en funktion der gør at billederne skifter 
+		document.slide.src = images[i];   // Navnet i html, dermed kan man connecte src
 
-		if(i < images.length - 1){
+		if(i < images.length - 1){        //if bestemmer at der øges med næste billede i rækken, når længden af billeder er større end i (altså 0)  
 			i++;
-		} else {
+		} else {                          //else bestemmer at når det sidste billede i rækken rammes, startes slideshow igen fra billede 0
 			i = 0;
 		}
 
-		setTimeout("changeImg()", time);
+		setTimeout("changeImg()", time);  //denne function gør at billeder skifter efter det bestemte antal sek, sat i toppen
 	}
 
-	window.onload = changeImg;
+	window.onload = changeImg;            //dette er en event der gør at slideshowet starter forfra, når siden reloades. Bemærk at den ligger udenfor overstående function 
 
 
 //Status over pakkede paller, vises som en CustomAlert, med mere tekst. 
