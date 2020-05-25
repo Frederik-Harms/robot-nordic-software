@@ -14,7 +14,6 @@
 
 .date-picker:hover{
   background-color: #f3f3f3;
-
 }
 
 /*Den viste/valgte dato */
@@ -45,6 +44,7 @@
 /* active = blok kommer ned når der klikkes på dato = under "functions" i js */
 .date-picker .dates.active {
   display: block;
+  z-index: 1;
 }
 
 /* styling af månedens placering + farve */
@@ -106,7 +106,7 @@ margin-top: 40%;
 margin-left: -55px;
 width: 300px;
 position: absolute;
-z-index: -10;
+z-index: 0;
 
 }
 #myChart {
