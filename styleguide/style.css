@@ -330,7 +330,7 @@ code {
     align-content: center;
 }
 
-.styleGuideGridItem-sider h5 {
+.styleGuideGridItem-sider a {
   max-width: 600px;
   color: black;
   font-weight: 300;
@@ -752,6 +752,10 @@ code {
     background: #ffffff;
     border: 2px solid black;
 }
+
+/***********************************************************************/
+
+
 
 
 /*************************** header show *******************************/
