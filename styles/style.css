@@ -4213,9 +4213,9 @@ margin-top: 41px;
 .button11_control {
   width: 99px;
   height: 41px;
-  position: fixed;
+  position: fixed;/*
   margin-top: 60px;
-  margin-left: 190px;
+  margin-left: 190px;*/
   border-radius: 40px;
   background-color: #f15c22;
   display: inline-block;
@@ -4231,9 +4231,9 @@ margin-top: 41px;
 .button10_control {
   width: 99px;
   height: 41px;
-  position: fixed;
-  margin-top: 60px;
-  margin-left: 80px;
+  position: fixed;/*
+  margin-top: 60px;*/
+  margin-left: 120px;
   border-radius: 40px;
   background-color: #222B3B;
   display: inline-block;
@@ -4253,6 +4253,12 @@ margin-top: 41px;
   margin-bottom: 10px;
 }
 
+.kontrolknapper {
+  width: 220px;
+  height: 50px;
+  margin: 50px auto;
+}
+
 /** palle slideshow, tilpasset Ipad**/
 @media only screen and (min-width: 768px) {
 
@@ -4261,22 +4267,24 @@ margin-top: 41px;
 
 .slidecontrol {
 	width: 40%;
-	padding-top: 50px;
-	margin-left: 220px;
+	padding-top: 50px;/*
+	margin-left: 220px;*/
+  display: block;
+  margin: 0 auto;
 }
 .button10_status {
   margin-left: 325px;
 }
 
-.button11_control {
+.button11_control {/*
   margin-left: 380px;
-  margin-top: 100px;
+  margin-top: 100px;*/
 
 }
 
 .button10_control {
-  margin-left: 270px;
-  margin-top: 100px;
+  margin-left: 120px;
+  margin-top: 0px;
 }
 .statusbillede {
 margin-left: 328px;
@@ -4311,9 +4319,11 @@ margin-top: 41px;
 
 .slidecontrol {
 	width: 20%;
-	margin-left: 540px;
-	margin-top: -50px;
-  margin-bottom: 20px;
+	/*padding-left: 540px;
+	padding-top: -50px;
+  padding-bottom: 20px;*/
+  display: block;
+  margin: 0 auto;
 
 }
 .button10_status {
@@ -4323,13 +4333,12 @@ margin-top: 41px;
   font-size: 20px;
 
 }
-.button11_control {
+.button11_control { /*
   margin-left: 550px;
-  margin-top: 15px;
+  margin-top: 15px;*/
 }
 .button10_control {
-  margin-left: 670px;
-  margin-top: 15px;
+  margin-left: 115px;
 }
 	.statusbillede {
 width: 150px;
